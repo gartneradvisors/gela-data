@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Dependencias
-        run: pip install pandas requests pycountry openpyxl pyreadstat
+        run: pip install pandas requests pycountry openpyxl xlrd pyreadstat dbfread pyarrow
       - name: Actualizar
         run: python dane/update.py ${{ inputs.force && '--force' || '' }}
       - name: Guardar si cambió

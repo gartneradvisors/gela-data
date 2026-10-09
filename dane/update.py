@@ -90,10 +90,11 @@ def downloads(cid):
 
 
 def read_tables(blob, name):
-    """DataFrames dentro de un ZIP o archivo suelto."""
+    """DataFrames dentro de un ZIP (también ZIP dentro de ZIP) o archivo suelto.
+    Formatos: CSV/TXT/DAT, Excel, SPSS (.sav), Stata (.dta), SAS (.sas7bdat), dBase (.dbf), Parquet."""
     def one(data, fname):
         low = fname.lower()
-        if low.endswith(('.csv', '.txt')):
+        if low.endswith(('.csv', '.txt', '.dat', '.tsv')):
             for enc in ('utf-8', 'latin-1'):
                 try:
                     return pd.read_csv(io.BytesIO(data), sep=None, engine='python', dtype=str, encoding=enc)
@@ -101,22 +102,38 @@ def read_tables(blob, name):
                     continue
         if low.endswith(('.xlsx', '.xls')):
             return pd.read_excel(io.BytesIO(data), dtype=str)
-        if low.endswith('.sav'):
+        if low.endswith(('.sav', '.zsav', '.dta', '.sas7bdat', '.por')):
             import pyreadstat, tempfile
-            with tempfile.NamedTemporaryFile(suffix='.sav') as t:
+            reader = {'.sav': pyreadstat.read_sav, '.zsav': pyreadstat.read_sav, '.por': pyreadstat.read_por, '.dta': pyreadstat.read_dta, '.sas7bdat': pyreadstat.read_sas7bdat}[os.path.splitext(low)[1]]
+            with tempfile.NamedTemporaryFile(suffix=os.path.splitext(low)[1]) as t:
                 t.write(data); t.flush()
-                df, _ = pyreadstat.read_sav(t.name)
+                df, _ = reader(t.name)
                 return df.astype(str)
-        if low.endswith('.dta'):
-            return pd.read_stata(io.BytesIO(data)).astype(str)
+        if low.endswith('.dbf'):
+            from dbfread import DBF
+            import tempfile
+            with tempfile.NamedTemporaryFile(suffix='.dbf') as t:
+                t.write(data); t.flush()
+                return pd.DataFrame(iter(DBF(t.name, encoding='latin-1', char_decode_errors='ignore'))).astype(str)
+        if low.endswith('.parquet'):
+            return pd.read_parquet(io.BytesIO(data)).astype(str)
         return None
     if zipfile.is_zipfile(io.BytesIO(blob)):
         z = zipfile.ZipFile(io.BytesIO(blob))
+        log(f'    contenido de {name}: {[(i.filename, i.file_size) for i in z.infolist()][:20]}')
         for n in z.namelist():
-            df = one(z.read(n), n)
+            data = z.read(n)
+            if n.lower().endswith('.zip') or zipfile.is_zipfile(io.BytesIO(data)) and not n.lower().endswith(('.xlsx',)):
+                yield from read_tables(data, n)
+                continue
+            try:
+                df = one(data, n)
+            except Exception as e:
+                log(f'    {n}: no se pudo leer ({e!r})'); df = None
             if df is not None:
                 yield n, df
     else:
+        log(f'    {name} no es ZIP; primeros bytes: {blob[:60]!r}')
         df = one(blob, name)
         if df is not None:
             yield name, df
