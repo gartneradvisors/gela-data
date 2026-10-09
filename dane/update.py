@@ -95,7 +95,7 @@ def read_tables(blob, name):
     def one(data, fname):
         low = fname.lower()
         if low.endswith(('.csv', '.txt', '.dat', '.tsv')):
-            for enc in ('utf-8', 'latin-1'):
+            for enc in ('utf-8-sig', 'latin-1'):
                 try:
                     return pd.read_csv(io.BytesIO(data), sep=None, engine='python', dtype=str, encoding=enc)
                 except UnicodeDecodeError:
@@ -121,7 +121,17 @@ def read_tables(blob, name):
     if zipfile.is_zipfile(io.BytesIO(blob)):
         z = zipfile.ZipFile(io.BytesIO(blob))
         log(f'    contenido de {name}: {[(i.filename, i.file_size) for i in z.infolist()][:20]}')
-        for n in z.namelist():
+        names = z.namelist()
+        pref = ['.csv', '.txt', '.dat', '.sav', '.dta', '.xlsx', '.xls', '.sas7bdat', '.dbf', '.parquet']
+        best = {}
+        for n in names:
+            stem, ext = os.path.splitext(n.lower())
+            if ext in pref and (stem not in best or pref.index(ext) < pref.index(os.path.splitext(best[stem].lower())[1])):
+                best[stem] = n
+        keep = set(best.values())
+        for n in names:
+            if not n.lower().endswith('.zip') and os.path.splitext(n.lower())[1] in pref and n not in keep:
+                continue
             data = z.read(n)
             if n.lower().endswith('.zip') or zipfile.is_zipfile(io.BytesIO(data)) and not n.lower().endswith(('.xlsx',)):
                 yield from read_tables(data, n)
@@ -157,7 +167,7 @@ def iso2_map():
 
 
 def aggregate(df, iso):
-    df.columns = [str(c).strip().upper() for c in df.columns]
+    df.columns = [str(c).replace('\ufeff', '').strip().upper() for c in df.columns]
     need = {'FECH', 'POSAR', 'FOBDOL'}
     if not need <= set(df.columns):
         raise ValueError(f'faltan columnas {need - set(df.columns)}; hay {list(df.columns)[:30]}')
@@ -214,7 +224,10 @@ def main():
                 log(f'  {name}: el DANE devolvió una página, no el archivo (guardada en dane/debug/download-page.html): {r.text[:200]!r}'); continue
             parts = []
             for fname, df in read_tables(r.content, name):
-                g, alpha = aggregate(df, iso)
+                try:
+                    g, alpha = aggregate(df, iso)
+                except Exception as e:
+                    log(f'    {fname}: no se pudo agregar ({e})'); continue
                 parts.append(g)
                 meta.setdefault('files', {})[name] = {
                     'member': fname, 'rows': int(len(df)), 'columns': list(df.columns),
