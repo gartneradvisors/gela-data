@@ -166,24 +166,42 @@ def iso2_map():
     return m
 
 
-def aggregate(df, iso):
+def learn_dian(df, iso):
+    """PAIS (código DIAN) → ISO2, aprendido de las filas donde COD_PAI4 trae el ISO3.
+    Solo se acepta si el archivo es coherente (cada PAIS casi siempre con el mismo ISO):
+    en algunos años COD_PAI4 no es el país de destino y aprenderlo ensuciaría todo."""
+    if 'PAIS' not in df.columns or 'COD_PAI4' not in df.columns:
+        return {}, 0.0
+    t = pd.DataFrame({'p': df['PAIS'].astype(str).str.strip().str.lstrip('0'), 'c': df['COD_PAI4'].astype(str).str.strip().str.upper().map(iso)}).dropna()
+    if t.empty:
+        return {}, 0.0
+    mode = t.groupby('p')['c'].agg(lambda x: x.value_counts().index[0])
+    agree = float((t['c'] == t['p'].map(mode)).mean())
+    return mode.to_dict(), agree
+
+
+def fob_values(col):
+    """USD FOB: '99636,92', ' 182.256,71 ', '25.550,00' o '1234.5'. Se decide la convención
+    por archivo: si las cifras terminan en ,dd la coma es decimal y el punto, de miles."""
+    raw = col.astype(str).str.strip().str.replace(' ', '', regex=False)
+    if raw.str.contains(r',\d{1,2}$').mean() > 0.3:
+        raw = raw.str.replace('.', '', regex=False).str.replace(',', '.', regex=False)
+    else:
+        raw = raw.str.replace(',', '', regex=False)
+    return pd.to_numeric(raw, errors='coerce').fillna(0)
+
+
+def aggregate(df, iso, dian):
     df.columns = [str(c).replace('\ufeff', '').strip().upper() for c in df.columns]
-    need = {'FECH', 'POSAR', 'FOBDOL'}
+    need = {'FECH', 'POSAR', 'FOBDOL', 'PAIS'}
     if not need <= set(df.columns):
         raise ValueError(f'faltan columnas {need - set(df.columns)}; hay {list(df.columns)[:30]}')
-    alpha = 'COD_PAI4' in df.columns and df['COD_PAI4'].dropna().astype(str).str.fullmatch(r'[A-Za-z]{2,3}').mean() > 0.8
-    if alpha:
-        ctry = df['COD_PAI4'].astype(str).str.upper().map(iso)
-    else:
-        ctry = df['PAIS'].astype(str).str.strip().str.lstrip('0').map(lambda c: DIAN.get(c) or (f'DIAN:{c}' if c else None))
+    pais = df['PAIS'].astype(str).str.strip().str.lstrip('0')
+    ctry = pais.map(lambda c: dian.get(c) or (f'DIAN:{c}' if c else None))
     hs6 = df['POSAR'].astype(str).str.replace(r'\D', '', regex=True).str.zfill(10).str[:6]
-    # 1234.5, 1234,5 o 1.234,5 (separador de miles europeo)
-    raw = df['FOBDOL'].astype(str).str.strip()
-    raw = raw.where(~(raw.str.contains(r'\.') & raw.str.contains(',')), raw.str.replace('.', '', regex=False))
-    fob = pd.to_numeric(raw.str.replace(',', '.', regex=False), errors='coerce').fillna(0)
     month = df['FECH'].map(month_of)
-    g = pd.DataFrame({'hs6': hs6, 'ctry': ctry, 'month': month, 'fob': fob}).dropna(subset=['ctry', 'month'])
-    return g.groupby(['hs6', 'ctry', 'month'], as_index=False)['fob'].sum(), alpha
+    g = pd.DataFrame({'hs6': hs6, 'ctry': ctry, 'month': month, 'fob': fob_values(df['FOBDOL'])}).dropna(subset=['ctry', 'month'])
+    return g.groupby(['hs6', 'ctry', 'month'], as_index=False)['fob'].sum()
 
 
 def main():
@@ -196,13 +214,18 @@ def main():
     iso = iso2_map()
     meta = load_json(META, {})
     changed = False
+    allfiles = []
     for cid in catalogs('EXPO', a.years):
         try:
             files = downloads(cid)
         except Exception as e:
             log(f'Catálogo {cid}: no se pudo leer ({e})'); continue
         log(f'Catálogo {cid}: {len(files)} archivos')
-        for url, name in files:
+        allfiles += files
+    # Del más reciente al más viejo: los años recientes enseñan el mapa de países a los anteriores.
+    allfiles.sort(key=lambda f: max([int(y) for y in re.findall(r'(20\d{2})', f[1])] or [0]), reverse=True)
+    for _ in [0]:
+        for url, name in allfiles:
             ys = [int(y) for y in re.findall(r'(20\d{2})', name)]
             if ys and max(ys) < datetime.now().year - a.years:
                 log(f'  {name}: más viejo de lo necesario'); continue
@@ -223,19 +246,31 @@ def main():
                     fh.write(r.text)
                 log(f'  {name}: el DANE devolvió una página, no el archivo (guardada en dane/debug/download-page.html): {r.text[:200]!r}'); continue
             parts = []
-            for fname, df in read_tables(r.content, name):
+            tables = list(read_tables(r.content, name))
+            for fname, df in tables:
+                df.columns = [str(c).replace('\ufeff', '').strip().upper() for c in df.columns]
+                mp, agree = learn_dian(df, iso)
+                if agree >= 0.95:
+                    for k, v in mp.items():
+                        state.setdefault('dian', {}).setdefault(k, v)
+                else:
+                    log(f'    {fname}: COD_PAI4 no coincide con PAIS ({agree:.0%}), no se usa para aprender códigos')
+            dian = {**DIAN, **state.get('dian', {})}
+            for fname, df in tables:
+                alpha = True
                 try:
-                    g, alpha = aggregate(df, iso)
+                    g = aggregate(df, iso, dian)
                 except Exception as e:
                     log(f'    {fname}: no se pudo agregar ({e})'); continue
                 parts.append(g)
                 meta.setdefault('files', {})[name] = {
                     'member': fname, 'rows': int(len(df)), 'columns': list(df.columns),
                     'sample': {c: df[c].dropna().astype(str).head(3).tolist() for c in df.columns},
-                    'countryCodes': 'COD_PAI4 (ISO)' if alpha else 'PAIS (DIAN)',
+                    'countryCodes': 'PAIS (DIAN) con mapa aprendido de COD_PAI4',
+                    'fobTotal': round(float(g['fob'].sum())),
                     'months': sorted(g['month'].unique().tolist()),
                 }
-                if not alpha:
+                if False:
                     top = df.assign(_f=pd.to_numeric(df['FOBDOL'], errors='coerce')).groupby(['PAIS', 'COD_PAI4'] if 'COD_PAI4' in df.columns else ['PAIS'])['_f'].sum().sort_values(ascending=False).head(60)
                     meta['files'][name]['topCountries'] = [[*(k if isinstance(k, tuple) else (k,)), round(float(v))] for k, v in top.items()]
             if not parts:
