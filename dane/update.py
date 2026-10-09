@@ -37,8 +37,11 @@ DIAN = {}
 S = requests.Session(); S.headers.update(UA)
 
 
+LOG = []
 def log(*a):
-    print(*a, flush=True)
+    line = ' '.join(str(x) for x in a)
+    LOG.append(line)
+    print(line, flush=True)
 
 
 def load_json(p, default):
@@ -188,7 +191,10 @@ def main():
             r = S.get(url, timeout=600)
             ctype = r.headers.get('Content-Type', '')
             if 'html' in ctype.lower():
-                log(f'  {name}: el DANE devolvió una página, no el archivo (¿términos o registro?): {r.text[:200]!r}'); continue
+                os.makedirs(os.path.join(HERE, 'debug'), exist_ok=True)
+                with open(os.path.join(HERE, 'debug', 'download-page.html'), 'w', encoding='utf-8') as fh:
+                    fh.write(r.text)
+                log(f'  {name}: el DANE devolvió una página, no el archivo (guardada en dane/debug/download-page.html): {r.text[:200]!r}'); continue
             parts = []
             for fname, df in read_tables(r.content, name):
                 g, alpha = aggregate(df, iso)
@@ -237,4 +243,11 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # El registro de cada corrida queda en el repo (dane/last_run.log) para revisarlo sin abrir Actions.
+    try:
+        main()
+    except Exception as e:
+        log('ERROR:', repr(e)); raise
+    finally:
+        with open(os.path.join(HERE, 'last_run.log'), 'w', encoding='utf-8') as fh:
+            fh.write(datetime.now(timezone.utc).isoformat(timespec='seconds') + '\n' + '\n'.join(LOG) + '\n')

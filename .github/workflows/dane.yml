@@ -28,6 +28,7 @@ jobs:
       - name: Actualizar
         run: python dane/update.py ${{ inputs.force && '--force' || '' }}
       - name: Guardar si cambió
+        if: always()
         run: |
           git config user.name "gela-data bot"
           git config user.email "actions@users.noreply.github.com"
