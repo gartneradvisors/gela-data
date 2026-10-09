@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-09T17:22:20+00:00",
+ "asOf": "2026-10-09T17:27:56+00:00",
  "lastMonth": "2026-08",
  "months": [
   "2023-01",
@@ -47,8 +47,51 @@
   "2026-07",
   "2026-08"
  ],
- "rows": 546843,
- "unmappedCountries": [],
+ "rows": 592220,
+ "unmappedCountries": [
+  "DIAN:129",
+  "DIAN:202",
+  "DIAN:217",
+  "DIAN:285",
+  "DIAN:41",
+  "DIAN:420",
+  "DIAN:497",
+  "DIAN:542",
+  "DIAN:599",
+  "DIAN:621",
+  "DIAN:631",
+  "DIAN:637",
+  "DIAN:651",
+  "DIAN:731",
+  "DIAN:759",
+  "DIAN:794",
+  "DIAN:825",
+  "DIAN:903",
+  "DIAN:911",
+  "DIAN:913",
+  "DIAN:915",
+  "DIAN:916",
+  "DIAN:917",
+  "DIAN:918",
+  "DIAN:919",
+  "DIAN:920",
+  "DIAN:924",
+  "DIAN:928",
+  "DIAN:929",
+  "DIAN:934",
+  "DIAN:939",
+  "DIAN:940",
+  "DIAN:943",
+  "DIAN:954",
+  "DIAN:960",
+  "DIAN:969",
+  "DIAN:974",
+  "DIAN:976",
+  "DIAN:985",
+  "DIAN:989",
+  "DIAN:991",
+  "DIAN:997"
+ ],
  "files": {
   "Expo_2023.zip": {
    "member": "Septiembre.csv",
@@ -219,7 +262,8 @@
      "915,00"
     ]
    },
-   "countryCodes": "COD_PAI4 (ISO)",
+   "countryCodes": "PAIS (DIAN) con mapa aprendido de COD_PAI4",
+   "fobTotal": 4167719031,
    "months": [
     "2023-09"
    ]
@@ -393,7 +437,8 @@
      "0,00"
     ]
    },
-   "countryCodes": "COD_PAI4 (ISO)",
+   "countryCodes": "PAIS (DIAN) con mapa aprendido de COD_PAI4",
+   "fobTotal": 4480508348,
    "months": [
     "2024-12"
    ]
@@ -567,7 +612,8 @@
      " -   "
     ]
    },
-   "countryCodes": "COD_PAI4 (ISO)",
+   "countryCodes": "PAIS (DIAN) con mapa aprendido de COD_PAI4",
+   "fobTotal": 4545182937,
    "months": [
     "2025-12"
    ]
@@ -741,7 +787,8 @@
      "0"
     ]
    },
-   "countryCodes": "COD_PAI4 (ISO)",
+   "countryCodes": "PAIS (DIAN) con mapa aprendido de COD_PAI4",
+   "fobTotal": 4456218113,
    "months": [
     "2026-08"
    ]
