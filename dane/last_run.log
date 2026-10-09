@@ -1,4 +1,4 @@
-2026-10-09T17:18:01+00:00
+2026-10-09T17:22:24+00:00
 Catálogo 472: 14 archivos
   Expo_2011.zip: más viejo de lo necesario
   Expo_2014.zip: más viejo de lo necesario
@@ -13,4 +13,60 @@ Catálogo 472: 14 archivos
   Expo_2023.zip: bajando…
     contenido de Expo_2023.zip: [('Abril 2023.zip', 3625157), ('Agosto 2023.zip', 3950929), ('Diciembre 2023.zip', 3975962), ('Enero 2023.zip', 3012138), ('Febrero 2023.zip', 3492491), ('Julio 2023.zip', 3799884), ('Junio 2023.zip', 3816035), ('Marzo 2023.zip', 3971454), ('Mayo 2023.zip', 4478403), ('Noviembre 2023.zip', 3931393), ('Octubre 2023.zip', 4080844), ('Septiembre 2023.zip', 3888723)]
     contenido de Abril 2023.zip: [('Abril.csv', 4199569), ('Abril.dta', 3926402), ('Abril.sav', 4826879)]
-ERROR: ValueError("faltan columnas {'FECH'}; hay ['\\ufeffFECH', 'ADUA', 'PAIS', 'COD_PAI4', 'COD_SAL1', 'COD_SAL', 'DPTO2', 'VIA', 'BANDERA', 'REGIM', 'MODAD', 'FINALID', 'CER_ORI1', 'SISESP', 'POSAR', 'DPTO1', 'UNID', 'CODUNI2', 'CANTI', 'PBK', 'PNK', 'FOBDOL', 'FOBPES', 'AGRENA', 'FLETES', 'SEGURO', 'OTROSG']")
+    contenido de Agosto 2023.zip: [('Agosto.csv', 4591406), ('Agosto.dta', 4297706), ('Agosto.sav', 5280263)]
+    contenido de Diciembre 2023.zip: [('Diciembre.csv', 4639854), ('Diciembre.dta', 4361318), ('Diciembre.sav', 5331087)]
+    contenido de Enero 2023.zip: [('Enero.csv', 3493924), ('Enero.dta', 3270518), ('Enero.sav', 4010655)]
+    contenido de Febrero 2023.zip: [('Febrero.csv', 4042459), ('Febrero.dta', 3776174), ('Febrero.sav', 4648087)]
+    contenido de Julio 2023.zip: [('Julio.csv', 4407329), ('Julio.dta', 4125014), ('Julio.sav', 5066295)]
+    contenido de Junio 2023.zip: [('Junio.csv', 4435295), ('Junio.dta', 4152446), ('Junio.sav', 5102631)]
+    contenido de Marzo 2023.zip: [('Marzo.csv', 4611196), ('Marzo.dta', 4312610), ('Marzo.sav', 5298919)]
+    contenido de Mayo 2023.zip: [('Mayo.csv', 5164587), ('Mayo.dta', 6008070), ('Mayo.sav', 6316723)]
+    contenido de Noviembre 2023.zip: [('Noviembre.csv', 4582219), ('Noviembre.dta', 4306130), ('Noviembre.sav', 5269119)]
+    contenido de Octubre 2023.zip: [('Octubre.csv', 4746269), ('Octubre.dta', 4449554), ('Octubre.sav', 5458775)]
+    contenido de Septiembre 2023.zip: [('Septiembre.csv', 4875982), ('Septiembre.dta', 4207742), ('Septiembre.sav', 5170971)]
+  Expo_2023.zip: 154651 filas, meses 2023-01 a 2023-12
+  Expo_2020.zip: más viejo de lo necesario
+  Expo_2022.zip: más viejo de lo necesario
+  Expo_2024.zip: bajando…
+    contenido de Expo_2024.zip: [('Enero 2024.zip', 3691401), ('Febrero 2024.zip', 3799863), ('Marzo 2024.zip', 3714215), ('Abril 2024.zip', 4064137), ('Mayo 2024.zip', 3953410), ('Junio 2024.zip', 3115247), ('Julio 2024.zip', 4708682), ('Agosto 2024.zip', 4559232), ('Septiembre 2024.zip', 4639675), ('Octubre 2024.zip', 4692487), ('Noviembre 2024.zip', 4535668), ('Diciembre 2024.zip', 4791716)]
+    contenido de Enero 2024.zip: [('Enero.csv', 4050440), ('Enero.dta', 4747884), ('Enero.sav', 5262735)]
+    contenido de Febrero 2024.zip: [('Febrero.csv', 4418071), ('Febrero.dta', 4144346), ('Febrero.sav', 5079671)]
+    contenido de Marzo 2024.zip: [('Marzo.csv', 4321578), ('Marzo.dta', 4054490), ('Marzo.sav', 4965751)]
+    contenido de Abril 2024.zip: [('Abril.csv', 4733006), ('Abril.dta', 4439834), ('Abril.sav', 5441247)]
+    contenido de Mayo 2024.zip: [('Mayo.csv', 4581234), ('Mayo.dta', 4286366), ('Mayo.sav', 5263351)]
+    contenido de Junio 2024.zip: [('Junio.csv', 4232113), ('Junio.dta', 3781890), ('Junio.sav', 4757295)]
+    contenido de Julio 2024.zip: [('Julio.csv', 5725342), ('Julio.dta', 6290494), ('Julio.sav', 6648711)]
+    contenido de Agosto 2024.zip: [('Agosto.csv', 5009121), ('Agosto.dta', 5957346), ('Agosto.sav', 6508935)]
+    contenido de Septiembre 2024.zip: [('Septiembre.csv', 5481171), ('Septiembre.dta', 6162178), ('Septiembre.sav', 6714567)]
+    contenido de Octubre 2024.zip: [('Octubre.csv', 5734151), ('Octubre.dta', 6291974), ('Octubre.sav', 6645583)]
+    contenido de Noviembre 2024.zip: [('Noviembre.csv', 5550450), ('Noviembre.dta', 6020858), ('Noviembre.sav', 6442543)]
+    contenido de Diciembre 2024.zip: [('Diciembre.csv', 6251776), ('Diciembre.dta', 7125110), ('Diciembre.sav', 7341591)]
+  Expo_2024.zip: 123531 filas, meses 2024-01 a 2024-12
+Catálogo 859: 2 archivos
+  Expo_2025.zip: bajando…
+    contenido de Expo_2025.zip: [('Enero 2025.zip', 3335830), ('Febrero 2025.zip', 3514878), ('Marzo 2025.zip', 4654886), ('Abril 2025.zip', 4388395), ('Mayo 2025.zip', 4764614), ('Junio 2025.zip', 4525047), ('Julio 2025.zip', 4798865), ('Agosto 2025.zip', 4327856), ('Septiembre 2025.zip', 4782451), ('Octubre 2025.zip', 4714186), ('Noviembre 2025.zip', 4353080), ('Diciembre 2025.zip', 4659782)]
+    contenido de Enero 2025.zip: [('Enero.csv', 4394521), ('Enero.dta', 3850310), ('Enero.sav', 4944015)]
+    contenido de Febrero 2025.zip: [('Febrero.csv', 5455846), ('Febrero.dta', 5793791), ('Febrero.sav', 6402391)]
+    contenido de Marzo 2025.zip: [('Marzo.csv', 5750099), ('Marzo.dta', 6223302), ('Marzo.sav', 6805239)]
+    contenido de Abril 2025.zip: [('Abril.csv', 5759218), ('Abril.dta', 6443858), ('Abril.sav', 6898111)]
+    contenido de Mayo 2025.zip: [('Mayo.csv', 6105590), ('Mayo.dta', 6916832), ('Mayo.sav', 7357503)]
+    contenido de Junio 2025.zip: [('Junio.dta', 6060650), ('Junio.sav', 6632359), ('Junio.csv', 5103585)]
+    contenido de Julio 2025.zip: [('Julio.dta', 7080182), ('Julio.sav', 7570639), ('Julio.csv', 5870671)]
+    contenido de Agosto 2025.zip: [('Agosto.dta', 7123700), ('Agosto.sav', 8089383), ('Agosto.csv', 5911178)]
+    contenido de Septiembre 2025.zip: [('Septiembre.csv', 6293990), ('Septiembre.dta', 7053350), ('Septiembre.sav', 7538951)]
+    contenido de Octubre 2025.zip: [('Octubre.csv', 6079572), ('Octubre.dta', 6905456), ('Octubre.sav', 7327431)]
+    contenido de Noviembre 2025.zip: [('Noviembre.dta', 7217312), ('Noviembre.sav', 8180983), ('Noviembre.csv', 5969992)]
+    contenido de Diciembre 2025.zip: [('Diciembre.dta', 7626698), ('Diciembre.sav', 8595743), ('Diciembre.csv', 6241716)]
+  Expo_2025.zip: 164989 filas, meses 2025-01 a 2025-12
+  Expo_2026.zip: bajando…
+    contenido de Expo_2026.zip: [('01. Enero 2026.zip', 3649305), ('02. Febrero 2026.zip', 3525239), ('03. Marzo 2026.zip', 4430624), ('04. Abril 2026.zip', 4257098), ('05. Mayo 2026.zip', 4143788), ('06. Junio 2026.zip', 3873457), ('07. Julio 2026.zip', 3993110), ('08. Agosto 2026.zip', 3653168)]
+    contenido de 01. Enero 2026.zip: [('Enero.csv', 4812512), ('Enero.dta', 5316566), ('Enero.sav', 5769195)]
+    contenido de 02. Febrero 2026.zip: [('Febrero.csv', 4752824), ('Febrero.sav', 5359263), ('Febrero.dta', 4173930)]
+    contenido de 03. Marzo 2026.zip: [('Marzo.csv', 5456474), ('Marzo.dta', 5905102), ('Marzo.sav', 6460555)]
+    contenido de 04. Abril 2026.zip: [('Abril.csv', 5241592), ('Abril.dta', 5667118), ('Abril.sav', 6205835)]
+    contenido de 05. Mayo 2026.zip: [('Mayo.csv', 5459138), ('Mayo.dta', 6119222), ('Mayo.sav', 6558627)]
+    contenido de 06. Junio 2026.zip: [('Junio.dta', 5419550), ('Junio.sav', 6361475), ('Junio.csv', 4922033)]
+    contenido de 07. Julio 2026.zip: [('Julio.dta', 5498408), ('Julio.sav', 6552867), ('Julio.csv', 5072070)]
+    contenido de 08. Agosto 2026.zip: [('Agosto.csv', 4626460), ('Agosto.dta', 5092510), ('Agosto.sav', 5977555)]
+  Expo_2026.zip: 103672 filas, meses 2026-01 a 2026-08
+Listo: 546843 filas, último mes 2026-08.

@@ -1,3 +1,28 @@
 {
- "files": {}
+ "files": {
+  "https://microdatos.dane.gov.co/index.php/catalog/472/download/23641": {
+   "name": "Expo_2023.zip",
+   "len": "46022589",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/472/download/24767": {
+   "name": "Expo_2024.zip",
+   "len": "50258412",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/859/download/24765": {
+   "name": "Expo_2025.zip",
+   "len": "52806161",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/859/download/24810": {
+   "name": "Expo_2026.zip",
+   "len": "31523401",
+   "mod": null,
+   "etag": null
+  }
+ }
 }
