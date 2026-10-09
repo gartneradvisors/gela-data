@@ -29,7 +29,7 @@ OUT = os.path.join(HERE, 'expo')
 META = os.path.join(HERE, 'meta.json')
 UA = {'User-Agent': 'Mozilla/5.0 (gela-data; +https://github.com/gartneradvisors/gela-data)'}
 # Catálogos conocidos por si la búsqueda del catálogo falla (EXPO - 2025 A 2026).
-KNOWN = [859]
+KNOWN = [859]  # 472 = EXPO 2011 A 2024 (lo encuentra la búsqueda)
 # Códigos de país propios de la DIAN (columna PAIS) → ISO2. Se completa al ver meta.json;
 # si la columna COD_PAI4 trae códigos ISO alfabéticos, esta tabla no hace falta.
 DIAN = {}
@@ -59,7 +59,8 @@ def catalogs(kind, years):
         for row in rows:
             title = (row.get('title') or '').upper()
             ys = {int(y) for y in re.findall(r'(19\d{2}|20\d{2})', title)}
-            if title.startswith(kind) and ys & want:
+            ye = int(row.get('year_end') or (max(ys) if ys else 0))
+            if re.search(r'\b%s\b' % kind, title) and ye >= min(want):
                 ids.add(int(row['id']))
     except Exception as e:  # el catálogo a veces no responde: se usan los conocidos
         log('Búsqueda del catálogo falló:', e)
@@ -67,20 +68,22 @@ def catalogs(kind, years):
 
 
 def downloads(cid):
-    """[(url, nombre)] de un catálogo."""
+    """[(url, nombre)] de un catálogo. NADA pone los enlaces de varias formas
+    (href, data-url, onclick); se buscan todos. Si no aparece ninguno, la
+    página se guarda en dane/debug/ para revisarla."""
     html = S.get(f'{BASE}/catalog/{cid}/get-microdata', timeout=60).text
-    out = []
-    for m in re.finditer(r'href="([^"]*/catalog/%d/download/(\d+))"' % cid, html):
-        url = m.group(1) if m.group(1).startswith('http') else 'https://microdatos.dane.gov.co' + m.group(1)
-        near = html[max(0, m.start() - 600): m.end() + 600]
+    found = {}
+    for m in re.finditer(r'((?:https?://microdatos\.dane\.gov\.co)?(?:/index\.php)?/catalog/%d/download/(\d+))' % cid, html):
+        rid = m.group(2)
+        near = html[max(0, m.start() - 800): m.end() + 800]
         name = re.search(r'([\w\- ]+\.(?:zip|csv|txt|xlsx?|sav|dta))', near, re.I)
-        out.append((url, name.group(1).strip() if name else f'{cid}-{m.group(2)}'))
-    # sin duplicados, en orden
-    seen, res = set(), []
-    for u, n in out:
-        if u not in seen:
-            seen.add(u); res.append((u, n))
-    return res
+        found.setdefault(rid, name.group(1).strip() if name else None)
+    if not found:
+        os.makedirs(os.path.join(HERE, 'debug'), exist_ok=True)
+        with open(os.path.join(HERE, 'debug', f'get-microdata-{cid}.html'), 'w', encoding='utf-8') as fh:
+            fh.write(html)
+        log(f'  sin enlaces de descarga: página guardada en dane/debug/get-microdata-{cid}.html ({len(html)} caracteres)')
+    return [(f'{BASE}/catalog/{cid}/download/{rid}', name or f'{cid}-{rid}') for rid, name in found.items()]
 
 
 def read_tables(blob, name):
@@ -170,7 +173,13 @@ def main():
             log(f'Catálogo {cid}: no se pudo leer ({e})'); continue
         log(f'Catálogo {cid}: {len(files)} archivos')
         for url, name in files:
-            h = S.head(url, timeout=60, allow_redirects=True)
+            ys = [int(y) for y in re.findall(r'(20\d{2})', name)]
+            if ys and max(ys) < datetime.now().year - a.years:
+                log(f'  {name}: más viejo de lo necesario'); continue
+            h = S.get(url, timeout=120, stream=True); h.close()
+            cd = h.headers.get('Content-Disposition') or ''
+            m = re.search(r'filename\*?=(?:UTF-8\'\')?"?([^";]+)', cd)
+            if m: name = m.group(1)
             sig = {'name': name, 'len': h.headers.get('Content-Length'), 'mod': h.headers.get('Last-Modified'), 'etag': h.headers.get('ETag')}
             prev = state['files'].get(url)
             if prev and not a.force and all(prev.get(k) == sig[k] for k in ('len', 'mod', 'etag')) and any(sig[k] for k in ('len', 'mod', 'etag')):
@@ -201,8 +210,8 @@ def main():
             state['files'][url] = sig
             changed = True
             log(f'  {name}: {len(new)} filas, meses {min(months)} a {max(months)}')
-    if not changed and os.path.isdir(OUT) and not a.force:
-        log('Nada nuevo.'); return
+    if not changed and (os.path.isdir(OUT) or master.empty) and not a.force:
+        log('Nada nuevo.' if not master.empty else 'Sin datos todavía: revisa dane/debug/.'); return
     master = master.sort_values(['hs6', 'ctry', 'month'])
     master.to_csv(MASTER, index=False, compression='gzip')
     # Archivos por capítulo para la app: HS6 y HS4, serie mensual por país (USD FOB, enteros).
