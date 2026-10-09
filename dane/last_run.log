@@ -1,4 +1,4 @@
-2026-10-09T17:15:25+00:00
+2026-10-09T17:18:01+00:00
 Catálogo 472: 14 archivos
   Expo_2011.zip: más viejo de lo necesario
   Expo_2014.zip: más viejo de lo necesario
@@ -11,14 +11,6 @@ Catálogo 472: 14 archivos
   Expo_2019.zip: más viejo de lo necesario
   Expo_2021.zip: más viejo de lo necesario
   Expo_2023.zip: bajando…
-  Expo_2023.zip: sin tablas legibles
-  Expo_2020.zip: más viejo de lo necesario
-  Expo_2022.zip: más viejo de lo necesario
-  Expo_2024.zip: bajando…
-  Expo_2024.zip: sin tablas legibles
-Catálogo 859: 2 archivos
-  Expo_2025.zip: bajando…
-  Expo_2025.zip: sin tablas legibles
-  Expo_2026.zip: bajando…
-  Expo_2026.zip: sin tablas legibles
-Sin datos todavía: revisa dane/debug/.
+    contenido de Expo_2023.zip: [('Abril 2023.zip', 3625157), ('Agosto 2023.zip', 3950929), ('Diciembre 2023.zip', 3975962), ('Enero 2023.zip', 3012138), ('Febrero 2023.zip', 3492491), ('Julio 2023.zip', 3799884), ('Junio 2023.zip', 3816035), ('Marzo 2023.zip', 3971454), ('Mayo 2023.zip', 4478403), ('Noviembre 2023.zip', 3931393), ('Octubre 2023.zip', 4080844), ('Septiembre 2023.zip', 3888723)]
+    contenido de Abril 2023.zip: [('Abril.csv', 4199569), ('Abril.dta', 3926402), ('Abril.sav', 4826879)]
+ERROR: ValueError("faltan columnas {'FECH'}; hay ['\\ufeffFECH', 'ADUA', 'PAIS', 'COD_PAI4', 'COD_SAL1', 'COD_SAL', 'DPTO2', 'VIA', 'BANDERA', 'REGIM', 'MODAD', 'FINALID', 'CER_ORI1', 'SISESP', 'POSAR', 'DPTO1', 'UNID', 'CODUNI2', 'CANTI', 'PBK', 'PNK', 'FOBDOL', 'FOBPES', 'AGRENA', 'FLETES', 'SEGURO', 'OTROSG']")
