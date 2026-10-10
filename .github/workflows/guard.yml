@@ -1,0 +1,17 @@
+name: Guardia (repo público)
+
+# Alarma: revisa cada push con tools/guard.py. Si algo privado llegó a GitHub,
+# esto sale en rojo y te llega un correo de GitHub: borra el commit y rota claves.
+on: push
+
+jobs:
+  guard:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Revisar lo subido
+        run: |
+          before="${{ github.event.before }}"
+          if echo "$before" | grep -q '^0*$'; then python3 tools/guard.py --all; else python3 tools/guard.py --range "$before..${{ github.sha }}"; fi

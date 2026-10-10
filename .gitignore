@@ -1,3 +1,21 @@
+# gela-data es PÚBLICO. Lista blanca: git solo ve estas rutas; todo lo demás no existe para git.
+/*
+!/.gitignore
+!/README.md
+!/dane/
+!/drafts/
+!/.github/
+!/.githooks/
+!/tools/
 __pycache__/
 *.pyc
 .venv/
+# Nunca, aunque caigan dentro de una carpeta permitida:
+data.json
+*.backup*
+.env*
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key

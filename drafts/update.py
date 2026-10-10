@@ -44,25 +44,33 @@ def log(*a):
 # mode: rss (feed de WordPress) | html (página con la lista)
 # detail: entrar a la ficha de cada proyecto cuando la lista no trae fechas
 # link: regex que debe cumplir el enlace del proyecto (sobre la URL absoluta)
+# item: selector CSS de cada proyecto en la lista (si falta, se arma desde los enlaces)
+# split: (contenedor, separador) cuando la lista es un solo texto partido por <hr>
+# clicks: textos (regex) a pulsar antes de leer (grupos plegados de SharePoint)
+# may_be_empty: la página puede no tener proyectos sin que sea un error
+YD = f'{Y // 1000}.{Y % 1000:03d}'  # "2.026" como lo escribe SharePoint
 SOURCES = [
     dict(id='minambiente', entity='MinAmbiente', mode='rss', url='https://www.minambiente.gov.co/consulta/feed/',
          detail=True, link=r'minambiente\.gov\.co/consulta/'),
     dict(id='mininterior', entity='MinInterior', mode='html', url='https://www.mininterior.gov.co/proyectos-de-decreto/',
          kind='decreto', detail=True, link=r'mininterior\.gov\.co/(?!proyectos-de-decreto/?$)[a-z0-9-]*(proyecto|pd-|por-)'),
     dict(id='minhacienda', entity='MinHacienda', mode='html', url='https://www.minhacienda.gov.co/normativa/proyectos-de-decretos',
-         kind='decreto', detail=False, link=r'/documents/|/document_library/'),
+         kind='decreto', item='.container-proyectos', link=r'/documents/|/document_library/'),
+    dict(id='minhacienda-res', entity='MinHacienda', mode='html', url='https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-y-circulares',
+         kind='resolución', item='.container-proyectos', link=r'/documents/|/document_library/', may_be_empty=True),
     dict(id='mincit-dec', entity='MinCIT', mode='html', url=f'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-{Y}',
-         kind='decreto', detail=False, link=r'proyectos-de-decreto-\d{4}/.+\.aspx'),
+         kind='decreto', item='table tr', link=r'proyectos-de-decreto-\d{4}/.+\.aspx'),
     dict(id='mincit-res', entity='MinCIT', mode='html', url=f'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-{Y}',
-         kind='resolución', detail=False, link=r'proyectos-de-resolucion-\d{4}/.+\.aspx'),
+         kind='resolución', item='table tr', link=r'proyectos-de-resolucion-\d{4}/.+\.aspx'),
     dict(id='mincit-cir', entity='MinCIT', mode='html', url=f'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-{Y}',
-         kind='circular', detail=False, link=r'proyectos-de-circular-\d{4}/.+\.aspx'),
+         kind='circular', item='table tr', link=r'proyectos-de-circular-\d{4}/.+\.aspx', may_be_empty=True),
     dict(id='minenergia', entity='MinEnergía', mode='html', url='https://minenergia.gov.co/es/servicio-al-ciudadano/foros/',
-         detail=True, link=r'/servicio-al-ciudadano/foros/[^/?#]+'),
+         item='tr', detail=True, link=r'/servicio-al-ciudadano/foros/[^/?#]+'),
     dict(id='dian', entity='DIAN', mode='html', url='https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx',
-         kind='resolución', detail=False, link=r'dian\.gov\.co/.+\.(pdf|aspx)', js_wait=6000),
+         kind='resolución', item='tr', link=r'\.(pdf|docx?|aspx)', js_wait=6000,
+         clicks=[r'A[ñn]o\s*:\s*' + re.escape(YD), r'Tipo de norma\s*:\s*Proyecto'], may_be_empty=False),
     dict(id='dnp', entity='DNP', mode='html', url='https://www.dnp.gov.co/normativa/proyectos-de-normatividad',
-         detail=True, link=r'dnp\.gov\.co/'),
+         split=('.DNPNavtab-container-element.opened', 'hr'), link=r'colaboracion\.dnp\.gov\.co/CDT/Normatividad/'),
 ]
 
 # Enlaces que son anexos del proyecto y no el proyecto.
@@ -122,7 +130,7 @@ def windows(text):
     """Devuelve (publicado, desde, hasta) con lo que se pueda leer del texto."""
     t = re.sub(r'\s+', ' ', text or '')
     pub = frm = until = None
-    years = [int(y) for y in re.findall(r'\b(20\d\d)\b', t)]
+    years = [int(y) for y in re.findall(r'\b(20\d\d)\b', t) if Y - 2 <= int(y) <= Y + 1]  # "2028-2031" no es un año de cierre
     year = max(years) if years else Y
     untils = []
 
@@ -130,14 +138,14 @@ def windows(text):
     m = re.search(r'(?:desde|fecha\s+(?:de\s+)?inicio|inicio)\s*:?\s*' + ANYD, t, re.I)
     if m:
         frm = any_date(m.group(1), year)
-    for m in re.finditer(r'(?:hasta|fecha\s+(?:de\s+)?(?:fin(?:alizaci[oó]n)?|cierre)|cierre|fin)\s*:?\s*' + ANYD, t, re.I):
+    for m in re.finditer(r'(?:hasta|fecha\s+(?:de\s+)?(?:fin(?:al(?:izaci[oó]n)?)?|cierre)|cierre|fin)\s*:?\s*' + ANYD, t, re.I):
         d = any_date(m.group(1), year)
         if d:
             untils.append(d)
 
     # "desde el 3 (de octubre)? (de 2026)? y hasta el 7 de octubre de 2026"; "del 8 al 18 de octubre de 2026"
-    rng = re.compile(r'(?:desde\s+(?:el\s+)?(?:d[ií]a\s+)?|del\s+(?:d[ií]a\s+)?)' + D + r'(?:\s+de\s+' + MES + r')?' + YR +
-                     r',?\s+(?:y\s+)?(?:hasta|al)\s+(?:el\s+)?(?:d[ií]a\s+)?' + D + r'\s+de\s+' + MES + YR, re.I)
+    rng = re.compile(r'(?:desde\s+(?:el\s+)?(?:d[ií]a\s+)?|del\s+(?:d[ií]a\s+)?|entre\s+(?:el\s+)?|comentarios\s+de\s+)' + D + r'(?:\s+de\s+' + MES + r')?' + YR +
+                     r',?\s+(?:y\s+)?(?:hasta|al|y)\s+(?:el\s+)?(?:d[ií]a\s+)?' + D + r'\s+de\s+' + MES + YR, re.I)
     for m in rng.finditer(t):
         y2 = int(m[6] or m[3] or year)
         mo2 = MESES[m[5].lower()]
@@ -163,7 +171,7 @@ def windows(text):
         if m:
             pub = any_date(m.group(1), year)
     if not pub:
-        m = re.match(r'\s*' + MES + r'\s+(\d{1,2}),?\s+(\d{4})', t, re.I)  # encabezado de fecha (MinHacienda)
+        m = re.search(r'(?<![\w])' + MES + r'\s+(\d{1,2}),\s+(\d{4})', t, re.I)  # "octubre 08, 2026" (MinHacienda)
         if m:
             pub = mk(m[3], MESES[m[1].lower()], m[2])
 
@@ -193,6 +201,14 @@ def kind_of(title, url, default=None):
 def clean(s, n=400):
     s = re.sub(r'\s+', ' ', s or '').strip(' -–·:')
     return s[:n]
+
+
+def heading_of(box):
+    for h in box.select('h1, h2, h3, h4, h5, .titulo-proyecto, .news-list-item-title, strong'):
+        t = clean(h.get_text(' ', strip=True), 400)
+        if len(t) >= 25 and not re.match(r'^(ver documento|descargar)', t, re.I):
+            return t
+    return ''
 
 
 def title_from(anchor_text, ctx):
@@ -226,7 +242,7 @@ class Fetcher:
         r.raise_for_status()
         return r.text
 
-    def page(self, url, wait=2500):
+    def page(self, url, wait=2500, clicks=()):
         if not self.ctx:
             return self.raw(url)
         p = self.ctx.new_page()
@@ -237,6 +253,12 @@ class Fetcher:
             except Exception:  # noqa: BLE001
                 pass
             p.wait_for_timeout(wait)
+            for c in clicks:  # grupos plegados (SharePoint): se abren antes de leer
+                try:
+                    p.get_by_text(re.compile(c)).first.click(timeout=8000)
+                    p.wait_for_timeout(3500)
+                except Exception as e:  # noqa: BLE001
+                    log('   no se pudo pulsar', c, str(e)[:120])
             return p.content()
         finally:
             p.close()
@@ -251,7 +273,7 @@ class Fetcher:
 # ---------------------------------------------------------------- listas
 def soup_of(html):
     s = BeautifulSoup(html, 'lxml')
-    for t in s(['script', 'style', 'noscript', 'svg', 'nav', 'header', 'footer', 'form']):
+    for t in s(['script', 'style', 'noscript', 'svg', 'nav', 'header', 'footer']):
         t.decompose()
     return s
 
@@ -280,9 +302,59 @@ def context_of(box):
     return clean(' '.join(prev + [txt]), 3000)
 
 
+def labeled_text(row):
+    """Fila de tabla con encabezados: "Fecha Inicio: 01/10/2026 Fecha Final: …" para leer las fechas."""
+    table = row.find_parent('table')
+    heads = [clean(th.get_text(' ', strip=True), 40) for th in (table.find_all('th') if table else [])]
+    cells = row.find_all('td', recursive=False)
+    if heads and len(cells) >= 3 and len(heads) >= len(cells):
+        return ' '.join(f'{heads[i]}: {clean(c.get_text(" ", strip=True), 1500)}' for i, c in enumerate(cells))
+    return clean(row.get_text(' ', strip=True), 3000)
+
+
+def items_of(s, src):
+    if src.get('split'):
+        sel, sep = src['split']
+        box = s.select_one(sel)
+        if not box:
+            return []
+        return [BeautifulSoup(chunk, 'lxml') for chunk in re.split(r'<' + sep + r'[^>]*>', box.decode_contents()) if chunk.strip()]
+    return s.select(src['item'])
+
+
+def parse_items(s, src, link_re):
+    out = []
+    for box in items_of(s, src):
+        href = None
+        for a in box.find_all('a', href=True):
+            h = urljoin(src['url'], a['href'].strip())
+            name = urlparse(h).path.rsplit('/', 1)[-1]
+            if link_re.search(h) and not SKIP.search(clean(a.get_text(' ', strip=True))) and not SKIP.search(name):
+                href = h
+                break
+        if not href:
+            continue
+        ctx = labeled_text(box) if box.name == 'tr' else clean(box.get_text(' ', strip=True), 3000)
+        if not DRAFT.search(ctx + href):
+            continue
+        title = heading_of(box)
+        tt = title_from('', ctx)
+        if not title or (len(tt) > len(title) + 20 and tt != clean(ctx, 300)):
+            title = tt
+        m = re.search(r'Nombre:\s*(.+?)(?:\s+\w[\w ]{2,25}:\s|$)', ctx)  # tablas con columna "Nombre"
+        if m and len(m.group(1)) >= 15 and title == clean(ctx, 300):
+            title = clean(m.group(1), 400)
+        if NOISE.search(title) or len(title) < 20:
+            continue
+        out.append(dict(url=href, title=title, ctx=ctx))
+    return out
+
+
 def parse_list(html, src):
     s = soup_of(html)
     link_re = re.compile(src['link'], re.I) if src.get('link') else None
+    if src.get('item') or src.get('split'):
+        return parse_items(s, src, link_re)
     host = urlparse(src['url']).netloc.replace('www.', '')
     out, boxes = [], set()
     for a in s.find_all('a', href=True):
@@ -305,7 +377,7 @@ def parse_list(html, src):
             continue
         boxes.add(id(box))
         full = context_of(box)
-        title = title_from(text, ctx)
+        title = title_from(text, full)
         if NOISE.search(title) or len(title) < 20:
             continue
         out.append(dict(url=href, title=title, ctx=full))
@@ -329,6 +401,19 @@ def parse_rss(xml):
     return out
 
 
+def debug_copy(body):
+    """Copia de la página para revisar formatos: sin scripts, estilos, imágenes ni atributos raros
+    (así no viajan tokens de sesión ni imágenes en base64 al repo público)."""
+    if body.lstrip().startswith('<?xml') or '<rss' in body[:500]:
+        return body[:300000]
+    s = BeautifulSoup(body, 'lxml')
+    for t in s(['script', 'style', 'noscript', 'svg', 'img', 'iframe', 'picture', 'video', 'source', 'link', 'meta', 'input']):
+        t.decompose()
+    for t in s.find_all(True):
+        t.attrs = {k: v for k, v in t.attrs.items() if k in ('href', 'class', 'id')}
+    return str(s)[:300000]
+
+
 def detail_text(html):
     s = soup_of(html)
     main = s.find('main') or s.find('article') or s.find(class_=re.compile('content|entry|post', re.I)) or s.body or s
@@ -349,6 +434,14 @@ def key(url):
 def run(only=None, browser=True, detail_cap=40):
     state = json.loads(STATE.read_text()) if STATE.exists() else {'items': {}, 'baseline': {}}
     items, baseline = state['items'], state['baseline']
+    # Fechas imposibles de corridas anteriores (p. ej. "2028-2031" leído como año de cierre) se vuelven a leer.
+    far = (TODAY + timedelta(days=400)).isoformat()
+    for it in items.values():
+        for k in ('until', 'from', 'published'):
+            if (it.get(k) or '') > far:
+                it.pop(k, None)
+                it.pop('checked', None)
+                it.pop('nodates', None)
     DEBUG.mkdir(exist_ok=True)
     F = Fetcher(browser)
     health = []
@@ -363,9 +456,9 @@ def run(only=None, browser=True, detail_cap=40):
                     body = F.raw(src['url'])
                     found = parse_rss(body)
                 else:
-                    body = F.page(src['url'], src.get('js_wait', 2500))
+                    body = F.page(src['url'], src.get('js_wait', 2500), src.get('clicks', ()))
                     found = parse_list(body, src)
-                (DEBUG / f"{src['id']}.html").write_text(body[:400000])
+                (DEBUG / f"{src['id']}.html").write_text(debug_copy(body))
             except Exception as e:  # noqa: BLE001
                 log('   ERROR', e)
                 health.append(dict(id=src['id'], entity=src['entity'], url=src['url'], ok=False, n=0, error=str(e)[:300]))
@@ -391,7 +484,7 @@ def run(only=None, browser=True, detail_cap=40):
                 # Ficha: si la lista no dice el cierre, o si el proyecto sigue abierto (pueden ampliar el plazo).
                 open_now = cur.get('until') and cur['until'] >= now_iso
                 fresh = (cur.get('published') or cur['firstSeen']) >= (TODAY - timedelta(days=45)).isoformat()
-                need = src.get('detail') and fresh and cur.get('checked') != now_iso and (not cur.get('until') or open_now)
+                need = src.get('detail') and fresh and cur.get('checked') != now_iso and ((not cur.get('until') and not cur.get('nodates')) or open_now)
                 if need and budget > 0 and not re.search(r'\.(pdf|zip|docx?)(\?|$)', cur['url'], re.I):
                     budget -= 1
                     try:
@@ -408,14 +501,17 @@ def run(only=None, browser=True, detail_cap=40):
                         if not cur.get('summary'):
                             cur['summary'] = clean(txt, 600)
                         cur['checked'] = now_iso
+                        if not cur.get('until') and not u2:
+                            cur['nodates'] = True  # la ficha tampoco dice el cierre: no se vuelve a pedir
                     except Exception as e:  # noqa: BLE001
                         log('   ficha', cur['url'], e)
                 time.sleep(0.3)
             baseline[src['id']] = True
             dated = sum(1 for f in found if items[key(f['url'])].get('until'))
             log(f"   {len(found)} proyectos en la página, {dated} con cierre de comentarios, {n_new} nuevos")
-            health.append(dict(id=src['id'], entity=src['entity'], url=src['url'], ok=len(found) > 0, n=len(found), dated=dated,
-                               error=None if found else 'La página no trajo proyectos (¿cambió el formato?)'))
+            okk = len(found) > 0 or bool(src.get('may_be_empty'))
+            health.append(dict(id=src['id'], entity=src['entity'], url=src['url'], ok=okk, n=len(found), dated=dated,
+                               error=None if okk else 'La página no trajo proyectos (¿cambió el formato?)'))
     finally:
         F.close()
 
