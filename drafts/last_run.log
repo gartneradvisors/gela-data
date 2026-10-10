@@ -1,24 +1,22 @@
 == minambiente: https://www.minambiente.gov.co/consulta/feed/
    11 proyectos en la página, 1 con cierre de comentarios, 0 nuevos
 == mininterior: https://www.mininterior.gov.co/proyectos-de-decreto/
-   47 proyectos en la página, 13 con cierre de comentarios, 1 nuevos
+   47 proyectos en la página, 13 con cierre de comentarios, 0 nuevos
 == minhacienda: https://www.minhacienda.gov.co/normativa/proyectos-de-decretos
-   8 proyectos en la página, 5 con cierre de comentarios, 4 nuevos
-== minhacienda-res: https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-y-circulares
-   0 proyectos en la página, 0 con cierre de comentarios, 0 nuevos
+   8 proyectos en la página, 5 con cierre de comentarios, 0 nuevos
 == mincit-dec: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026
-   36 proyectos en la página, 36 con cierre de comentarios, 36 nuevos
+   36 proyectos en la página, 36 con cierre de comentarios, 0 nuevos
 == mincit-res: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026
-   7 proyectos en la página, 7 con cierre de comentarios, 7 nuevos
+   7 proyectos en la página, 7 con cierre de comentarios, 0 nuevos
 == mincit-cir: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026
-   9 proyectos en la página, 9 con cierre de comentarios, 9 nuevos
+   9 proyectos en la página, 9 con cierre de comentarios, 0 nuevos
 == minenergia: https://minenergia.gov.co/es/servicio-al-ciudadano/foros/
    10 proyectos en la página, 10 con cierre de comentarios, 0 nuevos
 == dian: https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx
-   no se pudo pulsar Tipo de norma\s*:\s*Proyecto Locator.click: Timeout 8000ms exceeded.
-Call log:
-  - waiting for get_by_text(re.compile(r"Tipo de norma\s*:\s*Proyecto"
-   0 proyectos en la página, 0 con cierre de comentarios, 0 nuevos
+   grupos abiertos: 3
+   29 proyectos en la página, 29 con cierre de comentarios, 28 nuevos
 == dnp: https://www.dnp.gov.co/normativa/proyectos-de-normatividad
-   5 proyectos en la página, 5 con cierre de comentarios, 5 nuevos
-Listo: 34 proyectos en co.json (5 abiertos)
+   5 proyectos en la página, 5 con cierre de comentarios, 0 nuevos
+== minhacienda-res: https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-circulares/2026
+   ERROR La página bloqueó la lectura (anti-bots); se reintenta en la próxima corrida
+Listo: 43 proyectos en co.json (5 abiertos)
