@@ -1,0 +1,44 @@
+name: Proyectos normativos en consulta (radar)
+
+on:
+  schedule:
+    # Dos veces al día (hora de Bogotá 00:30 y 12:30): los ministerios publican hasta tarde.
+    - cron: '30 5,17 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Solo estas fuentes (ids separados por coma, vacío = todas)'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gela-data-push
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Dependencias
+        run: |
+          pip install beautifulsoup4 lxml requests playwright
+          python -m playwright install --with-deps chromium
+      - name: Leer las páginas de proyectos
+        run: python drafts/update.py ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+      - name: Guardar si cambió
+        if: always()
+        run: |
+          git config user.name "gela-data bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add drafts
+          git diff --cached --quiet && exit 0
+          git commit -m "Proyectos en consulta ($(date -u +%F' '%H:%M))"
+          git pull --rebase origin main && git push

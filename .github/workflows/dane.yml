@@ -14,13 +14,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: gela-data-push
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Dependencias
@@ -34,4 +38,4 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add dane
           git diff --cached --quiet || git commit -m "DANE: exportaciones actualizadas ($(date -u +%F))"
-          git push
+          git pull --rebase origin main && git push

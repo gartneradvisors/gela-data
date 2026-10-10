@@ -7,3 +7,5 @@ Datos públicos agregados que usa GELA Tracker y que no se pueden bajar desde Eu
 - `dane/meta.json`: columnas, ejemplos y meses cubiertos, para revisar que todo cuadra.
 
 Solo estadística pública agregada: sin datos personales ni de clientes. Por eso el repo es público (la app lo lee sin token).
+- `drafts/update.py`: proyectos de decreto, resolución y circular de Colombia publicados para comentarios (MinAmbiente, MinInterior, MinHacienda, MinCIT, MinEnergía, DIAN, DNP), con fecha de publicación y cierre de comentarios. Corre dos veces al día (`.github/workflows/drafts.yml`) con Chromium (Playwright).
+- `drafts/co.json`: lo que lee el radar de la app (fuente `consultas`): abiertos, cerrados hace menos de 60 días y nuevos sin fecha. `drafts/sources` dentro del JSON dice si cada página respondió; `drafts/debug/` guarda la última página de cada fuente para revisar cambios de formato.
