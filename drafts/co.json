@@ -1,0 +1,251 @@
+{
+ "asOf": "2026-10-10T08:49:40+00:00",
+ "today": "2026-10-10",
+ "sources": [
+  {
+   "id": "minambiente",
+   "entity": "MinAmbiente",
+   "url": "https://www.minambiente.gov.co/consulta/feed/",
+   "ok": true,
+   "n": 11,
+   "dated": 1,
+   "error": null
+  },
+  {
+   "id": "mininterior",
+   "entity": "MinInterior",
+   "url": "https://www.mininterior.gov.co/proyectos-de-decreto/",
+   "ok": true,
+   "n": 46,
+   "dated": 13,
+   "error": null
+  },
+  {
+   "id": "minhacienda",
+   "entity": "MinHacienda",
+   "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-decretos",
+   "ok": true,
+   "n": 4,
+   "dated": 0,
+   "error": null
+  },
+  {
+   "id": "mincit-dec",
+   "entity": "MinCIT",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
+  },
+  {
+   "id": "mincit-res",
+   "entity": "MinCIT",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
+  },
+  {
+   "id": "mincit-cir",
+   "entity": "MinCIT",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
+  },
+  {
+   "id": "minenergia",
+   "entity": "MinEnergía",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/",
+   "ok": true,
+   "n": 10,
+   "dated": 10,
+   "error": null
+  },
+  {
+   "id": "dian",
+   "entity": "DIAN",
+   "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
+  },
+  {
+   "id": "dnp",
+   "entity": "DNP",
+   "url": "https://www.dnp.gov.co/normativa/proyectos-de-normatividad",
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
+  }
+ ],
+ "items": [
+  {
+   "id": "86182877951c",
+   "src": "mininterior",
+   "entity": "MinInterior",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto relacionado con el número de diputados en Asambleas Departamentales para elecciones territoriales de 2028 – 2031",
+   "url": "https://www.mininterior.gov.co/proyecto-de-decreto-proyecto-de-decreto-relacionado-con-el-numero-de-diputados-en-asambleas-departamentales-para-elecciones-territoriales-de-2028-2031/",
+   "docs": [
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf"
+   ],
+   "from": "2031-10-10",
+   "until": "2031-10-14",
+   "firstSeen": "2026-10-10",
+   "summary": "Proyecto de Decreto Transparencia > Proyectos Normativos > Proyecto Decreto Cierra el 14 de octubre de 2026 De conformidad con lo dispuesto en el inciso 2 del numeral 1 del artículo 2.1.2.5.1.4 del Decreto 1081 de 2015, sustituido por el Decreto 385 de 2026, en armonía con el numeral 8 del artículo 8 de la Ley 1437 de 2011, se pone en conocimiento de la ciudadanía y de los grupos de interés el presente proyecto de decreto, acompañado de su memoria justificativa, el cual permanecerá publicado durante cinco (5) días calendario, en atención a la proximidad del inicio del calendario electoral, pre"
+  },
+  {
+   "id": "c66bf0152cdd",
+   "src": "minambiente",
+   "entity": "MinAmbiente",
+   "kind": "decreto",
+   "title": "“Por el cual se derogan, modifican y adicionan disposiciones de las Secciones 6 y 8 del Capítulo 3 del Título 2 de la Parte 2 del Libro 2 del Decreto 1076 de 2015”",
+   "url": "https://www.minambiente.gov.co/consulta/por-el-cual-se-derogan-modifican-y-adicionan-disposiciones-de-las-secciones-6-y-8-del-capitulo-3-del-titulo-2-de-la-parte-2-del-libro-2-del-decreto-1076-de-2015/",
+   "docs": [
+    "https://www.minambiente.gov.co/wp-content/uploads/2026/10/Proyecto-de-Decreto-Por-el-cual-se-derogan-modifican-y-adicionan-disposiciones-de-las-Secciones-6-y-8-del-Capitulo-3-del-Titulo-2-de-la-Parte-2-del-Libro-2-del-Decreto-1076-de-2015.zip"
+   ],
+   "published": "2026-10-09",
+   "from": "2026-10-09",
+   "until": "2026-10-24",
+   "firstSeen": "2026-10-10",
+   "summary": "Saltar al contenido clave Nombre del proyecto: “Por el cual se derogan, modifican y adicionan disposiciones de las Secciones 6 y 8 del Capítulo 3 del Título 2 de la Parte 2 del Libro 2 del Decreto 1076 de 2015” Desde: 09-10-2026 Hasta: 24-10-2026 Contacto: mquinterom@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Despacho Viceministro (a) de Políticas y Normalización Ambiental Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: Calle 37 Nº 8-40, Bogotá DC Horario"
+  },
+  {
+   "id": "2a9bf55d3faa",
+   "src": "mininterior",
+   "entity": "MinInterior",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto propone actualizar el procedimiento de consulta previa para proyectos, obras, actividades y medidas administrativas generales de autoridades territoriales.",
+   "url": "https://www.mininterior.gov.co/proyecto-de-decreto-propone-actualizar-el-procedimiento-de-consulta-previa-para-proyectos-obras-actividades-y-medidas-administrativas-generales-de-autoridades-territoriales/",
+   "docs": [
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-procedimiento-de-consulta-previa-y-la-determinacion-de-su-procedencia-y-oportunidad_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-procedimiento-de-consulta-previa-y-la-determinacion-de-su-procedencia-y-oportunidad_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-procedimiento-de-consulta-previa-y-la-determinacion-de-su-procedencia-y-oportunidad_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-procedimiento-de-consulta-previa-y-la-determinacion-de-su-procedencia-y-oportunidad_-ok-gaa-dij.pdf"
+   ],
+   "from": "2026-10-10",
+   "until": "2026-10-24",
+   "firstSeen": "2026-10-10",
+   "summary": "Proyecto de Decreto Transparencia > Proyectos Normativos > Proyecto Decreto Cierra el 24 de octubre de 2026 De conformidad con lo establecido en el numeral 1 del artículo 2.1.2.5.1.4 del Decreto 1081 de 2015, Único Reglamentario del Sector Presidencia de la República, sustituido por el Decreto 385 de 2026, en armonía con el numeral 8 del artículo 8 de la Ley 1437 de 2011, que ordena publicar los proyectos de regulación elaborados para la firma del Presidente de la República, con el objeto de recibir opiniones, sugerencias o propuestas alternativas de la ciudadanía o grupos de interés, atentame"
+  },
+  {
+   "id": "7c857194f792",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se establecen los lineamientos para el suministro de alcohol carburante destinado a la mezcla de gasolina motor corriente y gasolina motor extra, con el fin de garantizar la continuidad y confiabilidad del abastecimiento interno, y se dictan otras disposiciones",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/lineamientos-para-el-suministro-de-alcohol-carburante-destinado-a-la-mezcla-de-gasolina-motor-corriente-y-gasolina-motor-extra/",
+   "from": "2026-09-23",
+   "until": "2026-10-23",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "f4eda0a79da9",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se declara el cese del Racionamiento Programado de Gas Natural declarado mediante Resolución 40524 del 25 de septiembre de 2026",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/establecer-los-lineamientos-para-la-aplicacion-de-la-medida-excepcional-de-abastecimiento-de-combustibles-liquidos-con-destino-a-las-plantas-termicas/",
+   "from": "2026-10-09",
+   "until": "2026-10-09",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "89559c36944e",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "Por la cual se expide el Código de Seguridad del Gas Licuado de Petróleo (GLP) En cumplimiento de lo señalado en el numeral 8 del artículo 8 de la Ley 1437 de 2011, en concordancia con lo previsto en el inciso 2 del artículo 2.1.2.1.14 del Decreto 1081 de 2015, sustituido por el artículo 1 del Decreto 1273 de 2020 y las resoluciones 4 0310 y 4 1304 de 2017, se pública para participación ciudadana ",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/por-la-cual-se-expide-el-codigo-de-seguridad-del-gas-licuado-de-petroleo-glp/",
+   "from": "2026-09-03",
+   "until": "2026-10-03",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "a621b6ab211a",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se declara el cese del Racionamiento Programado de Gas Natural declarado mediante Resolución 40524 del 25 de septiembre de 2026",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/declarar-el-cese-del-racionamiento-programado-de-gas-natural-declarado-mediante-resolucion-40524-del-25-de-septiembre-de-2026/",
+   "from": "2026-09-29",
+   "until": "2026-09-29",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "787d8441a2d9",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se fija el precio base de liquidación del IVA en las importaciones del combustible fósil de la gasolina motor corriente y el ACPM",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/fijar-el-precio-base-de-liquidacion-del-iva-en-las-importaciones-del-combustible-fosil-de-la-gasolina-motor-corriente-y-el-acpm/",
+   "from": "2026-09-23",
+   "until": "2026-09-28",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "b57d4a5b770b",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se declara el inicio de un Racionamiento Programado de Gas Natural",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/declarar-el-inicio-de-un-racionamiento-programado-de-gas-natural/",
+   "from": "2026-09-25",
+   "until": "2026-09-25",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "66cf9af44947",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "decreto",
+   "title": "proyecto de decreto \"Por el cual se modifica el Decreto 1073 de 2015, en relación con medidas de abastecimiento de combustibles líquidos con destino a las plantas térmicas, para la confiabilidad del sistema eléctrico nacional y se dictan otras disposiciones",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/modificar-el-decreto-1073-de-2015-en-relacion-con-medidas-de-abastecimiento-de-combustibles-liquidos-con-destino-a-las-plantas-termicas/",
+   "from": "2026-09-16",
+   "until": "2026-09-19",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "1efe579c2321",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se derogan las resoluciones mediante las cuales se delimitaron los Distritos Mineros Especiales para la Diversificación Productiva y se dictan otras disposiciones",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/derogar-las-resoluciones-mediante-las-cuales-se-delimitaron-los-distritos-mineros-especiales-para-la-diversificacion-productiva/",
+   "from": "2026-09-03",
+   "until": "2026-09-18",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "4f8a446bdc0d",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se crea el Comité Sectorial para la Seguridad Energética del País, se deroga la Resolución 40269 de 2026 y se dictan otras disposiciones",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/crear-el-comite-sectorial-para-la-seguridad-energetica-del-pais-y-derogar-la-resolucion-40269-de-2026/",
+   "from": "2026-09-03",
+   "until": "2026-09-06",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "a7cf1edc752d",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se delimita el Distrito Minero Especial para la Diversificación Productiva Valderrama Norte en el Departamento de Boyacá",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/delimitar-el-distrito-minero-especial-para-la-diversificacion-productiva-valderrama-norte/",
+   "from": "2026-08-04",
+   "until": "2026-08-19",
+   "firstSeen": "2026-10-10"
+  }
+ ]
+}
