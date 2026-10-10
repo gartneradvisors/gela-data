@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-10T08:49:40+00:00",
+ "asOf": "2026-10-10T09:19:36+00:00",
  "today": "2026-10-10",
  "sources": [
   {
@@ -16,7 +16,7 @@
    "entity": "MinInterior",
    "url": "https://www.mininterior.gov.co/proyectos-de-decreto/",
    "ok": true,
-   "n": 46,
+   "n": 47,
    "dated": 13,
    "error": null
   },
@@ -25,7 +25,16 @@
    "entity": "MinHacienda",
    "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-decretos",
    "ok": true,
-   "n": 4,
+   "n": 8,
+   "dated": 5,
+   "error": null
+  },
+  {
+   "id": "minhacienda-res",
+   "entity": "MinHacienda",
+   "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-y-circulares",
+   "ok": true,
+   "n": 0,
    "dated": 0,
    "error": null
   },
@@ -33,28 +42,28 @@
    "id": "mincit-dec",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 36,
+   "dated": 36,
+   "error": null
   },
   {
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 7,
+   "dated": 7,
+   "error": null
   },
   {
    "id": "mincit-cir",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 9,
+   "dated": 9,
+   "error": null
   },
   {
    "id": "minenergia",
@@ -78,30 +87,52 @@
    "id": "dnp",
    "entity": "DNP",
    "url": "https://www.dnp.gov.co/normativa/proyectos-de-normatividad",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 5,
+   "dated": 5,
+   "error": null
   }
  ],
  "items": [
   {
-   "id": "86182877951c",
+   "id": "1db46d8af0a4",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD Por el cual se modifica el Decreto 2555 de 2010, en lo relacionado con el régimen de inversión en activos en el exterior de los fondos de pensiones obligatorias.",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/7.+PD+Por+el+cual+se+modifica+el+Decreto+2555+de+2010.pdf/7c69545c-e598-2eb2-38c3-0aafc95a44bf?t=1789061677600",
+   "published": "2026-09-10",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "fbe8f6e03c82",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "proyecto de decreto “ Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Meddas_aduaneras_terremoto_110826.pdf/8f2eaecf-9089-44d6-0943-ab125a099d5b?t=1786487011230",
+   "published": "2026-08-11",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "fbeea808f178",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "proyecto de decreto “Por el cual se adicionan unos parágrafos transitorios a los artículos 1.6.1.13.2.15",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Aplazamiento_calendario_tributario_110826.pdf/b039f8f7-5827-ea27-86bd-3cfdbbf0c793?t=1786486203591",
+   "published": "2026-08-11",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "e6c03842c050",
    "src": "mininterior",
    "entity": "MinInterior",
-   "kind": "decreto",
-   "title": "Proyecto de Decreto relacionado con el número de diputados en Asambleas Departamentales para elecciones territoriales de 2028 – 2031",
-   "url": "https://www.mininterior.gov.co/proyecto-de-decreto-proyecto-de-decreto-relacionado-con-el-numero-de-diputados-en-asambleas-departamentales-para-elecciones-territoriales-de-2028-2031/",
-   "docs": [
-    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
-    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
-    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
-    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf"
-   ],
-   "from": "2031-10-10",
-   "until": "2031-10-14",
+   "kind": "resolución",
+   "title": "Proyecto De Decreto Ley De Areas Metropolitanas “Por el cual se adiciona el Capítulo 6 al Título 1 de la Parte 2 del Libro 2 del Decreto 1066 de 2015, Único del Sector Administrativo del Interior, para reglamentar la Ley 1625 de 2013 “ Por la cual se deroga la Ley Orgánica 128 de 1994 y se expide el Régimen para las Áreas Metropolitanas",
+   "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
-   "summary": "Proyecto de Decreto Transparencia > Proyectos Normativos > Proyecto Decreto Cierra el 14 de octubre de 2026 De conformidad con lo dispuesto en el inciso 2 del numeral 1 del artículo 2.1.2.5.1.4 del Decreto 1081 de 2015, sustituido por el Decreto 385 de 2026, en armonía con el numeral 8 del artículo 8 de la Ley 1437 de 2011, se pone en conocimiento de la ciudadanía y de los grupos de interés el presente proyecto de decreto, acompañado de su memoria justificativa, el cual permanecerá publicado durante cinco (5) días calendario, en atención a la proximidad del inicio del calendario electoral, pre"
+   "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
   },
   {
    "id": "c66bf0152cdd",
@@ -149,14 +180,68 @@
    "firstSeen": "2026-10-10"
   },
   {
+   "id": "1e4dab23010f",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto “Por el cual se adiciona el parágrafo 2 al artículo 437 y se modifica el inciso segundo del artículo 479 del Decreto 1165 de 2019",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Transitos_aduaneros.pdf/a7ea8274-5f3a-807e-341e-7a27ad8430f3?t=1791498271979",
+   "published": "2026-10-08",
+   "from": "2026-10-08",
+   "until": "2026-10-18",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "86182877951c",
+   "src": "mininterior",
+   "entity": "MinInterior",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto relacionado con el número de diputados en Asambleas Departamentales para elecciones territoriales de 2028 – 2031",
+   "url": "https://www.mininterior.gov.co/proyecto-de-decreto-proyecto-de-decreto-relacionado-con-el-numero-de-diputados-en-asambleas-departamentales-para-elecciones-territoriales-de-2028-2031/",
+   "docs": [
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/pd-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf",
+    "https://www.mininterior.gov.co/wp-content/uploads/2026/10/mj-publica-numero-de-diputados-2028-2031_-ok-gaa-dij.pdf"
+   ],
+   "from": "2026-10-10",
+   "until": "2026-10-14",
+   "firstSeen": "2026-10-10",
+   "summary": "Proyecto de Decreto Transparencia > Proyectos Normativos > Proyecto Decreto Cierra el 14 de octubre de 2026 De conformidad con lo dispuesto en el inciso 2 del numeral 1 del artículo 2.1.2.5.1.4 del Decreto 1081 de 2015, sustituido por el Decreto 385 de 2026, en armonía con el numeral 8 del artículo 8 de la Ley 1437 de 2011, se pone en conocimiento de la ciudadanía y de los grupos de interés el presente proyecto de decreto, acompañado de su memoria justificativa, el cual permanecerá publicado durante cinco (5) días calendario, en atención a la proximidad del inicio del calendario electoral, pre"
+  },
+  {
+   "id": "d8bdcfac77da",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Proyecto de Circular para \"modificación a la Circular 006 de 2026: distribución y administración del contingente de exportación de azúcar sin refinar y panela de la Organización Mundial de Comercio (OMC) a Estados Unidos 2026-2027\". Se publica para recibir comentarios de la ciudadanía y de los grupo",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/07-10-2026-pc-modificacion-circular-omc-2026-2027.aspx",
+   "published": "2026-10-07",
+   "from": "2026-10-08",
+   "until": "2026-10-09",
+   "firstSeen": "2026-10-10"
+  },
+  {
    "id": "f4eda0a79da9",
    "src": "minenergia",
    "entity": "MinEnergía",
-   "kind": "resolución",
-   "title": "proyecto de resolución \"Por la cual se declara el cese del Racionamiento Programado de Gas Natural declarado mediante Resolución 40524 del 25 de septiembre de 2026",
+   "kind": "otro",
+   "title": "Establecer los lineamientos para la aplicación de la medida excepcional de abastecimiento de combustibles líquidos con destino a las plantas térmicas",
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/establecer-los-lineamientos-para-la-aplicacion-de-la-medida-excepcional-de-abastecimiento-de-combustibles-liquidos-con-destino-a-las-plantas-termicas/",
    "from": "2026-10-09",
    "until": "2026-10-09",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "99854bc0f225",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifican y adicionan normas en materia de selección de auxiliares de la justicia para los procesos de reorganización, liquidación e intervención de la lista de auxiliares de la justicia de la Superintendencia de Sociedades al Decreto Único Reglamentario del Sector Comercio, Industria y Turismo, Decreto 1074 de 2015 y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/08-10-2026-pd-designacion-de-auxiliares.aspx",
+   "published": "2026-10-02",
+   "from": "2026-10-03",
+   "until": "2026-10-07",
    "firstSeen": "2026-10-10"
   },
   {
@@ -168,6 +253,42 @@
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/por-la-cual-se-expide-el-codigo-de-seguridad-del-gas-licuado-de-petroleo-glp/",
    "from": "2026-09-03",
    "until": "2026-10-03",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "854d40b1df41",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se reglamentan los artículos 7, 8, 9 y 17 de la Ley 2437 de 2024 en relación con los procedimientos de recuperación empresarial (PRES), se sustituyen los títulos del Capítulo 10 y de la Sección 4, se adiciona la Sección 5 al Capítulo 10 del Título 2 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Único Reglamentario del Sector Comercio, Industria y Turismo, y ",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/17-09-2026-pd-procedimientos-de-recuperacion-empre.aspx",
+   "published": "2026-09-17",
+   "from": "2026-09-18",
+   "until": "2026-10-02",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "fe3dae173f6a",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica y adiciona el Decreto 1074 de 2015 en materia de mecanismos de votación para las elecciones de las juntas directivas de las cámaras de comercio y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/16-09-2026-pd-mecanismos-votacion-elecciones-junta.aspx",
+   "published": "2026-09-16",
+   "from": "2026-09-17",
+   "until": "2026-10-01",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "cd438e8f6b14",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Proyecto de Circular para \"modificación a la Circular 009 del 24 de diciembre de 2025 - Distribución y administración del contingente de exportación de azúcar, panela y productos con contenido de azúcar dentro del acuerdo para la promoción comercial Colombia - Estados Unidos, vigencia 2026\". Se publ",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/25-09-2026-pc-modificacion-circular-azucar-panela.aspx",
+   "published": "2026-09-25",
+   "from": "2026-09-28",
+   "until": "2026-09-30",
    "firstSeen": "2026-10-10"
   },
   {
@@ -190,6 +311,54 @@
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/fijar-el-precio-base-de-liquidacion-del-iva-en-las-importaciones-del-combustible-fosil-de-la-gasolina-motor-corriente-y-el-acpm/",
    "from": "2026-09-23",
    "until": "2026-09-28",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "958c00881f85",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto “Por el cual se modifica el artículo 4 del Decreto 368 de 2026 y el artículo 6 del Decreto 977 de 2026, en lo relacionado con la publicación de los estándares e indicadores y la puesta en funcionamiento del directorio de participación del Sistema de Finanzas Abiertas",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ%2BDT_210926.pdf/684901d2-f237-52b5-b42c-c01e8fe32b11?t=1790091660448",
+   "published": "2026-09-22",
+   "from": "2026-09-22",
+   "until": "2026-09-27",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "4aa408522f65",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica, actualiza, y compila el marco técnico de las Normas de Aseguramiento de la Información del Decreto 2420 de 2015, Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información, y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/18-09-2026-pd-marco-tecnico-normas-de-aseguramient.aspx",
+   "published": "2026-09-18",
+   "from": "2026-09-19",
+   "until": "2026-09-25",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "89d26fd7c649",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica parcialmente el anexo técnico de las Normas de Información Financiera para el Grupo 1 del Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información, 2420 de 2015, y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/18-09-2026-pd-niif-enmiendas.aspx",
+   "published": "2026-09-18",
+   "from": "2026-09-19",
+   "until": "2026-09-25",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "9466e8699790",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Proyecto de Circular para \"distribución y administración del contingente de exportación de azúcar sin refinar y panela de la Organización Mundial de Comercio (OMC) a Estados Unidos 2026-2027\". Se publica para recibir comentarios de la ciudadanía y de los grupos de valor, los cuales podrán remitirse ",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/18-09-2026-pc-exportacion-de-azucar-sin-refinar-y.aspx",
+   "published": "2026-09-18",
+   "from": "2026-09-21",
+   "until": "2026-09-25",
    "firstSeen": "2026-10-10"
   },
   {
@@ -226,6 +395,18 @@
    "firstSeen": "2026-10-10"
   },
   {
+   "id": "03a869cc930f",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "proyecto de decreto “Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_II_Publicaci%C3%B3n_medidas_aduaneras_transitorias_010926.pdf/e4316d27-14b2-fc44-cb94-0f8d5accbc70?t=1788301751839",
+   "published": "2026-09-01",
+   "from": "2026-09-01",
+   "until": "2026-09-08",
+   "firstSeen": "2026-10-10"
+  },
+  {
    "id": "4f8a446bdc0d",
    "src": "minenergia",
    "entity": "MinEnergía",
@@ -245,6 +426,78 @@
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/delimitar-el-distrito-minero-especial-para-la-diversificacion-productiva-valderrama-norte/",
    "from": "2026-08-04",
    "until": "2026-08-19",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "e75a22aaef6b",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se deroga el Decreto 1131 de 2026",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/13-08-2026-pd-derogatoria-del-decreto-1131-de-2026.aspx",
+   "published": "2026-08-13",
+   "from": "2026-08-14",
+   "until": "2026-08-18",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "9a5f30179b0c",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se dan por terminadas las designaciones de los representantes del Gobierno Nacional en las juntas directivas de las cámaras de comercio y se dictan disposiciones sobre su provisión",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/10-08-2026-pd-terminadas-designaciones-representan.aspx",
+   "published": "2026-08-10",
+   "from": "2026-08-11",
+   "until": "2026-08-15",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "05c25234ee7d",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se prohíbe la importación de bienes producidos total o parcialmente mediante trabajo forzoso u obligatorio, y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/10-08-2026-pd-importacion-bienes-producidos-trabaj.aspx",
+   "published": "2026-08-10",
+   "from": "2026-08-11",
+   "until": "2026-08-15",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "af8f808754e8",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se derogan el Decreto 1047 de 2024 y el Decreto 0949 de 2025 y se restablece el régimen general de exportación de las hullas térmicas clasificadas en la subpartida arancelaria 2701.12.00.10",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/10-08-2026-pd-regimen-general-exportacion-hullas-t.aspx",
+   "published": "2026-08-10",
+   "from": "2026-08-11",
+   "until": "2026-08-15",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "4d94d4d88fa5",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "P.D. Por el cual se adiciona un parágrafo al artículo 2.2.8.11.3 del Decreto 1833 de 2016 “Por medio del cual se compilan las normas del Sistema General de Pensiones”",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+%2B+Memoria+Justificativa+Omisos.pdf/cae05bef-b36a-7a8e-cdaa-5850e33f9843?t=1785291268794",
+   "published": "2026-07-29",
+   "from": "2026-07-29",
+   "until": "2026-08-12",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "10a1e3d9ebaa",
+   "src": "mincit-res",
+   "entity": "MinCIT",
+   "kind": "resolución",
+   "title": "Proyecto de Resolución, \"por medio de la cual se deroga la Resolución 3159 de 2015 y se crea el Comité de Territorios Turísticos de Paz",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026/27-07-2026-pr-crea-el-comite-de-territorios-turist.aspx",
+   "published": "2026-07-27",
+   "from": "2026-07-28",
+   "until": "2026-08-11",
    "firstSeen": "2026-10-10"
   }
  ]
