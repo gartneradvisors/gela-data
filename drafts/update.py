@@ -56,8 +56,6 @@ SOURCES = [
          kind='decreto', detail=True, link=r'mininterior\.gov\.co/(?!proyectos-de-decreto/?$)[a-z0-9-]*(proyecto|pd-|por-)'),
     dict(id='minhacienda', entity='MinHacienda', mode='html', url='https://www.minhacienda.gov.co/normativa/proyectos-de-decretos',
          kind='decreto', item='.container-proyectos', link=r'/documents/|/document_library/'),
-    dict(id='minhacienda-res', entity='MinHacienda', mode='html', url='https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-y-circulares',
-         kind='resolución', item='.container-proyectos', link=r'/documents/|/document_library/', may_be_empty=True),
     dict(id='mincit-dec', entity='MinCIT', mode='html', url=f'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-{Y}',
          kind='decreto', item='table tr', link=r'proyectos-de-decreto-\d{4}/.+\.aspx'),
     dict(id='mincit-res', entity='MinCIT', mode='html', url=f'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-{Y}',
@@ -68,9 +66,12 @@ SOURCES = [
          item='tr', detail=True, link=r'/servicio-al-ciudadano/foros/[^/?#]+'),
     dict(id='dian', entity='DIAN', mode='html', url='https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx',
          kind='resolución', item='tr', link=r'\.(pdf|docx?|aspx)', js_wait=6000,
-         clicks=[r'A[ñn]o\s*:\s*' + re.escape(YD), r'Tipo de norma\s*:\s*Proyecto'], may_be_empty=False),
+         expand=YD, may_be_empty=False),
     dict(id='dnp', entity='DNP', mode='html', url='https://www.dnp.gov.co/normativa/proyectos-de-normatividad',
          split=('.DNPNavtab-container-element.opened', 'hr'), link=r'colaboracion\.dnp\.gov\.co/CDT/Normatividad/'),
+    # Al final y con pausa: el anti-bots de MinHacienda bloquea dos visitas seguidas.
+    dict(id='minhacienda-res', entity='MinHacienda', mode='html', url=f'https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-circulares/{Y}',
+         kind='resolución', item='.container-proyectos', link=r'/documents/|/document_library/', may_be_empty=True, gap=40),
 ]
 
 # Enlaces que son anexos del proyecto y no el proyecto.
@@ -242,7 +243,7 @@ class Fetcher:
         r.raise_for_status()
         return r.text
 
-    def page(self, url, wait=2500, clicks=()):
+    def page(self, url, wait=2500, clicks=(), expand=None):
         if not self.ctx:
             return self.raw(url)
         p = self.ctx.new_page()
@@ -259,6 +260,10 @@ class Fetcher:
                     p.wait_for_timeout(3500)
                 except Exception as e:  # noqa: BLE001
                     log('   no se pudo pulsar', c, str(e)[:120])
+            if expand:  # SharePoint: abre el grupo del año y sus subgrupos (se cargan al abrirlos)
+                n = p.evaluate(EXPAND_JS, expand)
+                log('   grupos abiertos:', n)
+                p.wait_for_timeout(5000)
             return p.content()
         finally:
             p.close()
@@ -268,6 +273,23 @@ class Fetcher:
             self.br.close()
         if self.pw:
             self.pw.stop()
+
+
+EXPAND_JS = '''async (year) => {
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const links = () => [...document.querySelectorAll('a[onclick*="ExpCollGroup"]')];
+  const rowText = (a) => (a.closest('tr') || a.closest('tbody') || a.parentElement).textContent.replace(/\\s+/g, ' ');
+  const yr = links().find((a) => rowText(a).includes(year) && /A[ñn]o/.test(rowText(a)));
+  if (!yr) return 0;
+  yr.click(); await sleep(4000);
+  let n = 1, inside = false;
+  for (const a of links()) {
+    const t = rowText(a);
+    if (/A[ñn]o/.test(t)) { inside = t.includes(year); continue; }
+    if (inside && /Tipo de norma/.test(t)) { a.click(); n++; await sleep(3000); }
+  }
+  return n;
+}'''
 
 
 # ---------------------------------------------------------------- listas
@@ -456,7 +478,11 @@ def run(only=None, browser=True, detail_cap=40):
                     body = F.raw(src['url'])
                     found = parse_rss(body)
                 else:
-                    body = F.page(src['url'], src.get('js_wait', 2500), src.get('clicks', ()))
+                    if src.get('gap'):
+                        time.sleep(src['gap'])
+                    body = F.page(src['url'], src.get('js_wait', 2500), src.get('clicks', ()), src.get('expand'))
+                    if re.search(r'Bot Manager Block|you are a bot|Access Denied|Request Rejected', body[:5000], re.I):
+                        raise RuntimeError('La página bloqueó la lectura (anti-bots); se reintenta en la próxima corrida')
                     found = parse_list(body, src)
                 (DEBUG / f"{src['id']}.html").write_text(debug_copy(body))
             except Exception as e:  # noqa: BLE001
