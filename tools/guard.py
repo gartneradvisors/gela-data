@@ -1,7 +1,7 @@
 """Guardia de gela-data (repo PÚBLICO): nada privado de GELA Tracker puede entrar.
 
 Revisa lo que va a entrar en un commit (o en un push) y lo frena si:
-  1. Un archivo está fuera de las carpetas permitidas (dane/, drafts/, .github/, .githooks/, tools/, README.md, .gitignore).
+  1. Un archivo está fuera de las carpetas permitidas (dane/, drafts/, arancel/, .github/, .githooks/, tools/, README.md, .gitignore).
   2. El nombre parece privado (data.json, copias, .env, bases de datos, claves).
   3. El contenido trae claves o tokens (Anthropic, GitHub, Google, AWS, Slack, llaves privadas).
   4. El contenido trae estructuras de GELA Tracker ("legalAnalyzer", "timeEntries", "linkedin": …).
@@ -21,7 +21,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ALLOWED = re.compile(r'^(dane/|drafts/|\.github/|\.githooks/|tools/|README\.md$|\.gitignore$)')
+ALLOWED = re.compile(r'^(dane/|drafts/|arancel/|\.github/|\.githooks/|tools/|README\.md$|\.gitignore$)')
 BAD_NAME = re.compile(r'(^|/)(data(\.backup[^/]*)?\.json|.*\.backup.*|\.env.*|.*\.(sqlite3?|db|pem|key|p12|pfx|keychain)|id_rsa.*|credentials.*|secrets?\..*|token.*)$', re.I)
 SECRETS = [
     (r'sk-ant-[A-Za-z0-9_-]{10,}', 'clave de Anthropic'),

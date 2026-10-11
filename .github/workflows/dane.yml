@@ -1,4 +1,4 @@
-name: DANE exportaciones (WOI)
+name: DANE exportaciones e importaciones (WOI y espejo)
 
 on:
   schedule:
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -29,8 +29,11 @@ jobs:
           python-version: '3.12'
       - name: Dependencias
         run: pip install pandas requests pycountry openpyxl xlrd pyreadstat dbfread pyarrow
-      - name: Actualizar
+      - name: Exportaciones
         run: python dane/update.py ${{ inputs.force && '--force' || '' }}
+      - name: Importaciones
+        if: always()
+        run: python dane/impo.py ${{ inputs.force && '--force' || '' }}
       - name: Guardar si cambió
         if: always()
         run: |
@@ -38,5 +41,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add dane
           python3 tools/guard.py --staged
-          git diff --cached --quiet || git commit -m "DANE: exportaciones actualizadas ($(date -u +%F))"
+          git diff --cached --quiet || git commit -m "DANE: exportaciones e importaciones actualizadas ($(date -u +%F))"
           git pull --rebase origin main && git push

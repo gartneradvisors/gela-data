@@ -89,17 +89,35 @@ def downloads(cid):
     return [(f'{BASE}/catalog/{cid}/download/{rid}', name or f'{cid}-{rid}') for rid, name in found.items()]
 
 
-def read_tables(blob, name):
+def sniff_sep(data):
+    """Separador del CSV mirando la primera línea (más rápido que sep=None en archivos grandes)."""
+    first = data[:8192].decode('latin-1', 'ignore').splitlines()[0] if data else ''
+    counts = {sep: first.count(sep) for sep in (';', ',', '\t', '|')}
+    sep = max(counts, key=counts.get)
+    return sep if counts[sep] else None
+
+
+def read_tables(blob, name, usecols=None):
     """DataFrames dentro de un ZIP (también ZIP dentro de ZIP) o archivo suelto.
-    Formatos: CSV/TXT/DAT, Excel, SPSS (.sav), Stata (.dta), SAS (.sas7bdat), dBase (.dbf), Parquet."""
+    Formatos: CSV/TXT/DAT, Excel, SPSS (.sav), Stata (.dta), SAS (.sas7bdat), dBase (.dbf), Parquet.
+    usecols: función nombre_de_columna -> bool, para leer solo lo necesario (importaciones)."""
+    pick = (lambda c: usecols(str(c).replace('\ufeff', '').strip().upper())) if usecols else None
     def one(data, fname):
         low = fname.lower()
         if low.endswith(('.csv', '.txt', '.dat', '.tsv')):
+            sep = sniff_sep(data)
             for enc in ('utf-8-sig', 'latin-1'):
                 try:
-                    return pd.read_csv(io.BytesIO(data), sep=None, engine='python', dtype=str, encoding=enc)
+                    if sep:
+                        return pd.read_csv(io.BytesIO(data), sep=sep, dtype=str, encoding=enc, usecols=pick, keep_default_na=False)
+                    return pd.read_csv(io.BytesIO(data), sep=None, engine='python', dtype=str, encoding=enc, usecols=pick)
                 except UnicodeDecodeError:
                     continue
+                except (pd.errors.ParserError, ValueError):
+                    try:
+                        return pd.read_csv(io.BytesIO(data), sep=None, engine='python', dtype=str, encoding=enc, usecols=pick)
+                    except UnicodeDecodeError:
+                        continue
         if low.endswith(('.xlsx', '.xls')):
             return pd.read_excel(io.BytesIO(data), dtype=str)
         if low.endswith(('.sav', '.zsav', '.dta', '.sas7bdat', '.por')):
@@ -108,6 +126,8 @@ def read_tables(blob, name):
             with tempfile.NamedTemporaryFile(suffix=os.path.splitext(low)[1]) as t:
                 t.write(data); t.flush()
                 df, _ = reader(t.name)
+                if pick:
+                    df = df[[c for c in df.columns if pick(c)]]
                 return df.astype(str)
         if low.endswith('.dbf'):
             from dbfread import DBF
@@ -134,7 +154,7 @@ def read_tables(blob, name):
                 continue
             data = z.read(n)
             if n.lower().endswith('.zip') or zipfile.is_zipfile(io.BytesIO(data)) and not n.lower().endswith(('.xlsx',)):
-                yield from read_tables(data, n)
+                yield from read_tables(data, n, usecols)
                 continue
             try:
                 df = one(data, n)
@@ -214,6 +234,11 @@ def main():
     iso = iso2_map()
     meta = load_json(META, {})
     changed = False
+    try:
+        import paises
+        paises.refresh(S, log)
+    except Exception as e:  # noqa: BLE001
+        log('Correlativa de países: falló', repr(e))
     allfiles = []
     for cid in catalogs('EXPO', a.years):
         try:
@@ -281,7 +306,8 @@ def main():
             state['files'][url] = sig
             changed = True
             log(f'  {name}: {len(new)} filas, meses {min(months)} a {max(months)}')
-    if not changed and (os.path.isdir(OUT) or master.empty) and not a.force:
+    # Sin archivos nuevos no se rehace nada, salvo que falten los nombres de la serie 900 (primera vez).
+    if not changed and (os.path.isdir(OUT) or master.empty) and not a.force and 'unmappedNames' in meta:
         log('Nada nuevo.' if not master.empty else 'Sin datos todavía: revisa dane/debug/.'); return
     master = master.sort_values(['hs6', 'ctry', 'month'])
     master.to_csv(MASTER, index=False, compression='gzip')
@@ -291,15 +317,24 @@ def main():
     asof = datetime.now(timezone.utc).isoformat(timespec='seconds')
     m4 = master.assign(hs4=master['hs6'].str[:4]).groupby(['hs4', 'ctry', 'month'], as_index=False)['fob'].sum().rename(columns={'hs4': 'hs'})
     both = pd.concat([master.rename(columns={'hs6': 'hs'}), m4])
+    try:
+        import paises
+        mp = paises.maps()
+        unk = sorted({c for c in master['ctry'].unique() if str(c).startswith('DIAN:')})
+        names = {c: d for c in unk if (d := paises.describe(c[5:], mp))}
+    except Exception as e:  # noqa: BLE001
+        log('Nombres de códigos sin país: no disponibles', repr(e)); names = {}
     for ch, part in both.groupby(both['hs'].str[:2]):
         codes = defaultdict(lambda: defaultdict(dict))
         for hs, c, m, f in part[['hs', 'ctry', 'month', 'fob']].itertuples(index=False):
             if f > 0:
                 codes[hs][c][m] = int(round(f))
         with open(os.path.join(OUT, f'{ch}.json'), 'w', encoding='utf-8') as fh:
-            json.dump({'asOf': asof, 'lastMonth': last, 'unit': 'USD FOB', 'source': 'DANE, microdatos de exportaciones', 'codes': codes}, fh, separators=(',', ':'))
+            used = {c for v in codes.values() for c in v if c in names}
+            json.dump({'asOf': asof, 'lastMonth': last, 'unit': 'USD FOB', 'source': 'DANE, microdatos de exportaciones', 'codes': codes, 'names': {c: names[c] for c in sorted(used)}}, fh, separators=(',', ':'))
     meta.update({'asOf': asof, 'lastMonth': last, 'months': sorted(master['month'].unique().tolist()), 'rows': int(len(master)),
-                 'unmappedCountries': sorted({c for c in master['ctry'].unique() if str(c).startswith('DIAN:')})[:200]})
+                 'unmappedCountries': sorted({c for c in master['ctry'].unique() if str(c).startswith('DIAN:')})[:200],
+                 'unmappedNames': names})
     with open(META, 'w', encoding='utf-8') as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=1)
     with open(STATE, 'w', encoding='utf-8') as fh:
