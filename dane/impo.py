@@ -167,6 +167,7 @@ def build_outputs(meta):
     acu = rr.groupby('acu').agg(cif=('cif', 'sum'), rw=('rw', 'sum'), imp1=('imp1', 'sum'), vacip=('vacip', 'sum')).sort_values('cif', ascending=False).head(25)
     acu_org = rr.groupby(['acu', 'org'])['cif'].sum().reset_index().sort_values('cif', ascending=False)
     tot_cif = float(rr['cif'].sum()) or 1.0
+    meta.pop('paidVsApplied', None)
     meta.update({
         'asOf': asof, 'lastMonth': last, 'months': months, 'rowsFlows': int(len(flows)), 'rowsRates': int(len(rates)),
         'cifUsdMillionsByYear': yt.to_dict(),
@@ -229,7 +230,10 @@ def main():
             df.columns = [str(c).replace('﻿', '').strip().upper() for c in df.columns]
             try:
                 which, rep = choose_map(df, cands)
-                fl, rt, scale = aggregate(df, cands[which])
+                # El mapa aprendido de exportaciones no tiene los países a los que Colombia no exporta
+                # (Burundi, Bután…): en archivos con códigos DIAN/ALADI se completa con la correlativa.
+                cmap = cands[which] if which == 'm49' else {**cands['aladi'], **cands[which]}
+                fl, rt, scale = aggregate(df, cmap)
             except Exception as e:  # noqa: BLE001
                 log(f'    {fname}: no se pudo agregar ({e})'); continue
             fparts.append(fl); rparts.append(rt)
