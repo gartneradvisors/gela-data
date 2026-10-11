@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-11T13:34:11+00:00",
+ "asOf": "2026-10-11T17:01:40+00:00",
  "lastMonth": "2026-08",
  "months": [
   "2023-01",
@@ -52,18 +52,12 @@
   "DIAN:129",
   "DIAN:202",
   "DIAN:217",
-  "DIAN:285",
-  "DIAN:41",
-  "DIAN:420",
   "DIAN:497",
-  "DIAN:542",
-  "DIAN:599",
   "DIAN:621",
   "DIAN:631",
   "DIAN:637",
   "DIAN:651",
   "DIAN:731",
-  "DIAN:759",
   "DIAN:794",
   "DIAN:825",
   "DIAN:903",
@@ -317,9 +311,9 @@
      "249"
     ],
     "COD_PAI4": [
-     "MNP",
-     "BWA",
-     "BWA"
+     "",
+     "",
+     ""
     ],
     "COD_SAL1": [
      "0",
@@ -807,28 +801,8 @@
    "name": "ZFP Parque Central Casanare S.A",
    "zonaFranca": true
   },
-  "DIAN:285": {
-   "name": "Gambia",
-   "zonaFranca": false
-  },
-  "DIAN:41": {
-   "name": "Anguila",
-   "zonaFranca": false
-  },
-  "DIAN:420": {
-   "name": "República Democrática Popular Lao",
-   "zonaFranca": false
-  },
   "DIAN:497": {
    "name": "Mongolia",
-   "zonaFranca": false
-  },
-  "DIAN:542": {
-   "name": "Nueva Caledonia",
-   "zonaFranca": false
-  },
-  "DIAN:599": {
-   "name": "Polinesia Francesa",
    "zonaFranca": false
   },
   "DIAN:621": {
@@ -849,10 +823,6 @@
   },
   "DIAN:731": {
    "name": "Seychelles",
-   "zonaFranca": false
-  },
-  "DIAN:759": {
-   "name": "Sudán",
    "zonaFranca": false
   },
   "DIAN:794": {
