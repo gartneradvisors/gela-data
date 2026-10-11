@@ -19,7 +19,7 @@ import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 REF = os.path.join(HERE, 'ref', 'paises.json')
 CORRELATIVA_URL = 'https://microdatos.dane.gov.co/index.php/catalog/856/download/24687'
-ZF = re.compile(r'zona\s*franca|\bz\.?\s?f\.?\b|usuario\s+industrial|parque\s+industrial', re.I)
+ZF = re.compile(r'zona\s*franca|\bzf[a-z]{0,3}\b|\bz\.f\.|usuario\s+industrial|parque\s+industrial', re.I)
 
 
 def norm(c):
@@ -41,9 +41,11 @@ def parse_correlativa(blob):
     for sh, df in xl.items():
         df = df.fillna('')
         hdr = None
+        # La fila de encabezados tiene celdas cortas que nombran ALADI o M49 ("Código ALADI", "M49 Code");
+        # el título de la hoja también las nombra, pero en una celda larga.
         for i in range(min(25, len(df))):
-            vals = ' | '.join(str(v).upper() for v in df.iloc[i].tolist())
-            if 'ALADI' in vals or 'M49' in vals or 'M 49' in vals:
+            cells = [str(v).strip() for v in df.iloc[i].tolist() if str(v).strip()]
+            if len(cells) >= 3 and any(re.search(r'aladi|m\s?49', v, re.I) and len(v) < 40 for v in cells):
                 hdr = i; break
         if hdr is None:
             out['sheets'].append({'sheet': sh, 'note': 'sin encabezado ALADI/M49', 'head': df.head(5).values.tolist()})
@@ -52,22 +54,25 @@ def parse_correlativa(blob):
         body = df.iloc[hdr + 1:].copy(); body.columns = cols
         numeric = {c: body[c].astype(str).str.strip().str.fullmatch(r'\d{1,4}(\.0+)?').mean() for c in cols}
         code_cols = [c for c in cols if numeric[c] > 0.6]
-        name_cols = [c for c in cols if numeric[c] < 0.2 and body[c].astype(str).str.len().mean() > 3]
+        name_cols = [c for c in cols if numeric[c] < 0.2 and body[c].astype(str).str.len().mean() > 3 and not re.search(r'ISO', c.upper())]
         ala = next((c for c in code_cols if 'ALADI' in c.upper()), None)
         m49 = next((c for c in code_cols if re.search(r'M\s?49|ONU|UN\b|ISO', c.upper())), None)
         if not ala and len(code_cols) >= 1: ala = code_cols[0]
         if not m49 and len(code_cols) >= 2: m49 = next(c for c in code_cols if c != ala)
+        iso3 = next((c for c in cols if re.search(r'ISO', c.upper()) and c not in code_cols), None)
         ala_name = next((c for c in name_cols if 'ALADI' in c.upper()), name_cols[0] if name_cols else None)
         m49_name = next((c for c in name_cols if re.search(r'M\s?49|ONU', c.upper())), ala_name)
-        out['sheets'].append({'sheet': sh, 'columns': cols, 'aladi': ala, 'm49': m49, 'names': name_cols, 'rows': int(len(body)), 'head': body.head(4).values.tolist()})
+        out['sheets'].append({'sheet': sh, 'columns': cols, 'aladi': ala, 'm49': m49, 'iso3': iso3, 'names': name_cols, 'rows': int(len(body)), 'head': body.head(4).values.tolist()})
         for _, r in body.iterrows():
             a, m = norm(r.get(ala, '')) if ala else '', norm(r.get(m49, '')) if m49 else ''
             na = str(r.get(ala_name, '')).strip() if ala_name else ''
             nm = str(r.get(m49_name, '')).strip() if m49_name else na
+            i3 = str(r.get(iso3, '')).strip().upper() if iso3 else ''
+            i3 = i3 if re.fullmatch(r'[A-Z]{3}', i3) else None
             if a:
-                out['aladi'].setdefault(a, {'m49': m or None, 'name': na or nm})
+                out['aladi'].setdefault(a, {'m49': m or None, 'iso3': i3, 'name': na or nm})
             if m:
-                out['m49'].setdefault(m, {'aladi': a or None, 'name': nm or na})
+                out['m49'].setdefault(m, {'aladi': a or None, 'iso3': i3, 'name': nm or na})
     return out
 
 
@@ -83,6 +88,10 @@ def refresh(session, log=print):
     except Exception as e:  # noqa: BLE001
         log('Correlativa ALADI-M49: no se pudo leer', repr(e))
         return load()
+    old = load()
+    if all(old.get(k) == corr[k] for k in ('aladi', 'm49')) and old.get('asOf'):
+        log(f'Correlativa ALADI-M49: sin cambios ({len(corr["aladi"])} códigos)')
+        return old
     data = {'asOf': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'source': CORRELATIVA_URL, **corr}
     os.makedirs(os.path.dirname(REF), exist_ok=True)
     with open(REF, 'w', encoding='utf-8') as fh:
@@ -102,12 +111,16 @@ def load():
 def maps(ref=None):
     """{'m49': código→ISO2, 'aladi': código→ISO2} y nombres de cualquier código."""
     ref = ref or load()
+    import pycountry
     iso, iso_name = _iso_numeric()
+    a3 = {c.alpha_3: c.alpha_2 for c in pycountry.countries}
     m49 = dict(iso)
     aladi = {}
     for a, v in (ref.get('aladi') or {}).items():
         m = norm(v.get('m49') or '')
-        if m in iso:
+        if v.get('iso3') in a3:
+            aladi[a] = a3[v['iso3']]
+        elif m in iso and not ZF.search(v.get('name') or ''):
             aladi[a] = iso[m]
     names = {}
     for a, v in (ref.get('aladi') or {}).items():
@@ -116,14 +129,17 @@ def maps(ref=None):
         names.setdefault(('m49', m), v.get('name') or iso_name.get(m))
     for m, n in iso_name.items():
         names.setdefault(('m49', m), n)
-    return {'m49': m49, 'aladi': aladi, 'names': names}
+    corr = {('aladi', a) for a in (ref.get('aladi') or {})} | {('m49', m) for m in (ref.get('m49') or {})}
+    return {'m49': m49, 'aladi': aladi, 'names': names, 'corr': corr}
 
 
 def describe(code, mp, prefer=('m49', 'aladi')):
-    """Nombre y marca de zona franca para un código que no se pudo pasar a ISO2."""
+    """Nombre y marca de zona franca para un código que no se pudo pasar a ISO2.
+    Los códigos sin país vienen de la correlativa (zonas francas y otros destinos
+    especiales); se prefieren a los nombres de país ISO, que no aplican aquí."""
     c = norm(code)
-    for sys_ in prefer:
-        n = mp['names'].get((sys_, c))
+    corr = [mp['names'].get((s, c)) for s in prefer if (s, c) in mp.get('corr', set())]
+    for n in corr + [mp['names'].get((s, c)) for s in prefer]:
         if n:
-            return {'name': n, 'system': sys_, 'zonaFranca': bool(ZF.search(n))}
+            return {'name': n, 'zonaFranca': bool(ZF.search(n))}
     return None

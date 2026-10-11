@@ -6,8 +6,8 @@ baja los archivos anuales que cambiaron (dane/state_impo.json).
 Qué saca de cada declaración de importación:
   - valor FOB (VAFODO) y CIF (VACID) en USD, por producto HS6, país de ORIGEN
     (PAISGEN), país de PROCEDENCIA (PAISPRO) y mes;
-  - el arancel aplicado (PORARA, ponderado por el valor CIF) y el pagado
-    (IMP1 sobre VACIP), por acuerdo comercial (ACUERDO).
+  - el arancel aplicado (PORARA, ponderado por el valor CIF), por acuerdo
+    comercial (ACUERDO). IMP1 es el IVA, no el arancel (se comprobó con los datos).
 
 Con eso la app puede:
   1. cruzar lo que Colombia dice que importó de un país con lo que ese país dice
@@ -138,12 +138,10 @@ def build_outputs(meta):
         cif = float(g['cif'].sum())
         if cif <= 0:
             continue
-        vacip = float(g['vacip'].sum())
         agr = g.assign(share=g['cif'] / cif, ap=(g['rw'] / g['cif'].where(g['cif'] > 0))).sort_values('cif', ascending=False).head(5)
         out[hs[:4]]['rates'][hs][o] = {
             'cif': int(round(cif)),
             'applied': round(float(g['rw'].sum()) / cif, 2),
-            'paid': round(float(g['imp1'].sum()) / vacip * 100, 2) if vacip > 0 else None,
             'agreements': {a: [round(float(s), 3), round(float(p), 2) if p == p else None] for a, s, p in agr[['acu', 'share', 'ap']].itertuples(index=False)},
         }
     for (hs, o), g in routes.groupby(['hs6', 'org']):
@@ -176,10 +174,10 @@ def build_outputs(meta):
         'indirectShareLast12m': round(float(ind['cif'].sum()) / max(1.0, float(lw['cif'].sum())), 3),
         'topIndirectRoutesLast12m': [[o, p, round(c / 1e6, 1)] for o, p, c in ind.groupby(['org', 'pro'])['cif'].sum().sort_values(ascending=False).head(20).reset_index().itertuples(index=False)],
         'agreementsLast12m': [{'acuerdo': a, 'cifShare': round(float(v.cif) / tot_cif, 3), 'applied': round(float(v.rw / v.cif), 2) if v.cif else None,
-                               'paid': round(float(v.imp1 / v.vacip * 100), 2) if v.vacip else None,
                                'topOrigins': acu_org[acu_org['acu'] == a].head(6)['org'].tolist()} for a, v in acu.iterrows()],
-        'paidVsApplied': round(float(rr['imp1'].sum() / rr['vacip'].sum() * 100) / max(1e-9, float(rr['rw'].sum() / rr['cif'].sum())), 2) if rr['vacip'].sum() and rr['rw'].sum() else None,
-        'unmapped': unk[:200], 'unmappedNames': names,
+        # IMP1 resultó ser el IVA pagado (10/2026: 19 % sobre CIF en pesos + arancel), no el arancel; se guarda en la base pero no se publica.
+        'ivaOverCifPct': round(float(rr['imp1'].sum() / rr['vacip'].sum() * 100), 2) if rr['vacip'].sum() else None,
+        'unmapped': unk[:200], 'unmappedNames': names, 'paisesAsOf': P.load().get('asOf'),
     })
     with open(META, 'w', encoding='utf-8') as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=1)
@@ -251,7 +249,7 @@ def main():
         state['files'][url] = sig
         changed = True
         log(f'  {name}: {len(fl)} filas, meses {fl["month"].min()} a {fl["month"].max()}')
-    if not changed and os.path.isdir(OUT) and not a.force:
+    if not changed and os.path.isdir(OUT) and not a.force and meta.get('paisesAsOf') == P.load().get('asOf'):
         log('Nada nuevo.'); return
     build_outputs(meta)
     with open(STATE, 'w', encoding='utf-8') as fh:

@@ -306,8 +306,8 @@ def main():
             state['files'][url] = sig
             changed = True
             log(f'  {name}: {len(new)} filas, meses {min(months)} a {max(months)}')
-    # Sin archivos nuevos no se rehace nada, salvo que falten los nombres de la serie 900 (primera vez).
-    if not changed and (os.path.isdir(OUT) or master.empty) and not a.force and 'unmappedNames' in meta:
+    # Sin archivos nuevos no se rehace nada, salvo que haya cambiado la correlativa de países (nombres de la serie 900).
+    if not changed and (os.path.isdir(OUT) or master.empty) and not a.force and meta.get('paisesAsOf') == __import__('paises').load().get('asOf'):
         log('Nada nuevo.' if not master.empty else 'Sin datos todavía: revisa dane/debug/.'); return
     master = master.sort_values(['hs6', 'ctry', 'month'])
     master.to_csv(MASTER, index=False, compression='gzip')
@@ -334,7 +334,7 @@ def main():
             json.dump({'asOf': asof, 'lastMonth': last, 'unit': 'USD FOB', 'source': 'DANE, microdatos de exportaciones', 'codes': codes, 'names': {c: names[c] for c in sorted(used)}}, fh, separators=(',', ':'))
     meta.update({'asOf': asof, 'lastMonth': last, 'months': sorted(master['month'].unique().tolist()), 'rows': int(len(master)),
                  'unmappedCountries': sorted({c for c in master['ctry'].unique() if str(c).startswith('DIAN:')})[:200],
-                 'unmappedNames': names})
+                 'unmappedNames': names, 'paisesAsOf': __import__('paises').load().get('asOf')})
     with open(META, 'w', encoding='utf-8') as fh:
         json.dump(meta, fh, ensure_ascii=False, indent=1)
     with open(STATE, 'w', encoding='utf-8') as fh:
