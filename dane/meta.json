@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-11T13:09:01+00:00",
+ "asOf": "2026-10-11T13:34:11+00:00",
  "lastMonth": "2026-08",
  "months": [
   "2023-01",
@@ -796,169 +796,173 @@
  },
  "unmappedNames": {
   "DIAN:129": {
-   "name": "ZONA FRANCA PERMANENTE GACHANCIPA/ZOFRANDINA/EXXENTA",
-   "system": "m49",
+   "name": "ZFP Gachancipá/Zofrandina/Exxenta",
    "zonaFranca": true
   },
   "DIAN:202": {
-   "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO INDUSTRIAL DEL PACÍFICO - CLIP S.A.S.",
-   "system": "m49",
+   "name": "ZFP Centro Logístico Industrial del Pacífico - CLIP S.A.S",
    "zonaFranca": true
   },
   "DIAN:217": {
-   "name": "ZONA FRANCA PERMANENTE CENTRAL DEL CASANARE S.A.",
-   "system": "m49",
+   "name": "ZFP Parque Central Casanare S.A",
    "zonaFranca": true
   },
+  "DIAN:285": {
+   "name": "Gambia",
+   "zonaFranca": false
+  },
+  "DIAN:41": {
+   "name": "Anguila",
+   "zonaFranca": false
+  },
+  "DIAN:420": {
+   "name": "República Democrática Popular Lao",
+   "zonaFranca": false
+  },
+  "DIAN:497": {
+   "name": "Mongolia",
+   "zonaFranca": false
+  },
+  "DIAN:542": {
+   "name": "Nueva Caledonia",
+   "zonaFranca": false
+  },
+  "DIAN:599": {
+   "name": "Polinesia Francesa",
+   "zonaFranca": false
+  },
   "DIAN:621": {
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL VALLE DE ABURRÁ S.A.S. - ZOFIVA",
-   "system": "m49",
+   "name": "ZFP Internacional Valle de Aburrá S.A.S - \"ZOFIVA\"",
    "zonaFranca": true
   },
   "DIAN:631": {
-   "name": "ZONA FRANCA PERMANENTE PALERMO Usuario Operador de Zona Franca S.A.S.",
-   "system": "m49",
+   "name": "ZFP Palermo Usuario Operador de Zona Franca S.A.S",
    "zonaFranca": true
   },
   "DIAN:637": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA MARDIQUE S.A.",
-   "system": "m49",
+   "name": "ZFPE Sociedad Portuaria Mardique S.A.",
    "zonaFranca": true
   },
   "DIAN:651": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO MAMONAL S.A. SOCIEDAD PORTUARIA",
-   "system": "m49",
+   "name": "ZFPE Puerto Mamonal S.A Sociedad Portuaria",
    "zonaFranca": true
+  },
+  "DIAN:731": {
+   "name": "Seychelles",
+   "zonaFranca": false
+  },
+  "DIAN:759": {
+   "name": "Sudán",
+   "zonaFranca": false
   },
   "DIAN:794": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL EMPRESA COLOMBIANA DE CEMENTOS S.A.S. - ECOCEMENTOS S.A.S.",
-   "system": "m49",
+   "name": "ZFPE Empresa Colombiana de Cementos S.A.S. - \"Ecocementos S.A.S\"",
    "zonaFranca": true
   },
+  "DIAN:825": {
+   "name": "Turkmenistán",
+   "zonaFranca": false
+  },
   "DIAN:903": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CEMENTERA DEL MAGDALENA MEDIO - ZOMAM",
-   "system": "m49",
+   "name": "ZFPE Cementera del Magdalena Medio S.A.S \"ZOMAN\"",
    "zonaFranca": true
   },
   "DIAN:911": {
-   "name": "ZONA FRANCA PERMANENTE BARRANQUILLA",
-   "system": "m49",
+   "name": "ZFP de Barranquilla",
    "zonaFranca": true
   },
   "DIAN:913": {
-   "name": "ZONA FRANCA PERMANENTE PALMASECA",
-   "system": "m49",
+   "name": "ZFP de Palmaseca",
    "zonaFranca": true
   },
   "DIAN:915": {
-   "name": "ZONA FRANCA PERMANENTE SANTA MARTA",
-   "system": "m49",
+   "name": "ZFP de Santa Marta",
    "zonaFranca": true
   },
   "DIAN:916": {
-   "name": "ZONA FRANCA PERMANENTE CARTAGENA",
-   "system": "m49",
+   "name": "ZFP de Cartagena",
    "zonaFranca": true
   },
   "DIAN:917": {
-   "name": "ZONA FRANCA PERMANENTE RIONEGRO S.A.",
-   "system": "m49",
+   "name": "ZFP de Rionegro S.A. Usuario Operador de Zona Franca",
    "zonaFranca": true
   },
   "DIAN:918": {
-   "name": "ZONA FRANCA PERMANENTE CANDELARIA",
-   "system": "m49",
+   "name": "ZFP Candelaria",
    "zonaFranca": true
   },
   "DIAN:919": {
-   "name": "ZONA FRANCA PERMANENTE BOGOTÁ",
-   "system": "m49",
+   "name": "ZFP de Bogotá",
    "zonaFranca": true
   },
   "DIAN:920": {
-   "name": "ZONA FRANCA PERMANENTE PACIFICO",
-   "system": "m49",
+   "name": "ZFP de Pacífico",
    "zonaFranca": true
   },
   "DIAN:924": {
-   "name": "ZONA FRANCA PERMANENTE QUINDÍO O EJE CAFETERO",
-   "system": "m49",
+   "name": "ZFP Quindío Zona Franca S.A. Usuario Operador de Zona Franca en Reorganización",
    "zonaFranca": true
   },
   "DIAN:928": {
-   "name": "ZONA FRANCA PERMANENTE LA CAYENA",
-   "system": "m49",
+   "name": "ZFP La Cayena",
    "zonaFranca": true
   },
   "DIAN:929": {
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL ATLÁNTICO - ZOFIA",
-   "system": "m49",
+   "name": "ZFP Internacional del Atlántico - ZOFIA",
    "zonaFranca": true
   },
   "DIAN:934": {
-   "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL DEXTÓN S.A.S.",
-   "system": "m49",
+   "name": "ZFP Parque Industrial Dexton S.A.S Usuario Operador de Zona Franca",
    "zonaFranca": true
   },
   "DIAN:939": {
-   "name": "ZONA FRANCA PERMANENTE INTEXZONA S.A.",
-   "system": "m49",
+   "name": "ZFP Intexzona S.A",
    "zonaFranca": true
   },
   "DIAN:940": {
-   "name": "ZONA FRANCA PERMANENTE TAYRONA S.A.",
-   "system": "m49",
+   "name": "ZFP Tayrona S.A",
    "zonaFranca": true
   },
   "DIAN:943": {
-   "name": "ZONA FRANCA PERMANENTE LAS AMERICAS S.A.S.",
-   "system": "m49",
+   "name": "ZFP Las Américas S.A.S",
    "zonaFranca": true
   },
   "DIAN:954": {
-   "name": "ZONA FRANCA PERMANENTE OCCIDENTE S.A.S.",
-   "system": "m49",
+   "name": "ZFP de Occidente S.A.S",
    "zonaFranca": true
   },
   "DIAN:960": {
-   "name": "ZONA FRANCA PERMANENTE TOCANCIPÁ S.A.",
-   "system": "m49",
+   "name": "ZFP de Tocancipá",
    "zonaFranca": true
   },
   "DIAN:969": {
    "name": "ZFP Cencauca(parque industrial caloto)",
-   "system": "m49",
    "zonaFranca": true
   },
   "DIAN:974": {
-   "name": "ZONA FRANCA PERMANENTE METROPOLITANA S.A.S.",
-   "system": "m49",
+   "name": "ZFP Metropolitana S.A.S",
    "zonaFranca": true
   },
   "DIAN:976": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BIONERGY S.A.S.",
-   "system": "m49",
+   "name": "ZFPE Bioenergy ZF S.A.S",
    "zonaFranca": true
   },
   "DIAN:985": {
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DE PEREIRA S.A.S.",
-   "system": "m49",
+   "name": "ZFP Internacional de Pereira S.A.S Usuario Operador de Zonas Francas",
    "zonaFranca": true
   },
   "DIAN:989": {
-   "name": "ZONA FRANCA PERMANENTE PARQUE CENTRAL S.A.S.",
-   "system": "m49",
+   "name": "ZFP Parque Central S.A.S",
    "zonaFranca": true
   },
   "DIAN:991": {
-   "name": "ZONA FRANCA PERMANENTE CONJUNTO INDUSTRIAL PARQUE SUR",
-   "system": "m49",
+   "name": "ZFP Conjunto Industrial Parque Sur",
    "zonaFranca": true
   },
   "DIAN:997": {
-   "name": "ZONA FRANCA PERMANENTE SURCOLOMBIANA S.A.S",
-   "system": "m49",
+   "name": "ZFP Surcolombiana S.A.S",
    "zonaFranca": true
   }
- }
+ },
+ "paisesAsOf": "2026-10-11T13:34:06+00:00"
 }

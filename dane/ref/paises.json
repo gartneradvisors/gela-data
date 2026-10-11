@@ -1,3463 +1,4311 @@
 {
- "asOf": "2026-10-11T13:08:57+00:00",
+ "asOf": "2026-10-11T13:34:06+00:00",
  "source": "https://microdatos.dane.gov.co/index.php/catalog/856/download/24687",
  "aladi": {
   "1": {
    "m49": "1",
+   "iso3": "XCF",
    "name": "ZFPE Aceites y grasas del Catatumbo"
   },
   "2": {
    "m49": "2",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ZFB EL DORADO S.A.S"
   },
   "3": {
    "m49": "3",
+   "iso3": "XCF",
    "name": "ZFP Costa Afuera ECOPETROL Colombia S.A.S"
   },
-  "4": {
+  "13": {
    "m49": "4",
+   "iso3": "AFG",
    "name": "Afganistán"
   },
-  "8": {
+  "17": {
    "m49": "8",
+   "iso3": "ALB",
    "name": "Albania"
   },
-  "10": {
+  "24": {
    "m49": "10",
+   "iso3": "ATA",
    "name": "Antártida"
   },
-  "12": {
+  "59": {
    "m49": "12",
+   "iso3": "DZA",
    "name": "Argelia"
   },
-  "16": {
+  "690": {
    "m49": "16",
+   "iso3": "ASM",
    "name": "Samoa Americana"
   },
-  "20": {
+  "37": {
    "m49": "20",
+   "iso3": "AND",
    "name": "Andorra"
   },
   "22": {
    "m49": "22",
+   "iso3": "XCF",
    "name": "ZFPE de Servicios TDCX"
   },
-  "24": {
+  "40": {
    "m49": "24",
+   "iso3": "AGO",
    "name": "Angola"
   },
-  "28": {
+  "43": {
    "m49": "28",
+   "iso3": "ATG",
    "name": "Antigua y Barbuda"
   },
-  "31": {
+  "74": {
    "m49": "31",
+   "iso3": "AZE",
    "name": "Azerbaiyán"
   },
-  "32": {
+  "63": {
    "m49": "32",
+   "iso3": "ARG",
    "name": "Argentina"
   },
-  "36": {
+  "69": {
    "m49": "36",
+   "iso3": "AUS",
    "name": "Australia"
   },
-  "40": {
+  "72": {
    "m49": "40",
+   "iso3": "AUT",
    "name": "Austria"
   },
-  "44": {
+  "77": {
    "m49": "44",
+   "iso3": "BHS",
    "name": "Bahamas"
   },
-  "48": {
+  "80": {
    "m49": "48",
+   "iso3": "BHR",
    "name": "Bahrein"
   },
-  "50": {
+  "81": {
    "m49": "50",
+   "iso3": "BGD",
    "name": "Bangladesh"
   },
-  "51": {
+  "26": {
    "m49": "51",
+   "iso3": "ARM",
    "name": "Armenia"
   },
-  "52": {
+  "83": {
    "m49": "52",
+   "iso3": "BRB",
    "name": "Barbados"
   },
-  "56": {
+  "87": {
    "m49": "56",
+   "iso3": "BEL",
    "name": "Bélgica"
   },
-  "60": {
+  "90": {
    "m49": "60",
+   "iso3": "BMU",
    "name": "Bermudas"
   },
-  "64": {
+  "119": {
    "m49": "64",
+   "iso3": "BTN",
    "name": "Bhután"
   },
-  "68": {
+  "97": {
    "m49": "68",
+   "iso3": "BOL",
    "name": "Bolivia (Estado Plurinacional de)"
   },
-  "70": {
+  "29": {
    "m49": "70",
+   "iso3": "BIH",
    "name": "Bosnia y Herzegovina"
   },
-  "72": {
+  "101": {
    "m49": "72",
+   "iso3": "BWA",
    "name": "Botswana"
   },
-  "74": {
+  "102": {
    "m49": "74",
+   "iso3": "BVT",
    "name": "Isla Bouvet"
   },
-  "76": {
+  "105": {
    "m49": "76",
+   "iso3": "BRA",
    "name": "Brasil"
   },
-  "84": {
+  "88": {
    "m49": "84",
+   "iso3": "BLZ",
    "name": "Belice"
   },
-  "86": {
+  "787": {
    "m49": "86",
+   "iso3": "IOT",
    "name": "Territorio Británico del Océano Índico"
   },
-  "90": {
+  "677": {
    "m49": "90",
+   "iso3": "SLB",
    "name": "Islas Salomón"
   },
-  "92": {
+  "863": {
    "m49": "92",
+   "iso3": "VGB",
    "name": "Islas Vírgenes Británicas"
   },
-  "96": {
+  "108": {
    "m49": "96",
+   "iso3": "BRN",
    "name": "Brunei Darussalam"
   },
-  "100": {
+  "111": {
    "m49": "100",
+   "iso3": "BGR",
    "name": "Bulgaria"
   },
-  "104": {
+  "93": {
    "m49": "104",
+   "iso3": "MMR",
    "name": "Myanmar"
   },
-  "108": {
+  "115": {
    "m49": "108",
+   "iso3": "BDI",
    "name": "Burundi"
   },
-  "112": {
+  "91": {
    "m49": "112",
+   "iso3": "BLR",
    "name": "Belarús"
   },
-  "116": {
+  "141": {
    "m49": "116",
+   "iso3": "KHM",
    "name": "Camboya"
   },
-  "120": {
+  "145": {
    "m49": "120",
+   "iso3": "CMR",
    "name": "Camerún"
   },
-  "124": {
+  "149": {
    "m49": "124",
+   "iso3": "CAN",
    "name": "Canadá"
   },
   "129": {
    "m49": "129",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE GACHANCIPA/ZOFRANDINA/EXXENTA"
   },
   "130": {
    "m49": "130",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL INDUSTRIAL COLMOTORES S.A.S. - ZOFICOL S.A.S."
   },
   "131": {
    "m49": "131",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TABLEMAC MDF S.A.S."
   },
-  "132": {
+  "127": {
    "m49": "132",
+   "iso3": "CPV",
    "name": "Cabo Verde"
   },
   "133": {
    "m49": "133",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ACEITES CIMARRONES S.A.S."
   },
   "134": {
    "m49": "134",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BRISA"
   },
   "135": {
    "m49": "135",
+   "iso3": "XCF",
    "name": "ZFPE Clinica Cardiovascular Corazón Joven"
   },
-  "136": {
+  "137": {
    "m49": "136",
+   "iso3": "CYM",
    "name": "Islas Caimán"
   },
-  "140": {
+  "640": {
    "m49": "140",
+   "iso3": "CAF",
    "name": "República Centroafricana"
   },
-  "144": {
+  "750": {
    "m49": "144",
+   "iso3": "LKA",
    "name": "Sri Lanka"
   },
-  "148": {
+  "203": {
    "m49": "148",
+   "iso3": "TCD",
    "name": "Chad"
   },
-  "152": {
+  "211": {
    "m49": "152",
+   "iso3": "CHL",
    "name": "Chile"
   },
   "155": {
    "m49": "155",
+   "iso3": "ZZZ",
    "name": "CANAL, ISLAS (NORMANDAS)"
   },
-  "156": {
+  "215": {
    "m49": "156",
+   "iso3": "CHN",
    "name": "China"
   },
   "157": {
    "m49": "157",
+   "iso3": "ZZZ",
    "name": "CANTON Y ENDERBURY, ISL"
   },
-  "158": {
+  "218": {
    "m49": "158",
+   "iso3": "TWN",
    "name": "Taiwán"
   },
-  "162": {
+  "511": {
    "m49": "162",
+   "iso3": "CXR",
    "name": "Isla de Navidad"
   },
-  "166": {
+  "165": {
    "m49": "166",
+   "iso3": "CCK",
    "name": "Islas Cocos (Keeling)"
   },
-  "170": {
+  "169": {
    "m49": "170",
+   "iso3": "COL",
    "name": "Colombia"
   },
-  "174": {
+  "173": {
    "m49": "174",
+   "iso3": "COM",
    "name": "Comoras"
   },
-  "175": {
+  "489": {
    "m49": "175",
+   "iso3": "MYT",
    "name": "Mayotte"
   },
-  "178": {
+  "177": {
    "m49": "178",
+   "iso3": "COG",
    "name": "Congo"
   },
-  "180": {
+  "888": {
    "m49": "180",
+   "iso3": "COD",
    "name": "República Democrática del Congo"
   },
-  "184": {
+  "183": {
    "m49": "184",
+   "iso3": "COK",
    "name": "Islas Cook"
   },
-  "188": {
+  "196": {
    "m49": "188",
+   "iso3": "CRI",
    "name": "Costa Rica"
   },
-  "191": {
+  "198": {
    "m49": "191",
+   "iso3": "HRV",
    "name": "Croacia"
   },
-  "192": {
+  "199": {
    "m49": "192",
+   "iso3": "CUB",
    "name": "Cuba"
   },
-  "196": {
+  "221": {
    "m49": "196",
+   "iso3": "CYP",
    "name": "Chipre"
   },
   "202": {
    "m49": "202",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO INDUSTRIAL DEL PACÍFICO - CLIP S.A.S."
   },
-  "203": {
+  "644": {
    "m49": "203",
+   "iso3": "CZE",
    "name": "Chequia"
   },
-  "204": {
+  "229": {
    "m49": "204",
+   "iso3": "BEN",
    "name": "Benin"
   },
   "205": {
    "m49": "205",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SCOTIA GLOBAL BUSINESS SERVICES COLOMBIA ZONA FRANCA EMPRESARIAL S.A.S."
   },
   "206": {
    "m49": "206",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL INSTITUTO MEDICO DE ALTA TECNOLOGIA - IMAT S.A.S."
   },
   "207": {
    "m49": "207",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERNIUM DEL ATLANTICO S.A.S."
   },
-  "208": {
+  "232": {
    "m49": "208",
+   "iso3": "DNK",
    "name": "Dinamarca"
   },
   "209": {
    "m49": "209",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMOCANDELARIA S.C.A. - E.S.P."
   },
   "210": {
    "m49": "210",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA SAN MIGUEL UCI HONDA S.A.S."
   },
-  "212": {
+  "235": {
    "m49": "212",
+   "iso3": "DMA",
    "name": "Dominica"
   },
   "213": {
    "m49": "213",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PALERMO SOCIEDAD PORTUARIA S.A."
   },
-  "214": {
+  "647": {
    "m49": "214",
+   "iso3": "DOM",
    "name": "República Dominicana"
   },
   "216": {
    "m49": "216",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CRISTALINA S.A.S."
   },
   "217": {
    "m49": "217",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CENTRAL DEL CASANARE S.A."
   },
-  "218": {
+  "239": {
    "m49": "218",
+   "iso3": "ECU",
    "name": "Ecuador"
   },
   "219": {
    "m49": "219",
+   "iso3": "XCF",
    "name": "ZFPE Productos Familia Rionegro S.A.S"
   },
   "220": {
    "m49": "220",
+   "iso3": "XCF",
    "name": "ZFP Cristalina S.A.S"
   },
-  "222": {
+  "242": {
    "m49": "222",
+   "iso3": "SLV",
    "name": "El Salvador"
   },
   "223": {
    "m49": "223",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL OPTUM GLOBAL SOLUTIONS COLOMBIA SAS"
   },
   "224": {
    "m49": "224",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA RIONEGRO S.A.S."
   },
   "225": {
    "m49": "225",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE COSTA AFUERA SHELL"
   },
-  "226": {
+  "331": {
    "m49": "226",
+   "iso3": "GNQ",
    "name": "Guinea Ecuatorial"
   },
   "227": {
    "m49": "227",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SAN FRANCISCO INVESTMENTS S.A.S."
   },
-  "231": {
+  "253": {
    "m49": "231",
+   "iso3": "ETH",
    "name": "Etiopía"
   },
-  "232": {
+  "243": {
    "m49": "232",
+   "iso3": "ERI",
    "name": "Eritrea"
   },
-  "233": {
+  "251": {
    "m49": "233",
+   "iso3": "EST",
    "name": "Estonia"
   },
-  "234": {
+  "259": {
    "m49": "234",
+   "iso3": "FRO",
    "name": "Islas Feroe"
   },
-  "238": {
+  "470": {
    "m49": "238",
+   "iso3": "FLK",
    "name": "Islas Malvinas"
   },
-  "239": {
+  "694": {
    "m49": "239",
+   "iso3": "SGS",
    "name": "Georgia del Sur y las Islas Sandwich del Sur"
   },
-  "242": {
+  "870": {
    "m49": "242",
+   "iso3": "FJI",
    "name": "Fiji"
   },
-  "246": {
+  "271": {
    "m49": "246",
+   "iso3": "FIN",
    "name": "Finlandia"
   },
-  "248": {
+  "15": {
    "m49": "248",
+   "iso3": "ALA",
    "name": "Islas Åland"
   },
-  "250": {
+  "275": {
    "m49": "250",
+   "iso3": "FRA",
    "name": "Francia"
   },
-  "254": {
+  "325": {
    "m49": "254",
+   "iso3": "GUF",
    "name": "Guayana Francesa"
   },
-  "258": {
+  "599": {
    "m49": "258",
+   "iso3": "PYF",
    "name": "Polinesia Francesa"
   },
-  "260": {
+  "786": {
    "m49": "260",
+   "iso3": "ATF",
    "name": "Territorio de las Tierras Australes Francesas"
   },
-  "262": {
+  "783": {
    "m49": "262",
+   "iso3": "DJI",
    "name": "Djibouti"
   },
-  "266": {
+  "281": {
    "m49": "266",
+   "iso3": "GAB",
    "name": "Gabón"
   },
-  "268": {
+  "287": {
    "m49": "268",
+   "iso3": "GEO",
    "name": "Georgia"
   },
-  "270": {
+  "285": {
    "m49": "270",
+   "iso3": "GMB",
    "name": "Gambia"
   },
-  "274": {
+  "286": {
    "m49": "274",
+   "iso3": null,
    "name": "Gaza  y Jerico"
   },
-  "275": {
+  "579": {
    "m49": "275",
+   "iso3": "PSE",
    "name": "Estado de Palestina"
   },
-  "276": {
+  "23": {
    "m49": "276",
+   "iso3": "DEU",
    "name": "Alemania"
   },
-  "278": {
+  "25": {
    "m49": "278",
+   "iso3": null,
    "name": "Alemania, República Democrática"
   },
-  "288": {
+  "289": {
    "m49": "288",
+   "iso3": "GHA",
    "name": "Ghana"
   },
-  "292": {
+  "293": {
    "m49": "292",
+   "iso3": "GIB",
    "name": "Gibraltar"
   },
-  "296": {
+  "411": {
    "m49": "296",
+   "iso3": "KIR",
    "name": "Kiribati"
   },
-  "300": {
+  "301": {
    "m49": "300",
+   "iso3": "GRC",
    "name": "Grecia"
   },
-  "304": {
+  "305": {
    "m49": "304",
+   "iso3": "GRL",
    "name": "Groenlandia"
   },
-  "308": {
+  "297": {
    "m49": "308",
+   "iso3": "GRD",
    "name": "Granada"
   },
-  "312": {
+  "309": {
    "m49": "312",
+   "iso3": "GLP",
    "name": "Guadalupe"
   },
-  "316": {
+  "313": {
    "m49": "316",
+   "iso3": "GUM",
    "name": "Guam"
   },
-  "320": {
+  "317": {
    "m49": "320",
+   "iso3": "GTM",
    "name": "Guatemala"
   },
-  "324": {
+  "329": {
    "m49": "324",
+   "iso3": "GIN",
    "name": "Guinea"
   },
-  "328": {
+  "337": {
    "m49": "328",
+   "iso3": "GUY",
    "name": "Guyana"
   },
-  "332": {
+  "341": {
    "m49": "332",
+   "iso3": "HTI",
    "name": "Haití"
   },
-  "334": {
+  "343": {
    "m49": "334",
+   "iso3": "HMD",
    "name": "Islas Heard y McDonald"
   },
-  "336": {
+  "159": {
    "m49": "336",
+   "iso3": "VAT",
    "name": "Santa Sede"
   },
-  "340": {
+  "345": {
    "m49": "340",
+   "iso3": "HND",
    "name": "Honduras"
   },
-  "344": {
+  "351": {
    "m49": "344",
+   "iso3": "HKG",
    "name": "Hong Kong"
   },
-  "348": {
+  "355": {
    "m49": "348",
+   "iso3": "HUN",
    "name": "Hungría"
   },
-  "352": {
+  "379": {
    "m49": "352",
+   "iso3": "ISL",
    "name": "Islandia"
   },
-  "356": {
+  "361": {
    "m49": "356",
+   "iso3": "IND",
    "name": "India"
   },
-  "360": {
+  "365": {
    "m49": "360",
+   "iso3": "IDN",
    "name": "Indonesia"
   },
-  "364": {
+  "372": {
    "m49": "364",
+   "iso3": "IRN",
    "name": "Irán (República Islámica del)"
   },
-  "368": {
+  "369": {
    "m49": "368",
+   "iso3": "IRQ",
    "name": "Iraq"
   },
-  "372": {
+  "375": {
    "m49": "372",
+   "iso3": "IRL",
    "name": "Irlanda"
   },
-  "376": {
+  "383": {
    "m49": "376",
+   "iso3": "ISR",
    "name": "Israel"
   },
-  "380": {
+  "386": {
    "m49": "380",
+   "iso3": "ITA",
    "name": "Italia"
   },
-  "384": {
+  "193": {
    "m49": "384",
+   "iso3": "CIV",
    "name": "Côte d’Ivoire"
   },
-  "388": {
+  "391": {
    "m49": "388",
+   "iso3": "JAM",
    "name": "Jamaica"
   },
-  "392": {
+  "399": {
    "m49": "392",
+   "iso3": "JPN",
    "name": "Japón"
   },
   "395": {
    "m49": "395",
+   "iso3": "ZZZ",
    "name": "JOHNSTON,ISLAS"
   },
-  "398": {
+  "406": {
    "m49": "398",
+   "iso3": "KAZ",
    "name": "Kazajstán"
   },
-  "400": {
+  "403": {
    "m49": "400",
+   "iso3": "JOR",
    "name": "Jordania"
   },
-  "404": {
+  "410": {
    "m49": "404",
+   "iso3": "KEN",
    "name": "Kenya"
   },
-  "408": {
+  "187": {
    "m49": "408",
+   "iso3": "PRK",
    "name": "República Popular Democrática de Corea"
   },
-  "410": {
+  "190": {
    "m49": "410",
+   "iso3": "KOR",
    "name": "República de Corea"
   },
-  "414": {
+  "413": {
    "m49": "414",
+   "iso3": "KWT",
    "name": "Kuwait"
   },
-  "417": {
+  "412": {
    "m49": "417",
+   "iso3": "KGZ",
    "name": "Kirguistán"
   },
-  "418": {
+  "420": {
    "m49": "418",
+   "iso3": "LAO",
    "name": "República Democrática Popular Lao"
   },
-  "422": {
+  "431": {
    "m49": "422",
+   "iso3": "LBN",
    "name": "Líbano"
   },
   "426": {
    "m49": "426",
+   "iso3": "LSO",
    "name": "Lesotho"
   },
-  "428": {
+  "429": {
    "m49": "428",
+   "iso3": "LVA",
    "name": "Letonia"
   },
-  "430": {
+  "434": {
    "m49": "430",
+   "iso3": "LBR",
    "name": "Liberia"
   },
-  "434": {
+  "438": {
    "m49": "434",
+   "iso3": "LBY",
    "name": "Libia"
   },
-  "438": {
+  "440": {
    "m49": "438",
+   "iso3": "LIE",
    "name": "Liechtenstein"
   },
-  "440": {
+  "443": {
    "m49": "440",
+   "iso3": "LTU",
    "name": "Lituania"
   },
-  "442": {
+  "445": {
    "m49": "442",
+   "iso3": "LUX",
    "name": "Luxemburgo"
   },
-  "446": {
+  "447": {
    "m49": "446",
+   "iso3": "MAC",
    "name": "Macao"
   },
   "450": {
    "m49": "450",
+   "iso3": "MDG",
    "name": "Madagascar"
   },
-  "454": {
+  "458": {
    "m49": "454",
+   "iso3": "MWI",
    "name": "Malawi"
   },
-  "458": {
+  "455": {
    "m49": "458",
+   "iso3": "MYS",
    "name": "Malasia"
   },
-  "462": {
+  "587": {
+   "m49": "458",
+   "iso3": "MYS",
+   "name": "Malasia, Península de"
+  },
+  "461": {
    "m49": "462",
+   "iso3": "MDV",
    "name": "Maldivas"
   },
-  "466": {
+  "464": {
    "m49": "466",
+   "iso3": "MLI",
    "name": "Malí"
   },
-  "470": {
+  "467": {
    "m49": "470",
+   "iso3": "MLT",
    "name": "Malta"
   },
-  "474": {
+  "477": {
    "m49": "474",
+   "iso3": "MTQ",
    "name": "Martinica"
   },
-  "478": {
+  "488": {
    "m49": "478",
+   "iso3": "MRT",
    "name": "Mauritania"
   },
-  "480": {
+  "485": {
    "m49": "480",
+   "iso3": "MUS",
    "name": "Mauricio"
   },
-  "484": {
+  "493": {
    "m49": "484",
+   "iso3": "MEX",
    "name": "México"
   },
-  "492": {
+  "498": {
    "m49": "492",
+   "iso3": "MCO",
    "name": "Mónaco"
   },
   "495": {
    "m49": "495",
+   "iso3": "ZZZ",
    "name": "MIDWAY,ISLAS"
   },
-  "496": {
+  "497": {
    "m49": "496",
+   "iso3": "MNG",
    "name": "Mongolia"
   },
-  "498": {
+  "496": {
    "m49": "498",
+   "iso3": "MDA",
    "name": "República de Moldova"
   },
-  "499": {
+  "500": {
    "m49": "499",
+   "iso3": "MNE",
    "name": "Montenegro"
   },
-  "500": {
+  "501": {
    "m49": "500",
+   "iso3": "MSR",
    "name": "Montserrat"
   },
-  "504": {
+  "474": {
    "m49": "504",
+   "iso3": "MAR",
    "name": "Marruecos"
   },
-  "508": {
+  "505": {
    "m49": "508",
+   "iso3": "MOZ",
    "name": "Mozambique"
   },
-  "512": {
+  "556": {
    "m49": "512",
+   "iso3": "OMN",
    "name": "Omán"
   },
-  "516": {
+  "507": {
    "m49": "516",
+   "iso3": "NAM",
    "name": "Namibia"
   },
-  "520": {
+  "508": {
    "m49": "520",
+   "iso3": "NRU",
    "name": "Nauru"
   },
-  "524": {
+  "517": {
    "m49": "524",
+   "iso3": "NPL",
    "name": "Nepal"
   },
-  "528": {
+  "573": {
    "m49": "528",
+   "iso3": "NLD",
    "name": "Países Bajos"
   },
-  "530": {
+  "47": {
    "m49": "530",
+   "iso3": null,
    "name": "Antillas Holandesas"
   },
-  "531": {
+  "200": {
    "m49": "531",
+   "iso3": "CUW",
    "name": "Curazao"
   },
-  "533": {
+  "27": {
    "m49": "533",
+   "iso3": "ABW",
    "name": "Aruba"
   },
-  "534": {
+  "699": {
    "m49": "534",
+   "iso3": "SXM",
    "name": "San Martín (parte Holandesa)"
   },
-  "535": {
+  "98": {
    "m49": "535",
+   "iso3": "BES",
    "name": "Bonaire, San Eustaquio y Saba"
   },
-  "540": {
+  "542": {
    "m49": "540",
+   "iso3": "NCL",
    "name": "Nueva Caledonia"
   },
-  "548": {
+  "551": {
    "m49": "548",
+   "iso3": "VUT",
    "name": "Vanuatu"
   },
-  "554": {
+  "548": {
    "m49": "554",
+   "iso3": "NZL",
    "name": "Nueva Zelandia"
   },
-  "558": {
+  "521": {
    "m49": "558",
+   "iso3": "NIC",
    "name": "Nicaragua"
   },
-  "562": {
+  "525": {
    "m49": "562",
+   "iso3": "NER",
    "name": "Níger"
   },
-  "566": {
+  "528": {
    "m49": "566",
+   "iso3": "NGA",
    "name": "Nigeria"
   },
-  "570": {
+  "531": {
    "m49": "570",
+   "iso3": "NIU",
    "name": "Niue"
   },
-  "574": {
+  "535": {
    "m49": "574",
+   "iso3": "NFK",
    "name": "Isla Norfolk"
   },
-  "578": {
+  "538": {
    "m49": "578",
+   "iso3": "NOR",
    "name": "Noruega"
   },
-  "580": {
+  "469": {
    "m49": "580",
+   "iso3": "MNP",
    "name": "Islas Marianas del Norte"
   },
-  "581": {
+  "566": {
    "m49": "581",
+   "iso3": "UMI",
    "name": "Islas menores alejadas de los Estados Unidos"
   },
-  "583": {
+  "494": {
    "m49": "583",
+   "iso3": "FSM",
    "name": "Micronesia (Estados Federados de)"
   },
-  "584": {
+  "472": {
    "m49": "584",
+   "iso3": "MHL",
    "name": "Islas Marshall"
   },
-  "585": {
+  "578": {
    "m49": "585",
+   "iso3": "PLW",
    "name": "Palau"
   },
-  "586": {
+  "576": {
    "m49": "586",
+   "iso3": "PAK",
    "name": "Pakistán"
   },
-  "591": {
+  "580": {
    "m49": "591",
+   "iso3": "PAN",
    "name": "Panamá"
   },
-  "598": {
+  "545": {
    "m49": "598",
+   "iso3": "PNG",
    "name": "Papua Nueva Guinea"
   },
-  "600": {
+  "586": {
    "m49": "600",
+   "iso3": "PRY",
    "name": "Paraguay"
   },
-  "604": {
+  "589": {
    "m49": "604",
+   "iso3": "PER",
    "name": "Perú"
   },
-  "608": {
+  "267": {
    "m49": "608",
+   "iso3": "PHL",
    "name": "Filipinas"
   },
-  "612": {
+  "593": {
    "m49": "612",
+   "iso3": "PCN",
    "name": "Pitcairn"
   },
-  "616": {
+  "603": {
    "m49": "616",
+   "iso3": "POL",
    "name": "Polonia"
   },
-  "620": {
+  "607": {
    "m49": "620",
+   "iso3": "PRT",
    "name": "Portugal"
   },
   "621": {
    "m49": "621",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL VALLE DE ABURRÁ S.A.S. - ZOFIVA"
   },
   "622": {
    "m49": "622",
+   "iso3": "XCF",
    "name": "ZFPE Fresenius Medical Care Servicio Renal"
   },
   "623": {
    "m49": "623",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL DESTILERIA RIOPAILA S.A.S."
   },
-  "624": {
+  "334": {
    "m49": "624",
+   "iso3": "GNB",
    "name": "Guinea-Bissau"
   },
   "625": {
    "m49": "625",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL MEDICAL DUARTE ZF S.A.S"
   },
-  "626": {
+  "788": {
    "m49": "626",
+   "iso3": "TLS",
    "name": "Timor-Leste"
   },
-  "630": {
+  "611": {
    "m49": "630",
+   "iso3": "PRI",
    "name": "Puerto Rico"
   },
   "631": {
    "m49": "631",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PALERMO Usuario Operador de Zona Franca S.A.S."
   },
   "632": {
    "m49": "632",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE SANTELCA S.A.S"
   },
   "633": {
    "m49": "633",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL FEMSA"
   },
-  "634": {
+  "618": {
    "m49": "634",
+   "iso3": "QAT",
    "name": "Qatar"
   },
   "635": {
    "m49": "635",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA PUERTO NUEVO S.A"
   },
   "636": {
    "m49": "636",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMOTASAJERO DOS S.A. E.S.P."
   },
   "637": {
    "m49": "637",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA MARDIQUE S.A."
   },
-  "638": {
+  "660": {
    "m49": "638",
+   "iso3": "REU",
    "name": "Reunión"
   },
-  "642": {
+  "670": {
    "m49": "642",
+   "iso3": "ROU",
    "name": "Rumania"
   },
-  "643": {
+  "676": {
    "m49": "643",
+   "iso3": "RUS",
    "name": "Federación de Rusia"
   },
-  "646": {
+  "675": {
    "m49": "646",
+   "iso3": "RWA",
    "name": "Rwanda"
   },
   "650": {
    "m49": "650",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CENTRO HOSPITALARIO SERENA DEL MAR S.A."
   },
   "651": {
    "m49": "651",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO MAMONAL S.A. SOCIEDAD PORTUARIA"
   },
-  "652": {
+  "693": {
    "m49": "652",
+   "iso3": "BLM",
    "name": "San Bartolomé"
   },
   "653": {
    "m49": "653",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ACEITES Y GRASAS DEL CATATUMBO S.A.S."
   },
-  "654": {
+  "710": {
    "m49": "654",
+   "iso3": "SHN",
    "name": "Santa Elena, Ascensión y Tristán de Acuña"
   },
   "655": {
    "m49": "655",
+   "iso3": "XCF",
    "name": "ZFPE Plaza Mayor Medellín Conveciones y Exposiciones"
   },
   "656": {
    "m49": "656",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA DE MARLY JORGE CAVELIER GAVIRIA"
   },
   "657": {
    "m49": "657",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA UNIVERSITARIA MEDICINA INTEGRAL S.A.S."
   },
   "658": {
    "m49": "658",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL DIACOR SOACHA ZONA FRANCA S.A.S."
   },
-  "659": {
+  "695": {
    "m49": "659",
+   "iso3": "KNA",
    "name": "Saint Kitts y Nevis"
   },
-  "660": {
+  "41": {
    "m49": "660",
+   "iso3": "AIA",
    "name": "Anguila"
   },
-  "662": {
+  "715": {
    "m49": "662",
+   "iso3": "LCA",
    "name": "Santa Lucía"
   },
-  "663": {
+  "698": {
    "m49": "663",
+   "iso3": "MAF",
    "name": "San Martín (parte francesa)"
   },
-  "666": {
+  "700": {
    "m49": "666",
+   "iso3": "SPM",
    "name": "San Pedro y Miquelón"
   },
-  "670": {
+  "705": {
    "m49": "670",
+   "iso3": "VCT",
    "name": "San Vicente y las Granadinas"
   },
   "671": {
    "m49": "671",
+   "iso3": "XCF",
    "name": "ZFP Transitoria Grupo Heróica"
   },
-  "674": {
+  "697": {
    "m49": "674",
+   "iso3": "SMR",
    "name": "San Marino"
   },
-  "678": {
+  "720": {
    "m49": "678",
+   "iso3": "STP",
    "name": "Santo Tomé y Príncipe"
   },
-  "682": {
+  "53": {
    "m49": "682",
+   "iso3": "SAU",
    "name": "Arabia Saudita"
   },
-  "686": {
+  "728": {
    "m49": "686",
+   "iso3": "SEN",
    "name": "Senegal"
   },
-  "688": {
+  "729": {
    "m49": "688",
+   "iso3": "SRB",
    "name": "Serbia"
   },
-  "690": {
+  "731": {
    "m49": "690",
+   "iso3": "SYC",
    "name": "Seychelles"
   },
-  "694": {
+  "735": {
    "m49": "694",
+   "iso3": "SLE",
    "name": "Sierra Leona"
   },
-  "702": {
+  "741": {
    "m49": "702",
+   "iso3": "SGP",
    "name": "Singapur"
   },
-  "703": {
+  "246": {
    "m49": "703",
+   "iso3": "SVK",
    "name": "Eslovaquia"
   },
-  "704": {
+  "855": {
    "m49": "704",
+   "iso3": "VNM",
    "name": "Viet Nam"
   },
-  "705": {
+  "858": {
+   "m49": "704",
+   "iso3": "VNM",
+   "name": "Viet Nam del Sur"
+  },
+  "247": {
    "m49": "705",
+   "iso3": "SVN",
    "name": "Eslovenia"
   },
-  "706": {
+  "748": {
    "m49": "706",
+   "iso3": "SOM",
    "name": "Somalia"
   },
-  "710": {
+  "756": {
    "m49": "710",
+   "iso3": "ZAF",
    "name": "Sudáfrica"
   },
-  "716": {
+  "665": {
    "m49": "716",
+   "iso3": "ZWE",
    "name": "Zimbabwe"
   },
-  "720": {
+  "881": {
    "m49": "720",
+   "iso3": null,
    "name": "Yemen Democrático"
   },
-  "724": {
+  "245": {
    "m49": "724",
+   "iso3": "ESP",
    "name": "España"
   },
-  "728": {
+  "760": {
    "m49": "728",
+   "iso3": "SSD",
    "name": "Sudán del Sur"
   },
-  "729": {
+  "759": {
    "m49": "729",
+   "iso3": "SDN",
    "name": "Sudán"
   },
-  "732": {
+  "685": {
    "m49": "732",
+   "iso3": "ESH",
    "name": "Sáhara Occidental"
   },
-  "740": {
+  "770": {
    "m49": "740",
+   "iso3": "SUR",
    "name": "Suriname"
   },
-  "744": {
+  "772": {
    "m49": "744",
+   "iso3": "SJM",
    "name": "Islas Svalbard y Jan Mayen"
   },
-  "748": {
+  "773": {
    "m49": "748",
+   "iso3": "SWZ",
    "name": "Eswatini"
   },
-  "752": {
+  "764": {
    "m49": "752",
+   "iso3": "SWE",
    "name": "Suecia"
   },
-  "756": {
+  "767": {
    "m49": "756",
+   "iso3": "CHE",
    "name": "Suiza"
   },
-  "760": {
+  "744": {
    "m49": "760",
+   "iso3": "SYR",
    "name": "República Árabe Siria"
   },
-  "762": {
+  "774": {
    "m49": "762",
+   "iso3": "TJK",
    "name": "Tayikistán"
   },
-  "764": {
+  "776": {
    "m49": "764",
+   "iso3": "THA",
    "name": "Tailandia"
   },
-  "768": {
+  "800": {
    "m49": "768",
+   "iso3": "TGO",
    "name": "Togo"
   },
-  "772": {
+  "805": {
    "m49": "772",
+   "iso3": "TKL",
    "name": "Tokelau"
   },
-  "776": {
+  "810": {
    "m49": "776",
+   "iso3": "TON",
    "name": "Tonga"
   },
-  "780": {
+  "815": {
    "m49": "780",
+   "iso3": "TTO",
    "name": "Trinidad y Tabago"
   },
-  "784": {
+  "244": {
    "m49": "784",
+   "iso3": "ARE",
    "name": "Emiratos Árabes Unidos"
   },
   "785": {
    "m49": "785",
+   "iso3": "ZZZ",
    "name": "TERRITORIO PALESTINO OCUPADO"
   },
-  "788": {
+  "820": {
    "m49": "788",
+   "iso3": "TUN",
    "name": "Túnez"
   },
   "790": {
    "m49": "790",
+   "iso3": "XCF",
    "name": "ZFPE Onelink International S.A.S"
   },
   "791": {
    "m49": "791",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA EL CAYAO S.A. E.S.P."
   },
-  "792": {
+  "827": {
    "m49": "792",
+   "iso3": "TUR",
    "name": "Turquía"
   },
   "793": {
    "m49": "793",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE COSTA AFUERA ANADARKO"
   },
   "794": {
    "m49": "794",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL EMPRESA COLOMBIANA DE CEMENTOS S.A.S. - ECOCEMENTOS S.A.S."
   },
-  "795": {
+  "825": {
    "m49": "795",
+   "iso3": "TKM",
    "name": "Turkmenistán"
   },
-  "796": {
+  "823": {
    "m49": "796",
+   "iso3": "TCA",
    "name": "Islas Turcas y Caicos"
   },
   "797": {
    "m49": "797",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO IMPALA TERMINALS BARRANCABERMEJA S.A.S."
   },
-  "798": {
+  "828": {
    "m49": "798",
+   "iso3": "TUV",
    "name": "Tuvalu"
   },
-  "800": {
+  "833": {
    "m49": "800",
+   "iso3": "UGA",
    "name": "Uganda"
   },
   "801": {
    "m49": "801",
+   "iso3": "XCF",
    "name": "ZFPE Ultracem"
   },
   "802": {
    "m49": "802",
+   "iso3": "XCF",
    "name": "ZFPE Extractora Agroindustrial El Gran Sinú"
   },
-  "804": {
+  "830": {
    "m49": "804",
+   "iso3": "UKR",
    "name": "Ucrania"
   },
-  "806": {
-   "m49": "806",
-   "name": ""
-  },
-  "807": {
+  "448": {
    "m49": "807",
+   "iso3": "MKD",
    "name": "Macedonia del Norte"
   },
-  "808": {
-   "m49": "808",
-   "name": ""
-  },
-  "809": {
-   "m49": "809",
-   "name": ""
-  },
-  "810": {
+  "840": {
    "m49": "810",
+   "iso3": null,
    "name": "Unión Soviética"
   },
-  "818": {
+  "240": {
    "m49": "818",
+   "iso3": "EGY",
    "name": "Egipto"
   },
-  "826": {
+  "628": {
    "m49": "826",
+   "iso3": "GBR",
    "name": "Reino Unido de Gran Bretaña e Irlanda del Norte"
   },
-  "831": {
+  "327": {
    "m49": "831",
+   "iso3": "GGY",
    "name": "Guernsey"
   },
-  "832": {
+  "401": {
    "m49": "832",
+   "iso3": "JEY",
    "name": "Jersey"
   },
-  "833": {
+  "468": {
    "m49": "833",
+   "iso3": "IMN",
    "name": "Isla de Man"
   },
-  "834": {
+  "780": {
    "m49": "834",
+   "iso3": "TZA",
    "name": "República Unida de Tanzanía"
   },
-  "840": {
+  "249": {
    "m49": "840",
+   "iso3": "USA",
    "name": "Estados Unidos de América"
   },
-  "849": {
+  "563": {
    "m49": "849",
+   "iso3": null,
    "name": "Pacifico, Islas administradas por USA"
   },
-  "850": {
+  "866": {
    "m49": "850",
+   "iso3": "VIR",
    "name": "Islas Vírgenes de los Estados Unidos"
   },
-  "854": {
+  "31": {
    "m49": "854",
+   "iso3": "BFA",
    "name": "Burkina Faso"
   },
-  "858": {
+  "845": {
    "m49": "858",
+   "iso3": "URY",
    "name": "Uruguay"
   },
-  "860": {
+  "847": {
    "m49": "860",
+   "iso3": "UZB",
    "name": "Uzbekistán"
   },
-  "862": {
+  "850": {
    "m49": "862",
+   "iso3": "VEN",
    "name": "Venezuela (República Bolivariana de)"
   },
   "873": {
    "m49": "873",
+   "iso3": "ZZZ",
    "name": "WAKE,ISLAS"
   },
-  "876": {
+  "875": {
    "m49": "876",
+   "iso3": "WLF",
    "name": "Islas Wallis y Futuna"
   },
-  "881": {
+  "634": {
    "m49": "881",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SYKES COLOMBIA S.A.S"
   },
-  "882": {
+  "687": {
    "m49": "882",
+   "iso3": "WSM",
    "name": "Samoa"
   },
-  "883": {
+  "4": {
    "m49": "883",
+   "iso3": "XCF",
    "name": "ZFPE CTIC-Centro de tratamiento e investigación sobre Cáncer Luis Carlos Sarmiento Angulo"
   },
-  "884": {
+  "204": {
    "m49": "884",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHÍA COLOMBIA DE URABA S.A."
   },
-  "886": {
+  "652": {
    "m49": "886",
+   "iso3": "XCF",
    "name": "ZFP Promotora Zona Franca Industrial y Logística de Ibagué S.A.S"
   },
-  "887": {
+  "880": {
    "m49": "887",
+   "iso3": "YEM",
    "name": "Yemen"
   },
-  "889": {
+  "630": {
    "m49": "889",
+   "iso3": "XCF",
    "name": "ZFPE Globant Colombia SAS"
   },
-  "890": {
+  "885": {
    "m49": "890",
+   "iso3": null,
    "name": "Yugoslavia"
   },
-  "891": {
+  "688": {
    "m49": "891",
+   "iso3": null,
    "name": "Serbia y Montenegro"
   },
-  "892": {
+  "214": {
    "m49": "892",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE COSTA AFUERA NOBLE ENERGY COLOMBIA"
   },
-  "893": {
+  "624": {
    "m49": "893",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHIA S.A."
   },
-  "894": {
+  "890": {
    "m49": "894",
+   "iso3": "ZMB",
    "name": "Zambia"
   },
   "895": {
    "m49": "895",
+   "iso3": "ZZZ",
    "name": "ZONA DEL CANAL DE PANAMA"
   },
-  "896": {
+  "620": {
    "m49": "896",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PUERTO INDUSTRIAL AGUADULCE S.A."
   },
   "897": {
    "m49": "897",
+   "iso3": "ZZZ",
    "name": "ZONA NEUTRAL DE PALESTINA"
   },
-  "898": {
+  "638": {
    "m49": "898",
+   "iso3": "XCF",
    "name": "ZFPE Getcom Colombia S.A.S"
   },
-  "899": {
+  "654": {
    "m49": "899",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ZONAMERICA S.A.S."
   },
   "900": {
    "m49": "900",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ANDINA"
   },
-  "901": {
+  "222": {
    "m49": "901",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL INVERSIONES VALLES VERDES"
   },
   "902": {
    "m49": "902",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL GECELCA 3  S.A.S. E.S.P"
   },
   "903": {
    "m49": "903",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CEMENTERA DEL MAGDALENA MEDIO - ZOMAM"
   },
   "904": {
    "m49": "904",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL EXTRACTORA LA GLORIA S.A.S."
   },
   "905": {
    "m49": "905",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL OLMUÉ COLOMBIA S.A.S. / PROTERRA FOODS"
   },
   "906": {
    "m49": "906",
+   "iso3": "XCF",
    "name": "ZFPE VAXTHERA S.A.S"
   },
   "907": {
    "m49": "907",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO DEL PACÍFICO - CELPA S.A."
   },
-  "908": {
+  "796": {
    "m49": "908",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PETROBRAS INTERNATIONAL BRASPETRO BV - SUC COLOMBIA"
   },
-  "909": {
+  "795": {
    "m49": "909",
+   "iso3": "XCF",
    "name": "ZFPE Onelink Colombia S.A.S."
   },
-  "910": {
+  "626": {
    "m49": "910",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BUENAVENTURA S.A."
   },
   "911": {
    "m49": "911",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE BARRANQUILLA"
   },
   "912": {
    "m49": "912",
+   "iso3": "XCF",
    "name": "ZFP Buenaventura"
   },
   "913": {
    "m49": "913",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PALMASECA"
   },
   "914": {
    "m49": "914",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CÚCUTA"
   },
   "915": {
    "m49": "915",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE SANTA MARTA"
   },
   "916": {
    "m49": "916",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CARTAGENA"
   },
   "917": {
    "m49": "917",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE RIONEGRO S.A."
   },
   "918": {
    "m49": "918",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CANDELARIA"
   },
   "919": {
    "m49": "919",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE BOGOTÁ"
   },
   "920": {
    "m49": "920",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PACIFICO"
   },
   "921": {
    "m49": "921",
+   "iso3": "XCF",
    "name": "ZFP de Barú Resort"
   },
   "922": {
    "m49": "922",
+   "iso3": "XCF",
    "name": "ZFP de Pozos Colorados"
   },
   "923": {
    "m49": "923",
+   "iso3": "XCF",
    "name": "ZFP de Eurocaribe de Indias"
   },
   "924": {
    "m49": "924",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE QUINDÍO O EJE CAFETERO"
   },
   "925": {
    "m49": "925",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CERVECERÍA DEL VALLE S.A."
   },
   "926": {
    "m49": "926",
+   "iso3": "XCF",
    "name": "ZFP Agroindustrial Magdalena Medio"
   },
   "927": {
    "m49": "927",
+   "iso3": "XCF",
    "name": "ZFP Agroindustrial Ind. de bienes y servicios Ciudadela Salud"
   },
   "928": {
    "m49": "928",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE LA CAYENA"
   },
   "929": {
    "m49": "929",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL ATLÁNTICO - ZOFIA"
   },
   "930": {
    "m49": "930",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIO D S.A. FACATATIVA"
   },
   "931": {
    "m49": "931",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIOCOMBUSTIBLES SOSTENIBLES DEL CARIBE S.A."
   },
   "933": {
    "m49": "933",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL AGROINDUSTRIAS DEL CAUCA S.A."
   },
   "934": {
    "m49": "934",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL DEXTÓN S.A.S."
   },
   "935": {
    "m49": "935",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ARGOS S.A."
   },
   "936": {
    "m49": "936",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL GYPLAC S.A."
   },
   "937": {
    "m49": "937",
+   "iso3": "XCF",
    "name": "ZFPE Kcag"
   },
   "939": {
    "m49": "939",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE INTEXZONA S.A."
   },
   "940": {
    "m49": "940",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE TAYRONA S.A."
   },
   "941": {
    "m49": "941",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE DE URABA S.A.S."
   },
   "942": {
    "m49": "942",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CORFÉRIAS  S.A."
   },
   "943": {
    "m49": "943",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE LAS AMERICAS S.A.S."
   },
   "944": {
    "m49": "944",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ECODIESEL COLOMBIA S.A.S."
   },
   "945": {
    "m49": "945",
+   "iso3": "XCF",
    "name": "ZFPE Estrategias Contac-Center Colombia"
   },
   "946": {
    "m49": "946",
+   "iso3": "XCF",
    "name": "ZFPE Paul Calley"
   },
   "947": {
    "m49": "947",
+   "iso3": "XCF",
    "name": "ZFPE Siemens Manufacturing"
   },
   "948": {
    "m49": "948",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS LTDA."
   },
   "949": {
    "m49": "949",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ACERÍAS PAZ DEL RÍO"
   },
   "950": {
    "m49": "950",
+   "iso3": "XCF",
    "name": "ZFPE de servicios Marinilla"
   },
   "951": {
    "m49": "951",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL VIDRIO ANDINO S.A."
   },
-  "952": {
+  "792": {
    "m49": "952",
+   "iso3": "XCF",
    "name": "ZFP Costa afuera Repsol Exploración Colombia S.A."
   },
   "953": {
    "m49": "953",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL REFINERÍA DE CARTAGENA S.A. - REFICAR"
   },
   "954": {
    "m49": "954",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE OCCIDENTE S.A.S."
   },
   "955": {
    "m49": "955",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE SANTA MARTA"
   },
   "956": {
    "m49": "956",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMINAL DE CONTENEDORES DE CARTAGENA - CONTECAR S.A."
   },
   "957": {
    "m49": "957",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL COLOMBINA DEL CAUCA S.A."
   },
   "958": {
    "m49": "958",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CELSIA S.A. E.S.P. / TERMOFLORES"
   },
   "959": {
    "m49": "959",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CARVAJAL PULPA Y PAPEL S.A.S - PROPAL S.A.S / PAPELFIBRAS"
   },
   "960": {
    "m49": "960",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE TOCANCIPÁ S.A."
   },
   "961": {
    "m49": "961",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TELEMARK SPAIN S.L. SUCURSAL COLOMBIA"
   },
   "962": {
    "m49": "962",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL HOSPITAL SAN VICENTE DE PAÚL"
   },
   "963": {
    "m49": "963",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CERÁMICA SAN LORENZO INDUSTRIAL DE COLOMBIA"
   },
   "964": {
    "m49": "964",
+   "iso3": "XCF",
    "name": "ZFPE Papeles del Cauca"
   },
   "965": {
    "m49": "965",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA PORTOAZUL S.A."
   },
   "966": {
    "m49": "966",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE SANTANDER S.A."
   },
   "967": {
    "m49": "967",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PROTISA COLOMBIA S.A."
   },
   "968": {
    "m49": "968",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PRAXAIR GASES INDUSTRIALES LTDA."
   },
   "969": {
    "m49": "969",
+   "iso3": "XCF",
    "name": "ZFP Cencauca(parque industrial caloto)"
   },
-  "970": {
+  "212": {
    "m49": "970",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BARRANQUILLA INTERNACIONAL TERMINAL COMPANY S.A. - BITCO S.A."
   },
   "971": {
    "m49": "971",
+   "iso3": "XCF",
    "name": "ZFPE Industrias Renovables de Colombia"
   },
   "972": {
    "m49": "972",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ECONTACT COL S.A.S."
   },
   "973": {
    "m49": "973",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA LOS NOGALES S.A.S."
   },
   "974": {
    "m49": "974",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE METROPOLITANA S.A.S."
   },
   "975": {
    "m49": "975",
+   "iso3": "XCF",
    "name": "ZFPE Agrosolera"
   },
   "976": {
    "m49": "976",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIONERGY S.A.S."
   },
   "977": {
    "m49": "977",
+   "iso3": "XCF",
    "name": "ZFP Puerta de Las Américas"
   },
-  "978": {
+  "226": {
    "m49": "978",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS ANTIOQUIA S.A.S."
   },
   "979": {
    "m49": "979",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA CAJICA S.A.S."
   },
   "980": {
    "m49": "980",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BARRAQUILLA S.A."
   },
   "981": {
    "m49": "981",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL FUNDACION FOSUNAB"
   },
   "982": {
    "m49": "982",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ALIMENTOS NARIÑO S.A."
   },
   "983": {
    "m49": "983",
+   "iso3": "XCF",
    "name": "ZFPE Convergys Customer Managent Colombia"
   },
   "984": {
    "m49": "984",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PROCESADORA DE ACEITE ORO ROJO LDTA."
   },
   "985": {
    "m49": "985",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DE PEREIRA S.A.S."
   },
   "986": {
    "m49": "986",
+   "iso3": "XCF",
    "name": "ZFPE Clínica Megacentro Pinares"
   },
   "987": {
    "m49": "987",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE BRISA S.A.S. (DIBULLA GUAJIRA)"
   },
   "988": {
    "m49": "988",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL EXTRACTORA LOMA FRESCA SUR DE BOLIVAR S.A."
   },
   "989": {
    "m49": "989",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE PARQUE CENTRAL S.A.S."
   },
   "990": {
    "m49": "990",
+   "iso3": "XCF",
    "name": "ZFPE Agroindustrias Biocafé"
   },
   "991": {
    "m49": "991",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE CONJUNTO INDUSTRIAL PARQUE SUR"
   },
-  "992": {
+  "132": {
    "m49": "992",
+   "iso3": "XCF",
    "name": "ZFPE FUNDACIÓN CARDIOVASCULAR"
   },
   "993": {
    "m49": "993",
+   "iso3": "XCF",
    "name": "ZFPE Habla Call Center"
   },
   "994": {
    "m49": "994",
+   "iso3": "XCF",
    "name": "ZFP GEA"
   },
   "995": {
    "m49": "995",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PLENA S.A.S"
   },
   "996": {
    "m49": "996",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA HISPANOAMÉRICA S.A.S"
   },
   "997": {
    "m49": "997",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE SURCOLOMBIANA S.A.S"
   },
   "998": {
    "m49": "998",
+   "iso3": "XCF",
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE CARTAGENA (ANTES 498)"
   },
   "999": {
    "m49": "999",
+   "iso3": "ZZZ",
    "name": "NO DECLARADOS"
   }
  },
  "m49": {
   "1": {
    "aladi": "1",
+   "iso3": "XCF",
    "name": "ZFPE Aceites y grasas del Catatumbo"
   },
   "2": {
    "aladi": "2",
-   "name": "ZONA FRANCA PERMANENTE ZFB EL DORADO S.A.S"
+   "iso3": "XCF",
+   "name": "ZFP EL DORADO S.A.S UOZF"
   },
   "3": {
    "aladi": "3",
+   "iso3": "XCF",
    "name": "ZFP Costa Afuera ECOPETROL Colombia S.A.S"
   },
   "4": {
-   "aladi": "4",
+   "aladi": "13",
+   "iso3": "AFG",
    "name": "Afganistán"
   },
   "8": {
-   "aladi": "8",
+   "aladi": "17",
+   "iso3": "ALB",
    "name": "Albania"
   },
   "10": {
-   "aladi": "10",
+   "aladi": "24",
+   "iso3": "ATA",
    "name": "Antártida"
   },
   "12": {
-   "aladi": "12",
+   "aladi": "59",
+   "iso3": "DZA",
    "name": "Argelia"
   },
   "16": {
-   "aladi": "16",
+   "aladi": "690",
+   "iso3": "ASM",
    "name": "Samoa Americana"
   },
   "20": {
-   "aladi": "20",
+   "aladi": "37",
+   "iso3": "AND",
    "name": "Andorra"
   },
   "22": {
    "aladi": "22",
+   "iso3": "XCF",
    "name": "ZFPE de Servicios TDCX"
   },
   "24": {
-   "aladi": "24",
+   "aladi": "40",
+   "iso3": "AGO",
    "name": "Angola"
   },
   "28": {
-   "aladi": "28",
+   "aladi": "43",
+   "iso3": "ATG",
    "name": "Antigua y Barbuda"
   },
   "31": {
-   "aladi": "31",
+   "aladi": "74",
+   "iso3": "AZE",
    "name": "Azerbaiyán"
   },
   "32": {
-   "aladi": "32",
+   "aladi": "63",
+   "iso3": "ARG",
    "name": "Argentina"
   },
   "36": {
-   "aladi": "36",
+   "aladi": "69",
+   "iso3": "AUS",
    "name": "Australia"
   },
   "40": {
-   "aladi": "40",
+   "aladi": "72",
+   "iso3": "AUT",
    "name": "Austria"
   },
   "44": {
-   "aladi": "44",
+   "aladi": "77",
+   "iso3": "BHS",
    "name": "Bahamas"
   },
   "48": {
-   "aladi": "48",
+   "aladi": "80",
+   "iso3": "BHR",
    "name": "Bahrein"
   },
   "50": {
-   "aladi": "50",
+   "aladi": "81",
+   "iso3": "BGD",
    "name": "Bangladesh"
   },
   "51": {
-   "aladi": "51",
+   "aladi": "26",
+   "iso3": "ARM",
    "name": "Armenia"
   },
   "52": {
-   "aladi": "52",
+   "aladi": "83",
+   "iso3": "BRB",
    "name": "Barbados"
   },
   "56": {
-   "aladi": "56",
+   "aladi": "87",
+   "iso3": "BEL",
    "name": "Bélgica"
   },
   "60": {
-   "aladi": "60",
-   "name": "Bermudas"
+   "aladi": "90",
+   "iso3": "BMU",
+   "name": "Bermuda"
   },
   "64": {
-   "aladi": "64",
-   "name": "Bhután"
+   "aladi": "119",
+   "iso3": "BTN",
+   "name": "Bután"
   },
   "68": {
-   "aladi": "68",
+   "aladi": "97",
+   "iso3": "BOL",
    "name": "Bolivia (Estado Plurinacional de)"
   },
   "70": {
-   "aladi": "70",
+   "aladi": "29",
+   "iso3": "BIH",
    "name": "Bosnia y Herzegovina"
   },
   "72": {
-   "aladi": "72",
+   "aladi": "101",
+   "iso3": "BWA",
    "name": "Botswana"
   },
   "74": {
-   "aladi": "74",
+   "aladi": "102",
+   "iso3": "BVT",
    "name": "Isla Bouvet"
   },
   "76": {
-   "aladi": "76",
+   "aladi": "105",
+   "iso3": "BRA",
    "name": "Brasil"
   },
   "84": {
-   "aladi": "84",
+   "aladi": "88",
+   "iso3": "BLZ",
    "name": "Belice"
   },
   "86": {
-   "aladi": "86",
+   "aladi": "787",
+   "iso3": "IOT",
    "name": "Territorio Británico del Océano Índico"
   },
   "90": {
-   "aladi": "90",
+   "aladi": "677",
+   "iso3": "SLB",
    "name": "Islas Salomón"
   },
   "92": {
-   "aladi": "92",
+   "aladi": "863",
+   "iso3": "VGB",
    "name": "Islas Vírgenes Británicas"
   },
   "96": {
-   "aladi": "96",
+   "aladi": "108",
+   "iso3": "BRN",
    "name": "Brunei Darussalam"
   },
   "100": {
-   "aladi": "100",
+   "aladi": "111",
+   "iso3": "BGR",
    "name": "Bulgaria"
   },
   "104": {
-   "aladi": "104",
+   "aladi": "93",
+   "iso3": "MMR",
    "name": "Myanmar"
   },
   "108": {
-   "aladi": "108",
+   "aladi": "115",
+   "iso3": "BDI",
    "name": "Burundi"
   },
   "112": {
-   "aladi": "112",
+   "aladi": "91",
+   "iso3": "BLR",
    "name": "Belarús"
   },
   "116": {
-   "aladi": "116",
+   "aladi": "141",
+   "iso3": "KHM",
    "name": "Camboya"
   },
   "120": {
-   "aladi": "120",
+   "aladi": "145",
+   "iso3": "CMR",
    "name": "Camerún"
   },
   "124": {
-   "aladi": "124",
+   "aladi": "149",
+   "iso3": "CAN",
    "name": "Canadá"
   },
   "129": {
    "aladi": "129",
-   "name": "ZONA FRANCA PERMANENTE GACHANCIPA/ZOFRANDINA/EXXENTA"
+   "iso3": "XCF",
+   "name": "ZFP Gachancipá/Zofrandina/Exxenta"
   },
   "130": {
    "aladi": "130",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL INDUSTRIAL COLMOTORES S.A.S. - ZOFICOL S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Zona Franca Industrial Colmotores S.A.S - \"ZOFICOL S.A.S\""
   },
   "131": {
    "aladi": "131",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TABLEMAC MDF S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Tablemac MDF S.A.S"
   },
   "132": {
-   "aladi": "132",
+   "aladi": "127",
+   "iso3": "CPV",
    "name": "Cabo Verde"
   },
   "133": {
    "aladi": "133",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ACEITES CIMARRONES S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Aceites Cimarrones"
   },
   "134": {
    "aladi": "134",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BRISA"
+   "iso3": "XCF",
+   "name": "ZFPE Puerto Brisa"
   },
   "135": {
    "aladi": "135",
+   "iso3": "XCF",
    "name": "ZFPE Clinica Cardiovascular Corazón Joven"
   },
   "136": {
-   "aladi": "136",
+   "aladi": "137",
+   "iso3": "CYM",
    "name": "Islas Caimán"
   },
   "140": {
-   "aladi": "140",
+   "aladi": "640",
+   "iso3": "CAF",
    "name": "República Centroafricana"
   },
   "144": {
-   "aladi": "144",
+   "aladi": "750",
+   "iso3": "LKA",
    "name": "Sri Lanka"
   },
   "148": {
-   "aladi": "148",
+   "aladi": "203",
+   "iso3": "TCD",
    "name": "Chad"
   },
   "152": {
-   "aladi": "152",
+   "aladi": "211",
+   "iso3": "CHL",
    "name": "Chile"
   },
   "155": {
    "aladi": "155",
-   "name": "CANAL, ISLAS (NORMANDAS)"
+   "iso3": "ZZZ",
+   "name": "Canal, islas (Normandas)"
   },
   "156": {
-   "aladi": "156",
+   "aladi": "215",
+   "iso3": "CHN",
    "name": "China"
   },
   "157": {
    "aladi": "157",
-   "name": "CANTON Y ENDERBURY, ISL"
+   "iso3": "ZZZ",
+   "name": "Cantón y Enderbury, Islas"
   },
   "158": {
-   "aladi": "158",
-   "name": "Taiwán"
+   "aladi": "218",
+   "iso3": "TWN",
+   "name": "Taiwán (Provincia de China)"
   },
   "162": {
-   "aladi": "162",
-   "name": "Isla de Navidad"
+   "aladi": "511",
+   "iso3": "CXR",
+   "name": "Isla Christmas"
   },
   "166": {
-   "aladi": "166",
+   "aladi": "165",
+   "iso3": "CCK",
    "name": "Islas Cocos (Keeling)"
   },
   "170": {
-   "aladi": "170",
+   "aladi": "169",
+   "iso3": "COL",
    "name": "Colombia"
   },
   "174": {
-   "aladi": "174",
+   "aladi": "173",
+   "iso3": "COM",
    "name": "Comoras"
   },
   "175": {
-   "aladi": "175",
+   "aladi": "489",
+   "iso3": "MYT",
    "name": "Mayotte"
   },
   "178": {
-   "aladi": "178",
+   "aladi": "177",
+   "iso3": "COG",
    "name": "Congo"
   },
   "180": {
-   "aladi": "180",
+   "aladi": "888",
+   "iso3": "COD",
    "name": "República Democrática del Congo"
   },
   "184": {
-   "aladi": "184",
+   "aladi": "183",
+   "iso3": "COK",
    "name": "Islas Cook"
   },
   "188": {
-   "aladi": "188",
+   "aladi": "196",
+   "iso3": "CRI",
    "name": "Costa Rica"
   },
   "191": {
-   "aladi": "191",
+   "aladi": "198",
+   "iso3": "HRV",
    "name": "Croacia"
   },
   "192": {
-   "aladi": "192",
+   "aladi": "199",
+   "iso3": "CUB",
    "name": "Cuba"
   },
   "196": {
-   "aladi": "196",
+   "aladi": "221",
+   "iso3": "CYP",
    "name": "Chipre"
   },
   "202": {
    "aladi": "202",
-   "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO INDUSTRIAL DEL PACÍFICO - CLIP S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Centro Logístico Industrial del Pacífico - CLIP S.A.S"
   },
   "203": {
-   "aladi": "203",
-   "name": "Chequia"
+   "aladi": "644",
+   "iso3": "CZE",
+   "name": "Republica Checa"
   },
   "204": {
-   "aladi": "204",
+   "aladi": "229",
+   "iso3": "BEN",
    "name": "Benin"
   },
   "205": {
    "aladi": "205",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SCOTIA GLOBAL BUSINESS SERVICES COLOMBIA ZONA FRANCA EMPRESARIAL S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Scotia Global Business Services Colombia Zona Franca Empresarial S.A.S."
   },
   "206": {
    "aladi": "206",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL INSTITUTO MEDICO DE ALTA TECNOLOGIA - IMAT S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Instituto Médico de Alta Tecnología  - IMAT S.A.S."
   },
   "207": {
    "aladi": "207",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TERNIUM DEL ATLANTICO S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Ternium del Atlántico S.A.S."
   },
   "208": {
-   "aladi": "208",
+   "aladi": "232",
+   "iso3": "DNK",
    "name": "Dinamarca"
   },
   "209": {
    "aladi": "209",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMOCANDELARIA S.C.A. - E.S.P."
+   "iso3": "XCF",
+   "name": "ZFPE Termocandelaria S.C.A E.S.P."
   },
   "210": {
    "aladi": "210",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA SAN MIGUEL UCI HONDA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Clinica San Miguel UCI Honda S.A.S."
   },
   "212": {
-   "aladi": "212",
+   "aladi": "235",
+   "iso3": "DMA",
    "name": "Dominica"
   },
   "213": {
    "aladi": "213",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PALERMO SOCIEDAD PORTUARIA S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Palermo Sociedad Portuaria S.A"
   },
   "214": {
-   "aladi": "214",
+   "aladi": "647",
+   "iso3": "DOM",
    "name": "República Dominicana"
   },
   "216": {
    "aladi": "216",
-   "name": "ZONA FRANCA PERMANENTE CRISTALINA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Cristalina S.A.S."
   },
   "217": {
    "aladi": "217",
-   "name": "ZONA FRANCA PERMANENTE CENTRAL DEL CASANARE S.A."
+   "iso3": "XCF",
+   "name": "ZFP Parque Central Casanare S.A"
   },
   "218": {
-   "aladi": "218",
+   "aladi": "239",
+   "iso3": "ECU",
    "name": "Ecuador"
   },
   "219": {
    "aladi": "219",
+   "iso3": "XCF",
    "name": "ZFPE Productos Familia Rionegro S.A.S"
   },
   "220": {
    "aladi": "220",
+   "iso3": "XCF",
    "name": "ZFP Cristalina S.A.S"
   },
   "222": {
-   "aladi": "222",
+   "aladi": "242",
+   "iso3": "SLV",
    "name": "El Salvador"
   },
   "223": {
    "aladi": "223",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL OPTUM GLOBAL SOLUTIONS COLOMBIA SAS"
+   "iso3": "XCF",
+   "name": "ZFPE Optum Global Solutions Colombia S.A.S"
   },
   "224": {
    "aladi": "224",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA RIONEGRO S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Productos Familia Rionegro S.A.S."
   },
   "225": {
    "aladi": "225",
-   "name": "ZONA FRANCA PERMANENTE COSTA AFUERA SHELL"
+   "iso3": "XCF",
+   "name": "ZFP Costa Afuera SHELL"
   },
   "226": {
-   "aladi": "226",
+   "aladi": "331",
+   "iso3": "GNQ",
    "name": "Guinea Ecuatorial"
   },
   "227": {
    "aladi": "227",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SAN FRANCISCO INVESTMENTS S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPEspecial San Francisco Investments S.A.S."
   },
   "231": {
-   "aladi": "231",
+   "aladi": "253",
+   "iso3": "ETH",
    "name": "Etiopía"
   },
   "232": {
-   "aladi": "232",
+   "aladi": "243",
+   "iso3": "ERI",
    "name": "Eritrea"
   },
   "233": {
-   "aladi": "233",
+   "aladi": "251",
+   "iso3": "EST",
    "name": "Estonia"
   },
   "234": {
-   "aladi": "234",
+   "aladi": "259",
+   "iso3": "FRO",
    "name": "Islas Feroe"
   },
   "238": {
-   "aladi": "238",
-   "name": "Islas Malvinas"
+   "aladi": "470",
+   "iso3": "FLK",
+   "name": "Islas Malvinas (Falkland)"
   },
   "239": {
-   "aladi": "239",
+   "aladi": "694",
+   "iso3": "SGS",
    "name": "Georgia del Sur y las Islas Sandwich del Sur"
   },
   "242": {
-   "aladi": "242",
+   "aladi": "870",
+   "iso3": "FJI",
    "name": "Fiji"
   },
   "246": {
-   "aladi": "246",
+   "aladi": "271",
+   "iso3": "FIN",
    "name": "Finlandia"
   },
   "248": {
-   "aladi": "248",
+   "aladi": "15",
+   "iso3": "ALA",
    "name": "Islas Åland"
   },
   "250": {
-   "aladi": "250",
+   "aladi": "275",
+   "iso3": "FRA",
    "name": "Francia"
   },
   "254": {
-   "aladi": "254",
+   "aladi": "325",
+   "iso3": "GUF",
    "name": "Guayana Francesa"
   },
   "258": {
-   "aladi": "258",
+   "aladi": "599",
+   "iso3": "PYF",
    "name": "Polinesia Francesa"
   },
   "260": {
-   "aladi": "260",
+   "aladi": "786",
+   "iso3": "ATF",
    "name": "Territorio de las Tierras Australes Francesas"
   },
   "262": {
-   "aladi": "262",
+   "aladi": "783",
+   "iso3": "DJI",
    "name": "Djibouti"
   },
   "266": {
-   "aladi": "266",
+   "aladi": "281",
+   "iso3": "GAB",
    "name": "Gabón"
   },
   "268": {
-   "aladi": "268",
+   "aladi": "287",
+   "iso3": "GEO",
    "name": "Georgia"
   },
   "270": {
-   "aladi": "270",
+   "aladi": "285",
+   "iso3": "GMB",
    "name": "Gambia"
   },
   "274": {
-   "aladi": "274",
-   "name": "Gaza  y Jerico"
+   "aladi": "286",
+   "iso3": null,
+   "name": "Franja de Gaza"
   },
   "275": {
-   "aladi": "275",
+   "aladi": "579",
+   "iso3": "PSE",
    "name": "Estado de Palestina"
   },
   "276": {
-   "aladi": "276",
+   "aladi": "23",
+   "iso3": "DEU",
    "name": "Alemania"
   },
   "278": {
-   "aladi": "278",
-   "name": "Alemania, República Democrática"
+   "aladi": "25",
+   "iso3": null,
+   "name": "República Democrática Alemana"
   },
   "288": {
-   "aladi": "288",
+   "aladi": "289",
+   "iso3": "GHA",
    "name": "Ghana"
   },
   "292": {
-   "aladi": "292",
+   "aladi": "293",
+   "iso3": "GIB",
    "name": "Gibraltar"
   },
   "296": {
-   "aladi": "296",
+   "aladi": "411",
+   "iso3": "KIR",
    "name": "Kiribati"
   },
   "300": {
-   "aladi": "300",
+   "aladi": "301",
+   "iso3": "GRC",
    "name": "Grecia"
   },
   "304": {
-   "aladi": "304",
+   "aladi": "305",
+   "iso3": "GRL",
    "name": "Groenlandia"
   },
   "308": {
-   "aladi": "308",
+   "aladi": "297",
+   "iso3": "GRD",
    "name": "Granada"
   },
   "312": {
-   "aladi": "312",
+   "aladi": "309",
+   "iso3": "GLP",
    "name": "Guadalupe"
   },
   "316": {
-   "aladi": "316",
+   "aladi": "313",
+   "iso3": "GUM",
    "name": "Guam"
   },
   "320": {
-   "aladi": "320",
+   "aladi": "317",
+   "iso3": "GTM",
    "name": "Guatemala"
   },
   "324": {
-   "aladi": "324",
+   "aladi": "329",
+   "iso3": "GIN",
    "name": "Guinea"
   },
   "328": {
-   "aladi": "328",
+   "aladi": "337",
+   "iso3": "GUY",
    "name": "Guyana"
   },
   "332": {
-   "aladi": "332",
+   "aladi": "341",
+   "iso3": "HTI",
    "name": "Haití"
   },
   "334": {
-   "aladi": "334",
+   "aladi": "343",
+   "iso3": "HMD",
    "name": "Islas Heard y McDonald"
   },
   "336": {
-   "aladi": "336",
+   "aladi": "159",
+   "iso3": "VAT",
    "name": "Santa Sede"
   },
   "340": {
-   "aladi": "340",
+   "aladi": "345",
+   "iso3": "HND",
    "name": "Honduras"
   },
   "344": {
-   "aladi": "344",
+   "aladi": "351",
+   "iso3": "HKG",
    "name": "Hong Kong"
   },
   "348": {
-   "aladi": "348",
+   "aladi": "355",
+   "iso3": "HUN",
    "name": "Hungría"
   },
   "352": {
-   "aladi": "352",
+   "aladi": "379",
+   "iso3": "ISL",
    "name": "Islandia"
   },
   "356": {
-   "aladi": "356",
+   "aladi": "361",
+   "iso3": "IND",
    "name": "India"
   },
   "360": {
-   "aladi": "360",
+   "aladi": "365",
+   "iso3": "IDN",
    "name": "Indonesia"
   },
   "364": {
-   "aladi": "364",
+   "aladi": "372",
+   "iso3": "IRN",
    "name": "Irán (República Islámica del)"
   },
   "368": {
-   "aladi": "368",
+   "aladi": "369",
+   "iso3": "IRQ",
    "name": "Iraq"
   },
   "372": {
-   "aladi": "372",
+   "aladi": "375",
+   "iso3": "IRL",
    "name": "Irlanda"
   },
   "376": {
-   "aladi": "376",
+   "aladi": "383",
+   "iso3": "ISR",
    "name": "Israel"
   },
   "380": {
-   "aladi": "380",
+   "aladi": "386",
+   "iso3": "ITA",
    "name": "Italia"
   },
   "384": {
-   "aladi": "384",
-   "name": "Côte d’Ivoire"
+   "aladi": "193",
+   "iso3": "CIV",
+   "name": "Costa de Marfil"
   },
   "388": {
-   "aladi": "388",
+   "aladi": "391",
+   "iso3": "JAM",
    "name": "Jamaica"
   },
   "392": {
-   "aladi": "392",
+   "aladi": "399",
+   "iso3": "JPN",
    "name": "Japón"
   },
   "395": {
    "aladi": "395",
-   "name": "JOHNSTON,ISLAS"
+   "iso3": "ZZZ",
+   "name": "Johnston, islas"
   },
   "398": {
-   "aladi": "398",
+   "aladi": "406",
+   "iso3": "KAZ",
    "name": "Kazajstán"
   },
   "400": {
-   "aladi": "400",
+   "aladi": "403",
+   "iso3": "JOR",
    "name": "Jordania"
   },
   "404": {
-   "aladi": "404",
+   "aladi": "410",
+   "iso3": "KEN",
    "name": "Kenya"
   },
   "408": {
-   "aladi": "408",
+   "aladi": "187",
+   "iso3": "PRK",
    "name": "República Popular Democrática de Corea"
   },
   "410": {
-   "aladi": "410",
+   "aladi": "190",
+   "iso3": "KOR",
    "name": "República de Corea"
   },
   "414": {
-   "aladi": "414",
+   "aladi": "413",
+   "iso3": "KWT",
    "name": "Kuwait"
   },
   "417": {
-   "aladi": "417",
+   "aladi": "412",
+   "iso3": "KGZ",
    "name": "Kirguistán"
   },
   "418": {
-   "aladi": "418",
+   "aladi": "420",
+   "iso3": "LAO",
    "name": "República Democrática Popular Lao"
   },
   "422": {
-   "aladi": "422",
+   "aladi": "431",
+   "iso3": "LBN",
    "name": "Líbano"
   },
   "426": {
    "aladi": "426",
+   "iso3": "LSO",
    "name": "Lesotho"
   },
   "428": {
-   "aladi": "428",
+   "aladi": "429",
+   "iso3": "LVA",
    "name": "Letonia"
   },
   "430": {
-   "aladi": "430",
+   "aladi": "434",
+   "iso3": "LBR",
    "name": "Liberia"
   },
   "434": {
-   "aladi": "434",
+   "aladi": "438",
+   "iso3": "LBY",
    "name": "Libia"
   },
   "438": {
-   "aladi": "438",
+   "aladi": "440",
+   "iso3": "LIE",
    "name": "Liechtenstein"
   },
   "440": {
-   "aladi": "440",
+   "aladi": "443",
+   "iso3": "LTU",
    "name": "Lituania"
   },
   "442": {
-   "aladi": "442",
+   "aladi": "445",
+   "iso3": "LUX",
    "name": "Luxemburgo"
   },
   "446": {
-   "aladi": "446",
+   "aladi": "447",
+   "iso3": "MAC",
    "name": "Macao"
   },
   "450": {
    "aladi": "450",
+   "iso3": "MDG",
    "name": "Madagascar"
   },
   "454": {
-   "aladi": "454",
+   "aladi": "458",
+   "iso3": "MWI",
    "name": "Malawi"
   },
   "458": {
-   "aladi": "458",
+   "aladi": "455",
+   "iso3": "MYS",
    "name": "Malasia"
   },
   "462": {
-   "aladi": "462",
+   "aladi": "461",
+   "iso3": "MDV",
    "name": "Maldivas"
   },
   "466": {
-   "aladi": "466",
+   "aladi": "464",
+   "iso3": "MLI",
    "name": "Malí"
   },
   "470": {
-   "aladi": "470",
+   "aladi": "467",
+   "iso3": "MLT",
    "name": "Malta"
   },
   "474": {
-   "aladi": "474",
+   "aladi": "477",
+   "iso3": "MTQ",
    "name": "Martinica"
   },
   "478": {
-   "aladi": "478",
+   "aladi": "488",
+   "iso3": "MRT",
    "name": "Mauritania"
   },
   "480": {
-   "aladi": "480",
+   "aladi": "485",
+   "iso3": "MUS",
    "name": "Mauricio"
   },
   "484": {
-   "aladi": "484",
+   "aladi": "493",
+   "iso3": "MEX",
    "name": "México"
   },
   "492": {
-   "aladi": "492",
+   "aladi": "498",
+   "iso3": "MCO",
    "name": "Mónaco"
   },
   "495": {
    "aladi": "495",
-   "name": "MIDWAY,ISLAS"
+   "iso3": "ZZZ",
+   "name": "Midway, islas"
   },
   "496": {
-   "aladi": "496",
+   "aladi": "497",
+   "iso3": "MNG",
    "name": "Mongolia"
   },
   "498": {
-   "aladi": "498",
+   "aladi": "496",
+   "iso3": "MDA",
    "name": "República de Moldova"
   },
   "499": {
-   "aladi": "499",
+   "aladi": "500",
+   "iso3": "MNE",
    "name": "Montenegro"
   },
   "500": {
-   "aladi": "500",
+   "aladi": "501",
+   "iso3": "MSR",
    "name": "Montserrat"
   },
   "504": {
-   "aladi": "504",
+   "aladi": "474",
+   "iso3": "MAR",
    "name": "Marruecos"
   },
   "508": {
-   "aladi": "508",
+   "aladi": "505",
+   "iso3": "MOZ",
    "name": "Mozambique"
   },
   "512": {
-   "aladi": "512",
+   "aladi": "556",
+   "iso3": "OMN",
    "name": "Omán"
   },
   "516": {
-   "aladi": "516",
+   "aladi": "507",
+   "iso3": "NAM",
    "name": "Namibia"
   },
   "520": {
-   "aladi": "520",
+   "aladi": "508",
+   "iso3": "NRU",
    "name": "Nauru"
   },
   "524": {
-   "aladi": "524",
+   "aladi": "517",
+   "iso3": "NPL",
    "name": "Nepal"
   },
   "528": {
-   "aladi": "528",
+   "aladi": "573",
+   "iso3": "NLD",
    "name": "Países Bajos"
   },
   "530": {
-   "aladi": "530",
+   "aladi": "47",
+   "iso3": null,
    "name": "Antillas Holandesas"
   },
   "531": {
-   "aladi": "531",
+   "aladi": "200",
+   "iso3": "CUW",
    "name": "Curazao"
   },
   "533": {
-   "aladi": "533",
+   "aladi": "27",
+   "iso3": "ABW",
    "name": "Aruba"
   },
   "534": {
-   "aladi": "534",
+   "aladi": "699",
+   "iso3": "SXM",
    "name": "San Martín (parte Holandesa)"
   },
   "535": {
-   "aladi": "535",
+   "aladi": "98",
+   "iso3": "BES",
    "name": "Bonaire, San Eustaquio y Saba"
   },
   "540": {
-   "aladi": "540",
+   "aladi": "542",
+   "iso3": "NCL",
    "name": "Nueva Caledonia"
   },
   "548": {
-   "aladi": "548",
+   "aladi": "551",
+   "iso3": "VUT",
    "name": "Vanuatu"
   },
   "554": {
-   "aladi": "554",
-   "name": "Nueva Zelandia"
+   "aladi": "548",
+   "iso3": "NZL",
+   "name": "Nueva Zelanda"
   },
   "558": {
-   "aladi": "558",
+   "aladi": "521",
+   "iso3": "NIC",
    "name": "Nicaragua"
   },
   "562": {
-   "aladi": "562",
+   "aladi": "525",
+   "iso3": "NER",
    "name": "Níger"
   },
   "566": {
-   "aladi": "566",
+   "aladi": "528",
+   "iso3": "NGA",
    "name": "Nigeria"
   },
   "570": {
-   "aladi": "570",
+   "aladi": "531",
+   "iso3": "NIU",
    "name": "Niue"
   },
   "574": {
-   "aladi": "574",
+   "aladi": "535",
+   "iso3": "NFK",
    "name": "Isla Norfolk"
   },
   "578": {
-   "aladi": "578",
+   "aladi": "538",
+   "iso3": "NOR",
    "name": "Noruega"
   },
   "580": {
-   "aladi": "580",
-   "name": "Islas Marianas del Norte"
+   "aladi": "469",
+   "iso3": "MNP",
+   "name": "Islas Marianas Septentrionales"
   },
   "581": {
-   "aladi": "581",
-   "name": "Islas menores alejadas de los Estados Unidos"
+   "aladi": "566",
+   "iso3": "UMI",
+   "name": "Islas menores alejadas de Estados Unidos"
   },
   "583": {
-   "aladi": "583",
+   "aladi": "494",
+   "iso3": "FSM",
    "name": "Micronesia (Estados Federados de)"
   },
   "584": {
-   "aladi": "584",
+   "aladi": "472",
+   "iso3": "MHL",
    "name": "Islas Marshall"
   },
   "585": {
-   "aladi": "585",
+   "aladi": "578",
+   "iso3": "PLW",
    "name": "Palau"
   },
   "586": {
-   "aladi": "586",
+   "aladi": "576",
+   "iso3": "PAK",
    "name": "Pakistán"
   },
   "591": {
-   "aladi": "591",
+   "aladi": "580",
+   "iso3": "PAN",
    "name": "Panamá"
   },
   "598": {
-   "aladi": "598",
-   "name": "Papua Nueva Guinea"
+   "aladi": "545",
+   "iso3": "PNG",
+   "name": "Papúa Nueva Guinea"
   },
   "600": {
-   "aladi": "600",
+   "aladi": "586",
+   "iso3": "PRY",
    "name": "Paraguay"
   },
   "604": {
-   "aladi": "604",
+   "aladi": "589",
+   "iso3": "PER",
    "name": "Perú"
   },
   "608": {
-   "aladi": "608",
+   "aladi": "267",
+   "iso3": "PHL",
    "name": "Filipinas"
   },
   "612": {
-   "aladi": "612",
+   "aladi": "593",
+   "iso3": "PCN",
    "name": "Pitcairn"
   },
   "616": {
-   "aladi": "616",
+   "aladi": "603",
+   "iso3": "POL",
    "name": "Polonia"
   },
   "620": {
-   "aladi": "620",
+   "aladi": "607",
+   "iso3": "PRT",
    "name": "Portugal"
   },
   "621": {
    "aladi": "621",
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL VALLE DE ABURRÁ S.A.S. - ZOFIVA"
+   "iso3": "XCF",
+   "name": "ZFP Internacional Valle de Aburrá S.A.S - \"ZOFIVA\""
   },
   "622": {
    "aladi": "622",
+   "iso3": "XCF",
    "name": "ZFPE Fresenius Medical Care Servicio Renal"
   },
   "623": {
    "aladi": "623",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL DESTILERIA RIOPAILA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Destilería Riopaila S.A.S"
   },
   "624": {
-   "aladi": "624",
+   "aladi": "334",
+   "iso3": "GNB",
    "name": "Guinea-Bissau"
   },
   "625": {
    "aladi": "625",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL MEDICAL DUARTE ZF S.A.S"
+   "iso3": "XCF",
+   "name": "ZFPE Medical Duarte ZF S.A.S"
   },
   "626": {
-   "aladi": "626",
+   "aladi": "788",
+   "iso3": "TLS",
    "name": "Timor-Leste"
   },
   "630": {
-   "aladi": "630",
+   "aladi": "611",
+   "iso3": "PRI",
    "name": "Puerto Rico"
   },
   "631": {
    "aladi": "631",
-   "name": "ZONA FRANCA PERMANENTE PALERMO Usuario Operador de Zona Franca S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Palermo Usuario Operador de Zona Franca S.A.S"
   },
   "632": {
    "aladi": "632",
-   "name": "ZONA FRANCA PERMANENTE SANTELCA S.A.S"
+   "iso3": "XCF",
+   "name": "ZFP Santelca S.A.S"
   },
   "633": {
    "aladi": "633",
-   "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL FEMSA"
+   "iso3": "XCF",
+   "name": "ZFP Parque Industrial FEMSA"
   },
   "634": {
-   "aladi": "634",
+   "aladi": "618",
+   "iso3": "QAT",
    "name": "Qatar"
   },
   "635": {
    "aladi": "635",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA PUERTO NUEVO S.A"
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria Puerto Nuevo S.A"
   },
   "636": {
    "aladi": "636",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMOTASAJERO DOS S.A. E.S.P."
+   "iso3": "XCF",
+   "name": "ZFPE Termotasajero Dos S.A. E.S.P."
   },
   "637": {
    "aladi": "637",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA MARDIQUE S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria Mardique S.A."
   },
   "638": {
-   "aladi": "638",
+   "aladi": "660",
+   "iso3": "REU",
    "name": "Reunión"
   },
   "642": {
-   "aladi": "642",
+   "aladi": "670",
+   "iso3": "ROU",
    "name": "Rumania"
   },
   "643": {
-   "aladi": "643",
+   "aladi": "676",
+   "iso3": "RUS",
    "name": "Federación de Rusia"
   },
   "646": {
-   "aladi": "646",
-   "name": "Rwanda"
+   "aladi": "675",
+   "iso3": "RWA",
+   "name": "Ruanda"
   },
   "650": {
    "aladi": "650",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CENTRO HOSPITALARIO SERENA DEL MAR S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Centro Hospitalario Serena Del Mar S.A."
   },
   "651": {
    "aladi": "651",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO MAMONAL S.A. SOCIEDAD PORTUARIA"
+   "iso3": "XCF",
+   "name": "ZFPE Puerto Mamonal S.A Sociedad Portuaria"
   },
   "652": {
-   "aladi": "652",
-   "name": "San Bartolomé"
+   "aladi": "693",
+   "iso3": "BLM",
+   "name": "San Bartolome"
   },
   "653": {
    "aladi": "653",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ACEITES Y GRASAS DEL CATATUMBO S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Agroindustrial Aceites Grasas del Catatumbo S.A.S"
   },
   "654": {
-   "aladi": "654",
-   "name": "Santa Elena, Ascensión y Tristán de Acuña"
+   "aladi": "710",
+   "iso3": "SHN",
+   "name": "Santa Elena"
   },
   "655": {
    "aladi": "655",
+   "iso3": "XCF",
    "name": "ZFPE Plaza Mayor Medellín Conveciones y Exposiciones"
   },
   "656": {
    "aladi": "656",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA DE MARLY JORGE CAVELIER GAVIRIA"
+   "iso3": "XCF",
+   "name": "ZFPE Clínica de Marly Jorge Cavelier Gaviria"
   },
   "657": {
    "aladi": "657",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA UNIVERSITARIA MEDICINA INTEGRAL S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Clínica Universitaria Medicina Integral S.A.S"
   },
   "658": {
    "aladi": "658",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL DIACOR SOACHA ZONA FRANCA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Diacor Soacha Zona Franca S.A.S"
   },
   "659": {
-   "aladi": "659",
+   "aladi": "695",
+   "iso3": "KNA",
    "name": "Saint Kitts y Nevis"
   },
   "660": {
-   "aladi": "660",
+   "aladi": "41",
+   "iso3": "AIA",
    "name": "Anguila"
   },
   "662": {
-   "aladi": "662",
+   "aladi": "715",
+   "iso3": "LCA",
    "name": "Santa Lucía"
   },
   "663": {
-   "aladi": "663",
+   "aladi": "698",
+   "iso3": "MAF",
    "name": "San Martín (parte francesa)"
   },
   "666": {
-   "aladi": "666",
+   "aladi": "700",
+   "iso3": "SPM",
    "name": "San Pedro y Miquelón"
   },
   "670": {
-   "aladi": "670",
+   "aladi": "705",
+   "iso3": "VCT",
    "name": "San Vicente y las Granadinas"
   },
   "671": {
    "aladi": "671",
+   "iso3": "XCF",
    "name": "ZFP Transitoria Grupo Heróica"
   },
   "674": {
-   "aladi": "674",
+   "aladi": "697",
+   "iso3": "SMR",
    "name": "San Marino"
   },
   "678": {
-   "aladi": "678",
+   "aladi": "720",
+   "iso3": "STP",
    "name": "Santo Tomé y Príncipe"
   },
   "682": {
-   "aladi": "682",
+   "aladi": "53",
+   "iso3": "SAU",
    "name": "Arabia Saudita"
   },
   "686": {
-   "aladi": "686",
+   "aladi": "728",
+   "iso3": "SEN",
    "name": "Senegal"
   },
   "688": {
-   "aladi": "688",
+   "aladi": "729",
+   "iso3": "SRB",
    "name": "Serbia"
   },
   "690": {
-   "aladi": "690",
+   "aladi": "731",
+   "iso3": "SYC",
    "name": "Seychelles"
   },
   "694": {
-   "aladi": "694",
+   "aladi": "735",
+   "iso3": "SLE",
    "name": "Sierra Leona"
   },
   "702": {
-   "aladi": "702",
+   "aladi": "741",
+   "iso3": "SGP",
    "name": "Singapur"
   },
   "703": {
-   "aladi": "703",
+   "aladi": "246",
+   "iso3": "SVK",
    "name": "Eslovaquia"
   },
   "704": {
-   "aladi": "704",
+   "aladi": "855",
+   "iso3": "VNM",
    "name": "Viet Nam"
   },
   "705": {
-   "aladi": "705",
+   "aladi": "247",
+   "iso3": "SVN",
    "name": "Eslovenia"
   },
   "706": {
-   "aladi": "706",
+   "aladi": "748",
+   "iso3": "SOM",
    "name": "Somalia"
   },
   "710": {
-   "aladi": "710",
+   "aladi": "756",
+   "iso3": "ZAF",
    "name": "Sudáfrica"
   },
   "716": {
-   "aladi": "716",
+   "aladi": "665",
+   "iso3": "ZWE",
    "name": "Zimbabwe"
   },
   "720": {
-   "aladi": "720",
+   "aladi": "881",
+   "iso3": null,
    "name": "Yemen Democrático"
   },
   "724": {
-   "aladi": "724",
+   "aladi": "245",
+   "iso3": "ESP",
    "name": "España"
   },
   "728": {
-   "aladi": "728",
+   "aladi": "760",
+   "iso3": "SSD",
    "name": "Sudán del Sur"
   },
   "729": {
-   "aladi": "729",
+   "aladi": "759",
+   "iso3": "SDN",
    "name": "Sudán"
   },
   "732": {
-   "aladi": "732",
-   "name": "Sáhara Occidental"
+   "aladi": "685",
+   "iso3": "ESH",
+   "name": "Sahara Occidental"
   },
   "740": {
-   "aladi": "740",
-   "name": "Suriname"
+   "aladi": "770",
+   "iso3": "SUR",
+   "name": "Surinam"
   },
   "744": {
-   "aladi": "744",
+   "aladi": "772",
+   "iso3": "SJM",
    "name": "Islas Svalbard y Jan Mayen"
   },
   "748": {
-   "aladi": "748",
+   "aladi": "773",
+   "iso3": "SWZ",
    "name": "Eswatini"
   },
   "752": {
-   "aladi": "752",
+   "aladi": "764",
+   "iso3": "SWE",
    "name": "Suecia"
   },
   "756": {
-   "aladi": "756",
+   "aladi": "767",
+   "iso3": "CHE",
    "name": "Suiza"
   },
   "760": {
-   "aladi": "760",
+   "aladi": "744",
+   "iso3": "SYR",
    "name": "República Árabe Siria"
   },
   "762": {
-   "aladi": "762",
+   "aladi": "774",
+   "iso3": "TJK",
    "name": "Tayikistán"
   },
   "764": {
-   "aladi": "764",
+   "aladi": "776",
+   "iso3": "THA",
    "name": "Tailandia"
   },
   "768": {
-   "aladi": "768",
+   "aladi": "800",
+   "iso3": "TGO",
    "name": "Togo"
   },
   "772": {
-   "aladi": "772",
+   "aladi": "805",
+   "iso3": "TKL",
    "name": "Tokelau"
   },
   "776": {
-   "aladi": "776",
+   "aladi": "810",
+   "iso3": "TON",
    "name": "Tonga"
   },
   "780": {
-   "aladi": "780",
-   "name": "Trinidad y Tabago"
+   "aladi": "815",
+   "iso3": "TTO",
+   "name": "Trinidad y Tobago"
   },
   "784": {
-   "aladi": "784",
+   "aladi": "244",
+   "iso3": "ARE",
    "name": "Emiratos Árabes Unidos"
   },
   "785": {
    "aladi": "785",
-   "name": "TERRITORIO PALESTINO OCUPADO"
+   "iso3": "ZZZ",
+   "name": "Territorio Palestino Ocupado"
   },
   "788": {
-   "aladi": "788",
+   "aladi": "820",
+   "iso3": "TUN",
    "name": "Túnez"
   },
   "790": {
    "aladi": "790",
+   "iso3": "XCF",
    "name": "ZFPE Onelink International S.A.S"
   },
   "791": {
    "aladi": "791",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA EL CAYAO S.A. E.S.P."
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria El Cayao S.A. E.S.P."
   },
   "792": {
-   "aladi": "792",
+   "aladi": "827",
+   "iso3": "TUR",
    "name": "Turquía"
   },
   "793": {
    "aladi": "793",
-   "name": "ZONA FRANCA PERMANENTE COSTA AFUERA ANADARKO"
+   "iso3": "XCF",
+   "name": "ZFP Costa Afuera Anadarko"
   },
   "794": {
    "aladi": "794",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL EMPRESA COLOMBIANA DE CEMENTOS S.A.S. - ECOCEMENTOS S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Empresa Colombiana de Cementos S.A.S. - \"Ecocementos S.A.S\""
   },
   "795": {
-   "aladi": "795",
+   "aladi": "825",
+   "iso3": "TKM",
    "name": "Turkmenistán"
   },
   "796": {
-   "aladi": "796",
+   "aladi": "823",
+   "iso3": "TCA",
    "name": "Islas Turcas y Caicos"
   },
   "797": {
    "aladi": "797",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO IMPALA TERMINALS BARRANCABERMEJA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Puerto Impala Terminals Barrancabermeja S.A.S"
   },
   "798": {
-   "aladi": "798",
+   "aladi": "828",
+   "iso3": "TUV",
    "name": "Tuvalu"
   },
   "800": {
-   "aladi": "800",
+   "aladi": "833",
+   "iso3": "UGA",
    "name": "Uganda"
   },
   "801": {
    "aladi": "801",
+   "iso3": "XCF",
    "name": "ZFPE Ultracem"
   },
   "802": {
    "aladi": "802",
+   "iso3": "XCF",
    "name": "ZFPE Extractora Agroindustrial El Gran Sinú"
   },
   "804": {
-   "aladi": "804",
+   "aladi": "830",
+   "iso3": "UKR",
    "name": "Ucrania"
   },
   "806": {
-   "aladi": "806",
-   "name": ""
+   "aladi": null,
+   "iso3": "XCF",
+   "name": "ZFP Malambo - ZOMA"
   },
   "807": {
-   "aladi": "807",
+   "aladi": "448",
+   "iso3": "MKD",
    "name": "Macedonia del Norte"
   },
   "808": {
-   "aladi": "808",
-   "name": ""
+   "aladi": null,
+   "iso3": "XCF",
+   "name": "ZFPE Weg Colombia Transformadores SAS"
   },
   "809": {
-   "aladi": "809",
-   "name": ""
+   "aladi": null,
+   "iso3": "XCF",
+   "name": "ZFPE Rionegro Mro Zona Franca S.A.S"
   },
   "810": {
-   "aladi": "810",
-   "name": "Unión Soviética"
+   "aladi": "840",
+   "iso3": null,
+   "name": "URSS"
   },
   "818": {
-   "aladi": "818",
+   "aladi": "240",
+   "iso3": "EGY",
    "name": "Egipto"
   },
   "826": {
-   "aladi": "826",
+   "aladi": "628",
+   "iso3": "GBR",
    "name": "Reino Unido de Gran Bretaña e Irlanda del Norte"
   },
   "831": {
-   "aladi": "831",
+   "aladi": "327",
+   "iso3": "GGY",
    "name": "Guernsey"
   },
   "832": {
-   "aladi": "832",
+   "aladi": "401",
+   "iso3": "JEY",
    "name": "Jersey"
   },
   "833": {
-   "aladi": "833",
+   "aladi": "468",
+   "iso3": "IMN",
    "name": "Isla de Man"
   },
   "834": {
-   "aladi": "834",
+   "aladi": "780",
+   "iso3": "TZA",
    "name": "República Unida de Tanzanía"
   },
   "840": {
-   "aladi": "840",
+   "aladi": "249",
+   "iso3": "USA",
    "name": "Estados Unidos de América"
   },
   "849": {
-   "aladi": "849",
-   "name": "Pacifico, Islas administradas por USA"
+   "aladi": "563",
+   "iso3": null,
+   "name": "Estados Unidos varios Islas del Pacífico"
   },
   "850": {
-   "aladi": "850",
+   "aladi": "866",
+   "iso3": "VIR",
    "name": "Islas Vírgenes de los Estados Unidos"
   },
   "854": {
-   "aladi": "854",
+   "aladi": "31",
+   "iso3": "BFA",
    "name": "Burkina Faso"
   },
   "858": {
-   "aladi": "858",
+   "aladi": "845",
+   "iso3": "URY",
    "name": "Uruguay"
   },
   "860": {
-   "aladi": "860",
+   "aladi": "847",
+   "iso3": "UZB",
    "name": "Uzbekistán"
   },
   "862": {
-   "aladi": "862",
+   "aladi": "850",
+   "iso3": "VEN",
    "name": "Venezuela (República Bolivariana de)"
   },
   "873": {
    "aladi": "873",
-   "name": "WAKE,ISLAS"
+   "iso3": "ZZZ",
+   "name": "Wake, Islas"
   },
   "876": {
-   "aladi": "876",
+   "aladi": "875",
+   "iso3": "WLF",
    "name": "Islas Wallis y Futuna"
   },
   "881": {
-   "aladi": "881",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SYKES COLOMBIA S.A.S"
+   "aladi": "634",
+   "iso3": "XCF",
+   "name": "ZFPE Foundever Corporation Colombia S.A.S - (Sykes)"
   },
   "882": {
-   "aladi": "882",
+   "aladi": "687",
+   "iso3": "WSM",
    "name": "Samoa"
   },
   "883": {
-   "aladi": "883",
+   "aladi": "4",
+   "iso3": "XCF",
    "name": "ZFPE CTIC-Centro de tratamiento e investigación sobre Cáncer Luis Carlos Sarmiento Angulo"
   },
   "884": {
-   "aladi": "884",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHÍA COLOMBIA DE URABA S.A."
+   "aladi": "204",
+   "iso3": "XCF",
+   "name": "ZFPE Puerto Bahía Colombia de Urabá S.A."
   },
   "886": {
-   "aladi": "886",
+   "aladi": "652",
+   "iso3": "XCF",
    "name": "ZFP Promotora Zona Franca Industrial y Logística de Ibagué S.A.S"
   },
   "887": {
-   "aladi": "887",
+   "aladi": "880",
+   "iso3": "YEM",
    "name": "Yemen"
   },
   "889": {
-   "aladi": "889",
+   "aladi": "630",
+   "iso3": "XCF",
    "name": "ZFPE Globant Colombia SAS"
   },
   "890": {
-   "aladi": "890",
-   "name": "Yugoslavia"
+   "aladi": "885",
+   "iso3": null,
+   "name": "República Federativa Socialista de Yugoslavia"
   },
   "891": {
-   "aladi": "891",
+   "aladi": "688",
+   "iso3": null,
    "name": "Serbia y Montenegro"
   },
   "892": {
-   "aladi": "892",
-   "name": "ZONA FRANCA PERMANENTE COSTA AFUERA NOBLE ENERGY COLOMBIA"
+   "aladi": "214",
+   "iso3": "XCF",
+   "name": "ZFPE Costa Afuera Noble Energy Colombia"
   },
   "893": {
-   "aladi": "893",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHIA S.A."
+   "aladi": "624",
+   "iso3": "XCF",
+   "name": "ZFPE Puerto Bahía S.A"
   },
   "894": {
-   "aladi": "894",
+   "aladi": "890",
+   "iso3": "ZMB",
    "name": "Zambia"
   },
   "895": {
    "aladi": "895",
-   "name": "ZONA DEL CANAL DE PANAMA"
+   "iso3": "ZZZ",
+   "name": "Zona del Canal de Panamá"
   },
   "896": {
-   "aladi": "896",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PUERTO INDUSTRIAL AGUADULCE S.A."
+   "aladi": "620",
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Puerto Industrial Aguadulce S.A."
   },
   "897": {
    "aladi": "897",
-   "name": "ZONA NEUTRAL DE PALESTINA"
+   "iso3": "ZZZ",
+   "name": "Zona Neutral de Palestina"
   },
   "898": {
-   "aladi": "898",
+   "aladi": "638",
+   "iso3": "XCF",
    "name": "ZFPE Getcom Colombia S.A.S"
   },
   "899": {
-   "aladi": "899",
-   "name": "ZONA FRANCA PERMANENTE ZONAMERICA S.A.S."
+   "aladi": "654",
+   "iso3": "XCF",
+   "name": "ZFP Zonamerica S.A.S."
   },
   "900": {
    "aladi": "900",
-   "name": "ZONA FRANCA PERMANENTE ANDINA"
+   "iso3": "XCF",
+   "name": "ZFP Andina"
   },
   "901": {
-   "aladi": "901",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL INVERSIONES VALLES VERDES"
+   "aladi": "222",
+   "iso3": "XCF",
+   "name": "ZFPE Agroindustrial Inversiones Valles Verdes SAS."
   },
   "902": {
    "aladi": "902",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL GECELCA 3  S.A.S. E.S.P"
+   "iso3": "XCF",
+   "name": "ZFPE Gecelca 3 S.A.S E.S.P"
   },
   "903": {
    "aladi": "903",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CEMENTERA DEL MAGDALENA MEDIO - ZOMAM"
+   "iso3": "XCF",
+   "name": "ZFPE Cementera del Magdalena Medio S.A.S \"ZOMAN\""
   },
   "904": {
    "aladi": "904",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL EXTRACTORA LA GLORIA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Estractora La Gloria S.A.S"
   },
   "905": {
    "aladi": "905",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL OLMUÉ COLOMBIA S.A.S. / PROTERRA FOODS"
+   "iso3": "XCF",
+   "name": "ZFPE Olmué Colombia S.A.S"
   },
   "906": {
    "aladi": "906",
+   "iso3": "XCF",
    "name": "ZFPE VAXTHERA S.A.S"
   },
   "907": {
    "aladi": "907",
-   "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO DEL PACÍFICO - CELPA S.A."
+   "iso3": "XCF",
+   "name": "ZFP  Centro Logístico del Pacífico CELPA S.A."
   },
   "908": {
-   "aladi": "908",
-   "name": "ZONA FRANCA PERMANENTE PETROBRAS INTERNATIONAL BRASPETRO BV - SUC COLOMBIA"
+   "aladi": "796",
+   "iso3": "XCF",
+   "name": "ZFPCA Petrobras International Braspetro BV - Sucursal Colombia"
   },
   "909": {
-   "aladi": "909",
+   "aladi": "795",
+   "iso3": "XCF",
    "name": "ZFPE Onelink Colombia S.A.S."
   },
   "910": {
-   "aladi": "910",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BUENAVENTURA S.A."
+   "aladi": "626",
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria Regional de Buenaventura"
   },
   "911": {
    "aladi": "911",
-   "name": "ZONA FRANCA PERMANENTE BARRANQUILLA"
+   "iso3": "XCF",
+   "name": "ZFP de Barranquilla"
   },
   "912": {
    "aladi": "912",
+   "iso3": "XCF",
    "name": "ZFP Buenaventura"
   },
   "913": {
    "aladi": "913",
-   "name": "ZONA FRANCA PERMANENTE PALMASECA"
+   "iso3": "XCF",
+   "name": "ZFP de Palmaseca"
   },
   "914": {
    "aladi": "914",
-   "name": "ZONA FRANCA PERMANENTE CÚCUTA"
+   "iso3": "XCF",
+   "name": "ZFP de Cúcuta"
   },
   "915": {
    "aladi": "915",
-   "name": "ZONA FRANCA PERMANENTE SANTA MARTA"
+   "iso3": "XCF",
+   "name": "ZFP de Santa Marta"
   },
   "916": {
    "aladi": "916",
-   "name": "ZONA FRANCA PERMANENTE CARTAGENA"
+   "iso3": "XCF",
+   "name": "ZFP de Cartagena"
   },
   "917": {
    "aladi": "917",
-   "name": "ZONA FRANCA PERMANENTE RIONEGRO S.A."
+   "iso3": "XCF",
+   "name": "ZFP de Rionegro S.A. Usuario Operador de Zona Franca"
   },
   "918": {
    "aladi": "918",
-   "name": "ZONA FRANCA PERMANENTE CANDELARIA"
+   "iso3": "XCF",
+   "name": "ZFP Candelaria"
   },
   "919": {
    "aladi": "919",
-   "name": "ZONA FRANCA PERMANENTE BOGOTÁ"
+   "iso3": "XCF",
+   "name": "ZFP de Bogotá"
   },
   "920": {
    "aladi": "920",
-   "name": "ZONA FRANCA PERMANENTE PACIFICO"
+   "iso3": "XCF",
+   "name": "ZFP de Pacífico"
   },
   "921": {
    "aladi": "921",
+   "iso3": "XCF",
    "name": "ZFP de Barú Resort"
   },
   "922": {
    "aladi": "922",
+   "iso3": "XCF",
    "name": "ZFP de Pozos Colorados"
   },
   "923": {
    "aladi": "923",
+   "iso3": "XCF",
    "name": "ZFP de Eurocaribe de Indias"
   },
   "924": {
    "aladi": "924",
-   "name": "ZONA FRANCA PERMANENTE QUINDÍO O EJE CAFETERO"
+   "iso3": "XCF",
+   "name": "ZFP Quindío Zona Franca S.A. Usuario Operador de Zona Franca en Reorganización"
   },
   "925": {
    "aladi": "925",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CERVECERÍA DEL VALLE S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Cervecería del Valle S.A"
   },
   "926": {
    "aladi": "926",
+   "iso3": "XCF",
    "name": "ZFP Agroindustrial Magdalena Medio"
   },
   "927": {
    "aladi": "927",
+   "iso3": "XCF",
    "name": "ZFP Agroindustrial Ind. de bienes y servicios Ciudadela Salud"
   },
   "928": {
    "aladi": "928",
-   "name": "ZONA FRANCA PERMANENTE LA CAYENA"
+   "iso3": "XCF",
+   "name": "ZFP La Cayena"
   },
   "929": {
    "aladi": "929",
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL ATLÁNTICO - ZOFIA"
+   "iso3": "XCF",
+   "name": "ZFP Internacional del Atlántico - ZOFIA"
   },
   "930": {
    "aladi": "930",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BIO D S.A. FACATATIVA"
+   "iso3": "XCF",
+   "name": "ZFPE Bio D S.A Facatativá"
   },
   "931": {
    "aladi": "931",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BIOCOMBUSTIBLES SOSTENIBLES DEL CARIBE S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Biocombustibles Sostenibles del Caribe S.A"
   },
   "933": {
    "aladi": "933",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL AGROINDUSTRIAS DEL CAUCA S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Agroindustrial del Cauca S.A"
   },
   "934": {
    "aladi": "934",
-   "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL DEXTÓN S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Parque Industrial Dexton S.A.S Usuario Operador de Zona Franca"
   },
   "935": {
    "aladi": "935",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ARGOS S.A."
+   "iso3": "XCF",
+   "name": "ZFPE ARGOS S.A"
   },
   "936": {
    "aladi": "936",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL GYPLAC S.A."
+   "iso3": "XCF",
+   "name": "ZFPE GYPLAC S.A"
   },
   "937": {
    "aladi": "937",
+   "iso3": "XCF",
    "name": "ZFPE Kcag"
   },
   "939": {
    "aladi": "939",
-   "name": "ZONA FRANCA PERMANENTE INTEXZONA S.A."
+   "iso3": "XCF",
+   "name": "ZFP Intexzona S.A"
   },
   "940": {
    "aladi": "940",
-   "name": "ZONA FRANCA PERMANENTE TAYRONA S.A."
+   "iso3": "XCF",
+   "name": "ZFP Tayrona S.A"
   },
   "941": {
    "aladi": "941",
-   "name": "ZONA FRANCA PERMANENTE DE URABA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP de Urabá  S.A"
   },
   "942": {
    "aladi": "942",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CORFÉRIAS  S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Corferias S.A"
   },
   "943": {
    "aladi": "943",
-   "name": "ZONA FRANCA PERMANENTE LAS AMERICAS S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Las Américas S.A.S"
   },
   "944": {
    "aladi": "944",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ECODIESEL COLOMBIA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Ecodiesel Colombia S.A.S"
   },
   "945": {
    "aladi": "945",
+   "iso3": "XCF",
    "name": "ZFPE Estrategias Contac-Center Colombia"
   },
   "946": {
    "aladi": "946",
+   "iso3": "XCF",
    "name": "ZFPE Paul Calley"
   },
   "947": {
    "aladi": "947",
+   "iso3": "XCF",
    "name": "ZFPE Siemens Manufacturing"
   },
   "948": {
    "aladi": "948",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS LTDA."
+   "iso3": "XCF",
+   "name": "ZFPE Pepsico Alimentos Ltda"
   },
   "949": {
    "aladi": "949",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ACERÍAS PAZ DEL RÍO"
+   "iso3": "XCF",
+   "name": "ZFPE Acerias Paz Del Río"
   },
   "950": {
    "aladi": "950",
+   "iso3": "XCF",
    "name": "ZFPE de servicios Marinilla"
   },
   "951": {
    "aladi": "951",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL VIDRIO ANDINO S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Vidrio Andino S.A"
   },
   "952": {
-   "aladi": "952",
+   "aladi": "792",
+   "iso3": "XCF",
    "name": "ZFP Costa afuera Repsol Exploración Colombia S.A."
   },
   "953": {
    "aladi": "953",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL REFINERÍA DE CARTAGENA S.A. - REFICAR"
+   "iso3": "XCF",
+   "name": "ZFPE Refinería de Cartagena S.A - REFICAR"
   },
   "954": {
    "aladi": "954",
-   "name": "ZONA FRANCA PERMANENTE OCCIDENTE S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP de Occidente S.A.S"
   },
   "955": {
    "aladi": "955",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE SANTA MARTA"
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria de Santa Marta"
   },
   "956": {
    "aladi": "956",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMINAL DE CONTENEDORES DE CARTAGENA - CONTECAR S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Terminal de Contenedores de Cartagena - CONTECAR S.A"
   },
   "957": {
    "aladi": "957",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL COLOMBINA DEL CAUCA S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Colombina del Cauca S.A"
   },
   "958": {
    "aladi": "958",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CELSIA S.A. E.S.P. / TERMOFLORES"
+   "iso3": "XCF",
+   "name": "ZFPE CELSIA S.A E.S.P  / Prime Termoflores S.A. E.S.P"
   },
   "959": {
    "aladi": "959",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CARVAJAL PULPA Y PAPEL S.A.S - PROPAL S.A.S / PAPELFIBRAS"
+   "iso3": "XCF",
+   "name": "ZFPE Carvajal  Pulpa y Papel S.A.S - PROPAL S.A.S / PAPELFIBRAS"
   },
   "960": {
    "aladi": "960",
-   "name": "ZONA FRANCA PERMANENTE TOCANCIPÁ S.A."
+   "iso3": "XCF",
+   "name": "ZFP de Tocancipá"
   },
   "961": {
    "aladi": "961",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL TELEMARK SPAIN S.L. SUCURSAL COLOMBIA"
+   "iso3": "XCF",
+   "name": "ZFPE Telemark Spain S.L. Sucursal Colombia"
   },
   "962": {
    "aladi": "962",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL HOSPITAL SAN VICENTE DE PAÚL"
+   "iso3": "XCF",
+   "name": "ZFPE San Vicente de Paúl"
   },
   "963": {
    "aladi": "963",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CERÁMICA SAN LORENZO INDUSTRIAL DE COLOMBIA"
+   "iso3": "XCF",
+   "name": "ZFPE Cerámicas San Lorenzo Industria de Colombia"
   },
   "964": {
    "aladi": "964",
+   "iso3": "XCF",
    "name": "ZFPE Papeles del Cauca"
   },
   "965": {
    "aladi": "965",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA PORTOAZUL S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Clínica Porto Azul S.A"
   },
   "966": {
    "aladi": "966",
-   "name": "ZONA FRANCA PERMANENTE SANTANDER S.A."
+   "iso3": "XCF",
+   "name": "ZFP Santander S.A"
   },
   "967": {
    "aladi": "967",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PROTISA COLOMBIA S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Protisa Colombia S.A"
   },
   "968": {
    "aladi": "968",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PRAXAIR GASES INDUSTRIALES LTDA."
+   "iso3": "XCF",
+   "name": "ZFPE Praxair Gases Industriales LTDA"
   },
   "969": {
    "aladi": "969",
+   "iso3": "XCF",
    "name": "ZFP Cencauca(parque industrial caloto)"
   },
   "970": {
-   "aladi": "970",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BARRANQUILLA INTERNACIONAL TERMINAL COMPANY S.A. - BITCO S.A."
+   "aladi": "212",
+   "iso3": "XCF",
+   "name": "ZFPE Barranquilla International Terminal Company"
   },
   "971": {
    "aladi": "971",
+   "iso3": "XCF",
    "name": "ZFPE Industrias Renovables de Colombia"
   },
   "972": {
    "aladi": "972",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ECONTACT COL S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Econtac Col S.A.S"
   },
   "973": {
    "aladi": "973",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA LOS NOGALES S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Clínica Los Nogales S.A.S"
   },
   "974": {
    "aladi": "974",
-   "name": "ZONA FRANCA PERMANENTE METROPOLITANA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Metropolitana S.A.S"
   },
   "975": {
    "aladi": "975",
+   "iso3": "XCF",
    "name": "ZFPE Agrosolera"
   },
   "976": {
    "aladi": "976",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BIONERGY S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Bioenergy ZF S.A.S"
   },
   "977": {
    "aladi": "977",
+   "iso3": "XCF",
    "name": "ZFP Puerta de Las Américas"
   },
   "978": {
-   "aladi": "978",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS ANTIOQUIA S.A.S."
+   "aladi": "226",
+   "iso3": "XCF",
+   "name": "ZFPE PEPSICO Alimentos Antioquia LTDA."
   },
   "979": {
    "aladi": "979",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA CAJICA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFPE Productos Familia Cajicá S.A.S"
   },
   "980": {
    "aladi": "980",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BARRAQUILLA S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria Regional de Barranquilla S.A"
   },
   "981": {
    "aladi": "981",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL FUNDACION FOSUNAB"
+   "iso3": "XCF",
+   "name": "ZFPE Fundacion FOSUNAB"
   },
   "982": {
    "aladi": "982",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL ALIMENTOS NARIÑO S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Alimentos Nariño S.A"
   },
   "983": {
    "aladi": "983",
+   "iso3": "XCF",
    "name": "ZFPE Convergys Customer Managent Colombia"
   },
   "984": {
    "aladi": "984",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PROCESADORA DE ACEITE ORO ROJO LDTA."
+   "iso3": "XCF",
+   "name": "ZFPE Procesadora de Aceite Oro Rojo LTDA"
   },
   "985": {
    "aladi": "985",
-   "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DE PEREIRA S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Internacional de Pereira S.A.S Usuario Operador de Zonas Francas"
   },
   "986": {
    "aladi": "986",
+   "iso3": "XCF",
    "name": "ZFPE Clínica Megacentro Pinares"
   },
   "987": {
    "aladi": "987",
-   "name": "ZONA FRANCA PERMANENTE BRISA S.A.S. (DIBULLA GUAJIRA)"
+   "iso3": "XCF",
+   "name": "ZFP Brisa S.A.S"
   },
   "988": {
    "aladi": "988",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL EXTRACTORA LOMA FRESCA SUR DE BOLIVAR S.A."
+   "iso3": "XCF",
+   "name": "ZFPE Extractora Loma Fresca Sur de Bolívar S.A"
   },
   "989": {
    "aladi": "989",
-   "name": "ZONA FRANCA PERMANENTE PARQUE CENTRAL S.A.S."
+   "iso3": "XCF",
+   "name": "ZFP Parque Central S.A.S"
   },
   "990": {
    "aladi": "990",
+   "iso3": "XCF",
    "name": "ZFPE Agroindustrias Biocafé"
   },
   "991": {
    "aladi": "991",
-   "name": "ZONA FRANCA PERMANENTE CONJUNTO INDUSTRIAL PARQUE SUR"
+   "iso3": "XCF",
+   "name": "ZFP Conjunto Industrial Parque Sur"
   },
   "992": {
-   "aladi": "992",
+   "aladi": "132",
+   "iso3": "XCF",
    "name": "ZFPE FUNDACIÓN CARDIOVASCULAR"
   },
   "993": {
    "aladi": "993",
+   "iso3": "XCF",
    "name": "ZFPE Habla Call Center"
   },
   "994": {
    "aladi": "994",
+   "iso3": "XCF",
    "name": "ZFP GEA"
   },
   "995": {
    "aladi": "995",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PLENA S.A.S"
+   "iso3": "XCF",
+   "name": "ZFPE Plena S.A.S"
   },
   "996": {
    "aladi": "996",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA HISPANOAMÉRICA S.A.S"
+   "iso3": "XCF",
+   "name": "ZFPE Clínica Hispanoamérica S.A.S"
   },
   "997": {
    "aladi": "997",
-   "name": "ZONA FRANCA PERMANENTE SURCOLOMBIANA S.A.S"
+   "iso3": "XCF",
+   "name": "ZFP Surcolombiana S.A.S"
   },
   "998": {
    "aladi": "998",
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE CARTAGENA (ANTES 498)"
+   "iso3": "XCF",
+   "name": "ZFPE Sociedad Portuaria Regional de Cartagena"
   },
   "999": {
    "aladi": "999",
-   "name": "NO DECLARADOS"
+   "iso3": "ZZZ",
+   "name": "Países no declarados"
   }
  },
  "sheets": [
   {
    "sheet": "ALADI_M49",
    "columns": [
-    "col0",
-    "col1",
-    "TABLA DE CORRESPONDENCIA                                                                                                                                                                         Codificación de países de la ALADI vs. Estándar M49 «Códigos estándar de país o área para uso estadístico»",
-    "col3",
-    "col4"
+    "Código ALADI",
+    "Descripción país",
+    "M49 Code",
+    "Código ISO - alpha3",
+    "País o área M49 (Español)"
    ],
-   "aladi": "TABLA DE CORRESPONDENCIA                                                                                                                                                                         Codificación de países de la ALADI vs. Estándar M49 «Códigos estándar de país o área para uso estadístico»",
-   "m49": "TABLA DE CORRESPONDENCIA                                                                                                                                                                         Codificación de países de la ALADI vs. Estándar M49 «Códigos estándar de país o área para uso estadístico»",
+   "aladi": "Código ALADI",
+   "m49": "M49 Code",
+   "iso3": "Código ISO - alpha3",
    "names": [
-    "col1",
-    "col4"
+    "Descripción país",
+    "País o área M49 (Español)"
    ],
-   "rows": 433,
+   "rows": 429,
    "head": [
     [
-     "",
-     "",
-     "",
-     "",
-     ""
+     "001",
+     "ZFPE Aceites y grasas del Catatumbo",
+     "001",
+     "XCF",
+     "ZFPE Aceites y grasas del Catatumbo"
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     ""
+     "002",
+     "ZONA FRANCA PERMANENTE ZFB EL DORADO S.A.S",
+     "002",
+     "XCF",
+     "ZFP EL DORADO S.A.S UOZF"
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     ""
+     "003",
+     "ZFP Costa Afuera ECOPETROL Colombia S.A.S",
+     "003",
+     "XCF",
+     "ZFP Costa Afuera ECOPETROL Colombia S.A.S"
     ],
     [
-     "Código ALADI",
-     "Descripción país",
-     "M49 Code",
-     "Código ISO - alpha3",
-     "País o área M49 (Español)"
+     "013",
+     "Afganistán",
+     "004",
+     "AFG",
+     "Afganistán"
     ]
    ]
   }

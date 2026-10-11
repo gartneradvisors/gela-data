@@ -7319,7 +7319,7 @@
    ]
   }
  },
- "asOf": "2026-10-11T13:14:54+00:00",
+ "asOf": "2026-10-11T13:34:22+00:00",
  "lastMonth": "2026-07",
  "months": [
   "2022-01",
@@ -7512,7 +7512,6 @@
    "acuerdo": "0",
    "cifShare": 0.684,
    "applied": 4.19,
-   "paid": 0.02,
    "topOrigins": [
     "CN",
     "US",
@@ -7526,7 +7525,6 @@
    "acuerdo": "96",
    "cifShare": 0.089,
    "applied": 0.0,
-   "paid": 7.59,
    "topOrigins": [
     "US",
     "PR",
@@ -7537,7 +7535,6 @@
    "acuerdo": "124",
    "cifShare": 0.058,
    "applied": 0.3,
-   "paid": 10.77,
    "topOrigins": [
     "DE",
     "ES",
@@ -7551,7 +7548,6 @@
    "acuerdo": "1",
    "cifShare": 0.027,
    "applied": 0.2,
-   "paid": 11.72,
    "topOrigins": [
     "EC",
     "PE",
@@ -7565,7 +7561,6 @@
    "acuerdo": "214",
    "cifShare": 0.026,
    "applied": 4.87,
-   "paid": 13.48,
    "topOrigins": [
     "BR",
     "DIAN:939",
@@ -7576,7 +7571,6 @@
    "acuerdo": "21",
    "cifShare": 0.025,
    "applied": 0.0,
-   "paid": 13.71,
    "topOrigins": [
     "MX"
    ]
@@ -7585,7 +7579,6 @@
    "acuerdo": "156",
    "cifShare": 0.016,
    "applied": 0.23,
-   "paid": 13.13,
    "topOrigins": [
     "KR"
    ]
@@ -7594,7 +7587,6 @@
    "acuerdo": "152",
    "cifShare": 0.013,
    "applied": 0.04,
-   "paid": 17.14,
    "topOrigins": [
     "MX"
    ]
@@ -7603,7 +7595,6 @@
    "acuerdo": "17",
    "cifShare": 0.009,
    "applied": 0.0,
-   "paid": 7.68,
    "topOrigins": [
     "CL"
    ]
@@ -7612,7 +7603,6 @@
    "acuerdo": "223",
    "cifShare": 0.009,
    "applied": 0.0,
-   "paid": 15.64,
    "topOrigins": [
     "BR"
    ]
@@ -7621,7 +7611,6 @@
    "acuerdo": "98",
    "cifShare": 0.007,
    "applied": 0.23,
-   "paid": 5.16,
    "topOrigins": [
     "US"
    ]
@@ -7630,7 +7619,6 @@
    "acuerdo": "211",
    "cifShare": 0.006,
    "applied": 1.27,
-   "paid": 6.78,
    "topOrigins": [
     "AR"
    ]
@@ -7639,7 +7627,6 @@
    "acuerdo": "93",
    "cifShare": 0.006,
    "applied": 0.01,
-   "paid": 4.97,
    "topOrigins": [
     "CA",
     "US"
@@ -7649,7 +7636,6 @@
    "acuerdo": "222",
    "cifShare": 0.005,
    "applied": 0.0,
-   "paid": 19.0,
    "topOrigins": [
     "AR"
    ]
@@ -7658,7 +7644,6 @@
    "acuerdo": "235",
    "cifShare": 0.003,
    "applied": 0.0,
-   "paid": 7.49,
    "topOrigins": [
     "GB",
     "IE",
@@ -7669,7 +7654,6 @@
    "acuerdo": "90",
    "cifShare": 0.002,
    "applied": 0.0,
-   "paid": 11.2,
    "topOrigins": [
     "CH",
     "LI"
@@ -7679,7 +7663,6 @@
    "acuerdo": "97",
    "cifShare": 0.002,
    "applied": 0.0,
-   "paid": 2.66,
    "topOrigins": [
     "US"
    ]
@@ -7688,7 +7671,6 @@
    "acuerdo": "153",
    "cifShare": 0.002,
    "applied": 0.0,
-   "paid": 16.2,
    "topOrigins": [
     "PE"
    ]
@@ -7697,7 +7679,6 @@
    "acuerdo": "151",
    "cifShare": 0.001,
    "applied": 0.44,
-   "paid": 4.25,
    "topOrigins": [
     "CL"
    ]
@@ -7706,7 +7687,6 @@
    "acuerdo": "126",
    "cifShare": 0.001,
    "applied": 0.0,
-   "paid": 4.34,
    "topOrigins": [
     "ES",
     "IE",
@@ -7720,7 +7700,6 @@
    "acuerdo": "220",
    "cifShare": 0.001,
    "applied": 0.88,
-   "paid": 11.6,
    "topOrigins": [
     "UY"
    ]
@@ -7729,7 +7708,6 @@
    "acuerdo": "86",
    "cifShare": 0.001,
    "applied": 0.51,
-   "paid": 16.87,
    "topOrigins": [
     "VE"
    ]
@@ -7738,7 +7716,6 @@
    "acuerdo": "84",
    "cifShare": 0.001,
    "applied": 0.0,
-   "paid": 18.55,
    "topOrigins": [
     "HN"
    ]
@@ -7747,7 +7724,6 @@
    "acuerdo": "14",
    "cifShare": 0.001,
    "applied": 4.24,
-   "paid": 13.8,
    "topOrigins": [
     "BR"
    ]
@@ -7756,7 +7732,6 @@
    "acuerdo": "82",
    "cifShare": 0.001,
    "applied": 0.33,
-   "paid": 12.38,
    "topOrigins": [
     "GT"
    ]
@@ -7876,430 +7851,447 @@
   "DIAN:998"
  ],
  "unmappedNames": {
+  "DIAN:115": {
+   "name": "Burundi",
+   "zonaFranca": false
+  },
+  "DIAN:119": {
+   "name": "Bhután",
+   "zonaFranca": false
+  },
   "DIAN:129": {
    "name": "ZONA FRANCA PERMANENTE GACHANCIPA/ZOFRANDINA/EXXENTA",
-   "system": "aladi",
    "zonaFranca": true
+  },
+  "DIAN:13": {
+   "name": "Afganistán",
+   "zonaFranca": false
   },
   "DIAN:130": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL INDUSTRIAL COLMOTORES S.A.S. - ZOFICOL S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:131": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TABLEMAC MDF S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
+  },
+  "DIAN:159": {
+   "name": "Santa Sede",
+   "zonaFranca": false
+  },
+  "DIAN:165": {
+   "name": "Islas Cocos (Keeling)",
+   "zonaFranca": false
+  },
+  "DIAN:183": {
+   "name": "Islas Cook",
+   "zonaFranca": false
+  },
+  "DIAN:187": {
+   "name": "República Popular Democrática de Corea",
+   "zonaFranca": false
   },
   "DIAN:2": {
    "name": "ZONA FRANCA PERMANENTE ZFB EL DORADO S.A.S",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:202": {
    "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO INDUSTRIAL DEL PACÍFICO - CLIP S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:207": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERNIUM DEL ATLANTICO S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:216": {
    "name": "ZONA FRANCA PERMANENTE CRISTALINA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:217": {
    "name": "ZONA FRANCA PERMANENTE CENTRAL DEL CASANARE S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:224": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA RIONEGRO S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:225": {
    "name": "ZONA FRANCA PERMANENTE COSTA AFUERA SHELL",
-   "system": "aladi",
    "zonaFranca": true
   },
+  "DIAN:243": {
+   "name": "Eritrea",
+   "zonaFranca": false
+  },
+  "DIAN:259": {
+   "name": "Islas Feroe",
+   "zonaFranca": false
+  },
+  "DIAN:293": {
+   "name": "Gibraltar",
+   "zonaFranca": false
+  },
+  "DIAN:305": {
+   "name": "Groenlandia",
+   "zonaFranca": false
+  },
   "DIAN:4": {
-   "name": "Afganistán",
-   "system": "aladi",
+   "name": "ZFPE CTIC-Centro de tratamiento e investigación sobre Cáncer Luis Carlos Sarmiento Angulo",
+   "zonaFranca": true
+  },
+  "DIAN:411": {
+   "name": "Kiribati",
    "zonaFranca": false
   },
   "DIAN:426": {
    "name": "Lesotho",
-   "system": "aladi",
+   "zonaFranca": false
+  },
+  "DIAN:469": {
+   "name": "Islas Marianas del Norte",
+   "zonaFranca": false
+  },
+  "DIAN:494": {
+   "name": "Micronesia (Estados Federados de)",
+   "zonaFranca": false
+  },
+  "DIAN:497": {
+   "name": "Mongolia",
+   "zonaFranca": false
+  },
+  "DIAN:511": {
+   "name": "Isla de Navidad",
+   "zonaFranca": false
+  },
+  "DIAN:593": {
+   "name": "Pitcairn",
    "zonaFranca": false
   },
   "DIAN:621": {
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL VALLE DE ABURRÁ S.A.S. - ZOFIVA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:623": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL DESTILERIA RIOPAILA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:626": {
-   "name": "Timor-Leste",
-   "system": "aladi",
-   "zonaFranca": false
+   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BUENAVENTURA S.A.",
+   "zonaFranca": true
   },
   "DIAN:631": {
    "name": "ZONA FRANCA PERMANENTE PALERMO Usuario Operador de Zona Franca S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:633": {
    "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL FEMSA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:636": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMOTASAJERO DOS S.A. E.S.P.",
-   "system": "aladi",
    "zonaFranca": true
+  },
+  "DIAN:640": {
+   "name": "República Centroafricana",
+   "zonaFranca": false
   },
   "DIAN:651": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO MAMONAL S.A. SOCIEDAD PORTUARIA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:654": {
-   "name": "Santa Elena, Ascensión y Tristán de Acuña",
-   "system": "aladi",
-   "zonaFranca": false
+   "name": "ZONA FRANCA PERMANENTE ZONAMERICA S.A.S.",
+   "zonaFranca": true
   },
   "DIAN:658": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL DIACOR SOACHA ZONA FRANCA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
+  "DIAN:677": {
+   "name": "Islas Salomón",
+   "zonaFranca": false
+  },
+  "DIAN:687": {
+   "name": "Samoa",
+   "zonaFranca": false
+  },
   "DIAN:720": {
-   "name": "Yemen Democrático",
-   "system": "aladi",
+   "name": "Santo Tomé y Príncipe",
+   "zonaFranca": false
+  },
+  "DIAN:731": {
+   "name": "Seychelles",
+   "zonaFranca": false
+  },
+  "DIAN:805": {
+   "name": "Tokelau",
+   "zonaFranca": false
+  },
+  "DIAN:825": {
+   "name": "Turkmenistán",
+   "zonaFranca": false
+  },
+  "DIAN:828": {
+   "name": "Tuvalu",
    "zonaFranca": false
   },
   "DIAN:884": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHÍA COLOMBIA DE URABA S.A.",
-   "system": "aladi",
+   "name": "ZFPE Puerto Bahía Colombia de Urabá S.A.",
    "zonaFranca": true
   },
   "DIAN:893": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PUERTO BAHIA S.A.",
-   "system": "aladi",
+   "name": "ZFPE Puerto Bahía S.A",
    "zonaFranca": true
   },
   "DIAN:896": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PUERTO INDUSTRIAL AGUADULCE S.A.",
-   "system": "aladi",
+   "name": "ZFPE Sociedad Puerto Industrial Aguadulce S.A.",
    "zonaFranca": true
   },
   "DIAN:902": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL GECELCA 3  S.A.S. E.S.P",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:905": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL OLMUÉ COLOMBIA S.A.S. / PROTERRA FOODS",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:906": {
    "name": "ZFPE VAXTHERA S.A.S",
-   "system": "aladi",
-   "zonaFranca": false
+   "zonaFranca": true
   },
   "DIAN:907": {
    "name": "ZONA FRANCA PERMANENTE CENTRO LOGÍSTICO DEL PACÍFICO - CELPA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:910": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BUENAVENTURA S.A.",
-   "system": "aladi",
+   "name": "ZFPE Sociedad Portuaria Regional de Buenaventura",
    "zonaFranca": true
   },
   "DIAN:911": {
    "name": "ZONA FRANCA PERMANENTE BARRANQUILLA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:913": {
    "name": "ZONA FRANCA PERMANENTE PALMASECA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:914": {
    "name": "ZONA FRANCA PERMANENTE CÚCUTA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:915": {
    "name": "ZONA FRANCA PERMANENTE SANTA MARTA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:916": {
    "name": "ZONA FRANCA PERMANENTE CARTAGENA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:917": {
    "name": "ZONA FRANCA PERMANENTE RIONEGRO S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:918": {
    "name": "ZONA FRANCA PERMANENTE CANDELARIA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:919": {
    "name": "ZONA FRANCA PERMANENTE BOGOTÁ",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:920": {
    "name": "ZONA FRANCA PERMANENTE PACIFICO",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:923": {
    "name": "ZFP de Eurocaribe de Indias",
-   "system": "aladi",
-   "zonaFranca": false
+   "zonaFranca": true
   },
   "DIAN:924": {
    "name": "ZONA FRANCA PERMANENTE QUINDÍO O EJE CAFETERO",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:925": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CERVECERÍA DEL VALLE S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:928": {
    "name": "ZONA FRANCA PERMANENTE LA CAYENA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:929": {
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DEL ATLÁNTICO - ZOFIA",
-   "system": "aladi",
    "zonaFranca": true
+  },
+  "DIAN:93": {
+   "name": "Myanmar",
+   "zonaFranca": false
   },
   "DIAN:930": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIO D S.A. FACATATIVA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:931": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIOCOMBUSTIBLES SOSTENIBLES DEL CARIBE S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:933": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL AGROINDUSTRIAS DEL CAUCA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:934": {
    "name": "ZONA FRANCA PERMANENTE PARQUE INDUSTRIAL DEXTÓN S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:935": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ARGOS S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:936": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL GYPLAC S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:937": {
    "name": "ZFPE Kcag",
-   "system": "aladi",
-   "zonaFranca": false
+   "zonaFranca": true
   },
   "DIAN:939": {
    "name": "ZONA FRANCA PERMANENTE INTEXZONA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:940": {
    "name": "ZONA FRANCA PERMANENTE TAYRONA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:941": {
    "name": "ZONA FRANCA PERMANENTE DE URABA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:942": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CORFÉRIAS  S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:943": {
    "name": "ZONA FRANCA PERMANENTE LAS AMERICAS S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:944": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL ECODIESEL COLOMBIA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:948": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS LTDA.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:950": {
    "name": "ZFPE de servicios Marinilla",
-   "system": "aladi",
-   "zonaFranca": false
+   "zonaFranca": true
   },
   "DIAN:951": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL VIDRIO ANDINO S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:953": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL REFINERÍA DE CARTAGENA S.A. - REFICAR",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:954": {
    "name": "ZONA FRANCA PERMANENTE OCCIDENTE S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:955": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE SANTA MARTA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:956": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL TERMINAL DE CONTENEDORES DE CARTAGENA - CONTECAR S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:957": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL COLOMBINA DEL CAUCA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:959": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CARVAJAL PULPA Y PAPEL S.A.S - PROPAL S.A.S / PAPELFIBRAS",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:960": {
    "name": "ZONA FRANCA PERMANENTE TOCANCIPÁ S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:963": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CERÁMICA SAN LORENZO INDUSTRIAL DE COLOMBIA",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:964": {
    "name": "ZFPE Papeles del Cauca",
-   "system": "aladi",
-   "zonaFranca": false
+   "zonaFranca": true
   },
   "DIAN:965": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL CLÍNICA PORTOAZUL S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:966": {
    "name": "ZONA FRANCA PERMANENTE SANTANDER S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:969": {
    "name": "ZFP Cencauca(parque industrial caloto)",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:970": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL BARRANQUILLA INTERNACIONAL TERMINAL COMPANY S.A. - BITCO S.A.",
-   "system": "aladi",
+   "name": "ZFPE Barranquilla International Terminal Company",
    "zonaFranca": true
   },
   "DIAN:974": {
    "name": "ZONA FRANCA PERMANENTE METROPOLITANA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:976": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL BIONERGY S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:978": {
-   "name": "ZONA FRANCA PERMANENTE ESPECIAL PEPSICO ALIMENTOS ANTIOQUIA S.A.S.",
-   "system": "aladi",
+   "name": "ZFPE PEPSICO Alimentos Antioquia LTDA.",
    "zonaFranca": true
   },
   "DIAN:979": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL PRODUCTOS FAMILIA CAJICA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:980": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE BARRAQUILLA S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:985": {
    "name": "ZONA FRANCA PERMANENTE INTERNACIONAL DE PEREIRA S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:987": {
    "name": "ZONA FRANCA PERMANENTE BRISA S.A.S. (DIBULLA GUAJIRA)",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:988": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL EXTRACTORA LOMA FRESCA SUR DE BOLIVAR S.A.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:989": {
    "name": "ZONA FRANCA PERMANENTE PARQUE CENTRAL S.A.S.",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:991": {
    "name": "ZONA FRANCA PERMANENTE CONJUNTO INDUSTRIAL PARQUE SUR",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:997": {
    "name": "ZONA FRANCA PERMANENTE SURCOLOMBIANA S.A.S",
-   "system": "aladi",
    "zonaFranca": true
   },
   "DIAN:998": {
    "name": "ZONA FRANCA PERMANENTE ESPECIAL SOCIEDAD PORTUARIA REGIONAL DE CARTAGENA (ANTES 498)",
-   "system": "aladi",
    "zonaFranca": true
   }
- }
+ },
+ "ivaOverCifPct": 0.02,
+ "paisesAsOf": "2026-10-11T13:34:06+00:00"
 }
