@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-10T20:41:51+00:00",
- "today": "2026-10-10",
+ "asOf": "2026-10-11T11:36:35+00:00",
+ "today": "2026-10-11",
  "sources": [
   {
    "id": "minambiente",
@@ -93,16 +93,6 @@
   }
  ],
  "items": [
-  {
-   "id": "1db46d8af0a4",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "PD Por el cual se modifica el Decreto 2555 de 2010, en lo relacionado con el régimen de inversión en activos en el exterior de los fondos de pensiones obligatorias.",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/7.+PD+Por+el+cual+se+modifica+el+Decreto+2555+de+2010.pdf/7c69545c-e598-2eb2-38c3-0aafc95a44bf?t=1789061677600",
-   "published": "2026-09-10",
-   "firstSeen": "2026-10-10"
-  },
   {
    "id": "fbe8f6e03c82",
    "src": "minhacienda",
@@ -584,18 +574,6 @@
    "published": "2026-07-29",
    "from": "2026-07-29",
    "until": "2026-08-12",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "10a1e3d9ebaa",
-   "src": "mincit-res",
-   "entity": "MinCIT",
-   "kind": "resolución",
-   "title": "Proyecto de Resolución, \"por medio de la cual se deroga la Resolución 3159 de 2015 y se crea el Comité de Territorios Turísticos de Paz",
-   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026/27-07-2026-pr-crea-el-comite-de-territorios-turist.aspx",
-   "published": "2026-07-27",
-   "from": "2026-07-28",
-   "until": "2026-08-11",
    "firstSeen": "2026-10-10"
   }
  ]
