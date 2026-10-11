@@ -1,0 +1,46 @@
+{
+ "files": {
+  "https://microdatos.dane.gov.co/index.php/catalog/856/download/24794": {
+   "name": "Impo_2026.zip",
+   "len": "421383608",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/856/download/24417": {
+   "name": "Impo_2025_1.zip",
+   "len": "598182444",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/856/download/24464": {
+   "name": "Impo_2025_2.zip",
+   "len": "375118574",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/473/download/24390": {
+   "name": "Impo_2024.zip",
+   "len": "625503658",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/473/download/23290": {
+   "name": "Impo_2023.zip",
+   "len": "605659322",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/473/download/22185": {
+   "name": "Impo_2022(1).zip",
+   "len": "330828617",
+   "mod": null,
+   "etag": null
+  },
+  "https://microdatos.dane.gov.co/index.php/catalog/473/download/22306": {
+   "name": "Impo_2022(2).zip",
+   "len": "412244539",
+   "mod": null,
+   "etag": null
+  }
+ }
+}
