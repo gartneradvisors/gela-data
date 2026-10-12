@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-11T21:05:19+00:00",
- "today": "2026-10-11",
+ "asOf": "2026-10-12T23:47:23+00:00",
+ "today": "2026-10-12",
  "sources": [
   {
    "id": "minambiente",
@@ -562,18 +562,6 @@
    "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 29-07-2026.pdf",
    "from": "2026-07-30",
    "until": "2026-08-13",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "4d94d4d88fa5",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "P.D. Por el cual se adiciona un parágrafo al artículo 2.2.8.11.3 del Decreto 1833 de 2016 “Por medio del cual se compilan las normas del Sistema General de Pensiones”",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+%2B+Memoria+Justificativa+Omisos.pdf/cae05bef-b36a-7a8e-cdaa-5850e33f9843?t=1785291268794",
-   "published": "2026-07-29",
-   "from": "2026-07-29",
-   "until": "2026-08-12",
    "firstSeen": "2026-10-10"
   }
  ]
