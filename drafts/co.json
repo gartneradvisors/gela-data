@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-15T10:14:36+00:00",
+ "asOf": "2026-10-15T20:31:28+00:00",
  "today": "2026-10-15",
  "sources": [
   {
@@ -122,6 +122,18 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "2e441c71faf0",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD \"Por el cual se reglamenta el artículo 4 del Decreto Legislativo 1416 de 2026 en lo relacionado con las condiciones estatutarias y de gobierno corporativo de las sociedades por acciones simplificadas que emitan valores representativos de deuda en el segundo mercado en el marco del Estado de Emergencia Económica, Social y Ecológica.\"",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD.+Deuda+SAS.pdf/b06d549b-aca8-044c-1a37-6c0eb25eafb5?t=1792077889170",
+   "published": "2026-10-15",
+   "from": "2026-10-15",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "c66bf0152cdd",

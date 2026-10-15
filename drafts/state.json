@@ -2428,6 +2428,20 @@
 "from": "2026-01-20",
 "until": "2026-01-27",
 "kind": "resolución"
+},
+"2e441c71faf0": {
+"id": "2e441c71faf0",
+"src": "minhacienda",
+"entity": "MinHacienda",
+"url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD.+Deuda+SAS.pdf/b06d549b-aca8-044c-1a37-6c0eb25eafb5?t=1792077889170",
+"firstSeen": "2026-10-15",
+"baseline": false,
+"title": "PD \"Por el cual se reglamenta el artículo 4 del Decreto Legislativo 1416 de 2026 en lo relacionado con las condiciones estatutarias y de gobierno corporativo de las sociedades por acciones simplificadas que emitan valores representativos de deuda en el segundo mercado en el marco del Estado de Emergencia Económica, Social y Ecológica.\"",
+"lastSeen": "2026-10-15",
+"published": "2026-10-15",
+"from": "2026-10-15",
+"until": "2026-10-30",
+"kind": "decreto"
 }
 },
 "baseline": {
