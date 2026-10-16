@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-15T20:31:28+00:00",
- "today": "2026-10-15",
+ "asOf": "2026-10-16T10:05:49+00:00",
+ "today": "2026-10-16",
  "sources": [
   {
    "id": "minambiente",
@@ -43,8 +43,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
    "ok": true,
-   "n": 7,
-   "dated": 7,
+   "n": 8,
+   "dated": 8,
    "error": null
   },
   {
@@ -134,6 +134,18 @@
    "from": "2026-10-15",
    "until": "2026-10-30",
    "firstSeen": "2026-10-15"
+  },
+  {
+   "id": "57d92ef0b657",
+   "src": "mincit-res",
+   "entity": "MinCIT",
+   "kind": "resolución",
+   "title": "Proyecto de Resolución, \"por medio de la cual se reglamentan los medios probatorios, el trámite para acreditar la afectación directa y el registro de beneficiarios de las medidas previstas en el Decreto 1418 de 2026",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026/15-10-2026-pr-medios-probatorios-decreto-1418-de-2.aspx",
+   "published": "2026-10-15",
+   "from": "2026-10-16",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-16"
   },
   {
    "id": "c66bf0152cdd",
