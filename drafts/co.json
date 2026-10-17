@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-16T20:04:56+00:00",
- "today": "2026-10-16",
+ "asOf": "2026-10-17T09:38:46+00:00",
+ "today": "2026-10-17",
  "sources": [
   {
    "id": "minambiente",
@@ -52,8 +52,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
    "ok": true,
-   "n": 9,
-   "dated": 9,
+   "n": 0,
+   "dated": 0,
    "error": null
   },
   {
@@ -122,6 +122,18 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "4359fd656bce",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD \"Por el cual se sustituye el Título 17 del libro 2 parte 2 “Mecanismo de cobertura de deslizamiento del salario mínimo” del Decreto 1833 de 2016, por medio del cual se compilan las normas del Sistema General de Pensiones.”",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+normas+del+Sistema+General+de+Pensiones.pdf/1aa5ca68-d9bc-9115-7fcf-d0867e973322?t=1792207785553",
+   "published": "2026-10-16",
+   "from": "2026-10-16",
+   "until": "2026-10-31",
+   "firstSeen": "2026-10-17"
   },
   {
    "id": "2e441c71faf0",
