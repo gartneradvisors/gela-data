@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-17T09:38:46+00:00",
+ "asOf": "2026-10-17T19:40:07+00:00",
  "today": "2026-10-17",
  "sources": [
   {
@@ -52,8 +52,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
    "ok": true,
-   "n": 0,
-   "dated": 0,
+   "n": 9,
+   "dated": 9,
    "error": null
   },
   {
