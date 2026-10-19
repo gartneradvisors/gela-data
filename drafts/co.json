@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-19T11:07:29+00:00",
+ "asOf": "2026-10-19T21:43:06+00:00",
  "today": "2026-10-19",
  "sources": [
   {
@@ -34,8 +34,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
    "ok": true,
-   "n": 36,
-   "dated": 36,
+   "n": 37,
+   "dated": 37,
    "error": null
   },
   {
@@ -70,8 +70,8 @@
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
    "ok": true,
-   "n": 29,
-   "dated": 29,
+   "n": 30,
+   "dated": 30,
    "error": null
   },
   {
@@ -122,6 +122,18 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "dcb3e54d1263",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica la estructura del Ministerio de Comercio, Industria y Turismo con el fin de asignar a la Oficina Asesora Jurídica la función de instrucción disciplinaria y al Despacho del Ministro la segunda instancia disciplinaria, y se dictan otras disposiciones",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/19-10-2026-pd-modifica-estructura-mincit-oficina-a.aspx",
+   "published": "2026-10-19",
+   "from": "2026-10-20",
+   "until": "2026-11-03",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "4359fd656bce",
@@ -203,6 +215,17 @@
    "from": "2026-09-23",
    "until": "2026-10-23",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "b0a6bd71334b",
+   "src": "dian",
+   "entity": "DIAN",
+   "kind": "resolución",
+   "title": "Por la cual se modifica el título 3 de la Resolución 000227 del 23 de septiembre 2025, Única en Materia Tributaria, Aduanera y Cambiaria y se adicionan secciones y artículos al mencionado título",
+   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 19-10-2026.pdf",
+   "from": "2026-10-19",
+   "until": "2026-10-23",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "1e4dab23010f",

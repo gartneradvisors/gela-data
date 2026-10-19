@@ -2470,6 +2470,33 @@
 "from": "2026-10-16",
 "until": "2026-10-31",
 "kind": "decreto"
+},
+"dcb3e54d1263": {
+"id": "dcb3e54d1263",
+"src": "mincit-dec",
+"entity": "MinCIT",
+"url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/19-10-2026-pd-modifica-estructura-mincit-oficina-a.aspx",
+"firstSeen": "2026-10-19",
+"baseline": false,
+"title": "Proyecto de Decreto, \"por el cual se modifica la estructura del Ministerio de Comercio, Industria y Turismo con el fin de asignar a la Oficina Asesora Jurídica la función de instrucción disciplinaria y al Despacho del Ministro la segunda instancia disciplinaria, y se dictan otras disposiciones",
+"lastSeen": "2026-10-19",
+"published": "2026-10-19",
+"from": "2026-10-20",
+"until": "2026-11-03",
+"kind": "decreto"
+},
+"b0a6bd71334b": {
+"id": "b0a6bd71334b",
+"src": "dian",
+"entity": "DIAN",
+"url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 19-10-2026.pdf",
+"firstSeen": "2026-10-19",
+"baseline": false,
+"title": "Por la cual se modifica el título 3 de la Resolución 000227 del 23 de septiembre 2025, Única en Materia Tributaria, Aduanera y Cambiaria y se adicionan secciones y artículos al mencionado título",
+"lastSeen": "2026-10-19",
+"kind": "resolución",
+"from": "2026-10-19",
+"until": "2026-10-23"
 }
 },
 "baseline": {
