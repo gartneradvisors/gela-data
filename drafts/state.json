@@ -2511,6 +2511,19 @@
 "from": "2026-10-20",
 "until": "2026-11-03",
 "kind": "decreto"
+},
+"de20e3c8bbc5": {
+"id": "de20e3c8bbc5",
+"src": "dian",
+"entity": "DIAN",
+"url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 21-10-2026.pdf",
+"firstSeen": "2026-10-21",
+"baseline": false,
+"title": "Proyecto Resolución 000000 de 21-10-2026",
+"lastSeen": "2026-10-21",
+"kind": "resolución",
+"from": "2026-10-21",
+"until": "2026-10-26"
 }
 },
 "baseline": {

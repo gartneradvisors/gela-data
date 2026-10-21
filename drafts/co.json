@@ -1,15 +1,14 @@
 {
- "asOf": "2026-10-21T10:29:45+00:00",
+ "asOf": "2026-10-21T20:51:30+00:00",
  "today": "2026-10-21",
  "sources": [
   {
    "id": "minambiente",
    "entity": "MinAmbiente",
    "url": "https://www.minambiente.gov.co/consulta/feed/",
-   "ok": true,
-   "n": 11,
-   "dated": 1,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "404 Client Error: Not Found for url: https://www.minambiente.gov.co/consulta/feed/"
   },
   {
    "id": "mininterior",
@@ -70,8 +69,8 @@
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
    "ok": true,
-   "n": 30,
-   "dated": 30,
+   "n": 31,
+   "dated": 31,
    "error": null
   },
   {
@@ -182,6 +181,17 @@
    "from": "2026-10-16",
    "until": "2026-10-30",
    "firstSeen": "2026-10-16"
+  },
+  {
+   "id": "de20e3c8bbc5",
+   "src": "dian",
+   "entity": "DIAN",
+   "kind": "resolución",
+   "title": "Proyecto Resolución 000000 de 21-10-2026",
+   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 21-10-2026.pdf",
+   "from": "2026-10-21",
+   "until": "2026-10-26",
+   "firstSeen": "2026-10-21"
   },
   {
    "id": "c66bf0152cdd",
