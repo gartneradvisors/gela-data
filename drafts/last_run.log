@@ -1,5 +1,5 @@
 == minambiente: https://www.minambiente.gov.co/consulta/feed/
-   ERROR 404 Client Error: Not Found for url: https://www.minambiente.gov.co/consulta/feed/
+   11 proyectos en la página, 1 con cierre de comentarios, 0 nuevos
 == mininterior: https://www.mininterior.gov.co/proyectos-de-decreto/
    47 proyectos en la página, 13 con cierre de comentarios, 0 nuevos
 == minhacienda: https://www.minhacienda.gov.co/normativa/proyectos-de-decretos
@@ -14,7 +14,7 @@
    10 proyectos en la página, 10 con cierre de comentarios, 0 nuevos
 == dian: https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx
    grupos abiertos: 3
-   31 proyectos en la página, 31 con cierre de comentarios, 1 nuevos
+   31 proyectos en la página, 31 con cierre de comentarios, 0 nuevos
 == dnp: https://www.dnp.gov.co/normativa/proyectos-de-normatividad
    5 proyectos en la página, 5 con cierre de comentarios, 0 nuevos
 == minhacienda-res: https://www.minhacienda.gov.co/normativa/proyectos-de-resolucion-circulares/2026

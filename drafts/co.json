@@ -1,14 +1,15 @@
 {
- "asOf": "2026-10-21T20:51:30+00:00",
- "today": "2026-10-21",
+ "asOf": "2026-10-22T10:28:59+00:00",
+ "today": "2026-10-22",
  "sources": [
   {
    "id": "minambiente",
    "entity": "MinAmbiente",
    "url": "https://www.minambiente.gov.co/consulta/feed/",
-   "ok": false,
-   "n": 0,
-   "error": "404 Client Error: Not Found for url: https://www.minambiente.gov.co/consulta/feed/"
+   "ok": true,
+   "n": 11,
+   "dated": 1,
+   "error": null
   },
   {
    "id": "mininterior",
