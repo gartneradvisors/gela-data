@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-23T10:36:19+00:00",
+ "asOf": "2026-10-23T20:37:58+00:00",
  "today": "2026-10-23",
  "sources": [
   {
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": true,
-   "n": 31,
-   "dated": 31,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
   },
   {
    "id": "dnp",
@@ -146,6 +146,17 @@
    "from": "2026-10-20",
    "until": "2026-11-03",
    "firstSeen": "2026-10-20"
+  },
+  {
+   "id": "7c857194f792",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se establecen los lineamientos para el suministro de alcohol carburante destinado a la mezcla de gasolina motor corriente y gasolina motor extra, con el fin de garantizar la continuidad y confiabilidad del abastecimiento interno, y se dictan otras disposiciones",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/lineamientos-para-el-suministro-de-alcohol-carburante-destinado-a-la-mezcla-de-gasolina-motor-corriente-y-gasolina-motor-extra/",
+   "from": "2026-09-23",
+   "until": "2026-11-02",
+   "firstSeen": "2026-10-10"
   },
   {
    "id": "4359fd656bce",
@@ -227,17 +238,6 @@
    "until": "2026-10-24",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Decreto Transparencia > Proyectos Normativos > Proyecto Decreto Cierra el 24 de octubre de 2026 De conformidad con lo establecido en el numeral 1 del artículo 2.1.2.5.1.4 del Decreto 1081 de 2015, Único Reglamentario del Sector Presidencia de la República, sustituido por el Decreto 385 de 2026, en armonía con el numeral 8 del artículo 8 de la Ley 1437 de 2011, que ordena publicar los proyectos de regulación elaborados para la firma del Presidente de la República, con el objeto de recibir opiniones, sugerencias o propuestas alternativas de la ciudadanía o grupos de interés, atentame"
-  },
-  {
-   "id": "7c857194f792",
-   "src": "minenergia",
-   "entity": "MinEnergía",
-   "kind": "resolución",
-   "title": "proyecto de resolución \"Por la cual se establecen los lineamientos para el suministro de alcohol carburante destinado a la mezcla de gasolina motor corriente y gasolina motor extra, con el fin de garantizar la continuidad y confiabilidad del abastecimiento interno, y se dictan otras disposiciones",
-   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/lineamientos-para-el-suministro-de-alcohol-carburante-destinado-a-la-mezcla-de-gasolina-motor-corriente-y-gasolina-motor-extra/",
-   "from": "2026-09-23",
-   "until": "2026-10-23",
-   "firstSeen": "2026-10-10"
   },
   {
    "id": "b0a6bd71334b",
