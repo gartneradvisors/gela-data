@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-23T20:37:58+00:00",
- "today": "2026-10-23",
+ "asOf": "2026-10-24T09:46:47+00:00",
+ "today": "2026-10-24",
  "sources": [
   {
    "id": "minambiente",
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
