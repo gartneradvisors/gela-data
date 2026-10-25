@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-24T19:42:22+00:00",
- "today": "2026-10-24",
+ "asOf": "2026-10-25T10:03:17+00:00",
+ "today": "2026-10-25",
  "sources": [
   {
    "id": "minambiente",
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
@@ -541,17 +541,6 @@
    "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 25-08-2026.pdf",
    "from": "2026-08-25",
    "until": "2026-08-26",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "932b3fe789db",
-   "src": "dian",
-   "entity": "DIAN",
-   "kind": "resolución",
-   "title": "Por la cual se modifican los numerales 2.3 y 2.3.1 del artículo 2 de la Resolución 69 del 2021, se reasignan temporalmente competencias y se adoptan medidas de contingencia en la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales, con ocasión de la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026",
-   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 20-08-2026.pdf",
-   "from": "2026-08-20",
-   "until": "2026-08-25",
    "firstSeen": "2026-10-10"
   }
  ]
