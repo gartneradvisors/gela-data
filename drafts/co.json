@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-25T19:55:00+00:00",
- "today": "2026-10-25",
+ "asOf": "2026-10-26T11:39:07+00:00",
+ "today": "2026-10-26",
  "sources": [
   {
    "id": "minambiente",
@@ -530,17 +530,6 @@
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/crear-el-comite-sectorial-para-la-seguridad-energetica-del-pais-y-derogar-la-resolucion-40269-de-2026/",
    "from": "2026-09-03",
    "until": "2026-09-06",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "c6b07a0a0bc1",
-   "src": "dian",
-   "entity": "DIAN",
-   "kind": "resolución",
-   "title": "Por la cual se mantiene la suspensión de términos prevista en la Resolución No",
-   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 25-08-2026.pdf",
-   "from": "2026-08-25",
-   "until": "2026-08-26",
    "firstSeen": "2026-10-10"
   }
  ]
