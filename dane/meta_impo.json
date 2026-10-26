@@ -7317,10 +7317,130 @@
    "months": [
     "2022-09"
    ]
+  },
+  "Impo_2026.zip/Agosto.csv": {
+   "rows": 328122,
+   "columns": [
+    "FECH",
+    "PAISGEN",
+    "PAISPRO",
+    "PAISCOM",
+    "REGIMEN",
+    "ACUERDO",
+    "NABAN",
+    "VAFODO",
+    "VACID",
+    "VACIP",
+    "IMP1",
+    "CLASE",
+    "COPAEX",
+    "TIPOIM",
+    "PORARA"
+   ],
+   "countryMap": "m49",
+   "mapTest": {
+    "m49": {
+     "mapped": 0.971,
+     "cnus": 0.508,
+     "score": 0.971
+    },
+    "aladi": {
+     "mapped": 0.09,
+     "cnus": 0.0,
+     "score": 0.027
+    },
+    "aprendido_expo": {
+     "mapped": 0.971,
+     "cnus": 0.508,
+     "score": 0.971
+    }
+   },
+   "poraraScale": 1.0,
+   "sample": {
+    "FECH": [
+     "2608",
+     "2608",
+     "2608"
+    ],
+    "PAISGEN": [
+     "012",
+     "012",
+     "012"
+    ],
+    "PAISPRO": [
+     "012",
+     "012",
+     "012"
+    ],
+    "PAISCOM": [
+     "840",
+     "840",
+     "840"
+    ],
+    "REGIMEN": [
+     "C100",
+     "C100",
+     "C100"
+    ],
+    "ACUERDO": [
+     "",
+     "",
+     ""
+    ],
+    "NABAN": [
+     "2523100000",
+     "2523100000",
+     "2523100000"
+    ],
+    "VAFODO": [
+     " 49.852,50 ",
+     " 60.690,00 ",
+     " 1.445.722,50 "
+    ],
+    "VACID": [
+     " 70.864,79 ",
+     " 86.270,18 ",
+     " 2.055.079,03 "
+    ],
+    "VACIP": [
+     "221978285,00",
+     "270234437,00",
+     "6437370655,00"
+    ],
+    "IMP1": [
+     "44285000,00",
+     "53912000,00",
+     "1284256000,00"
+    ],
+    "CLASE": [
+     "P",
+     "P",
+     "P"
+    ],
+    "COPAEX": [
+     "840",
+     "840",
+     "840"
+    ],
+    "TIPOIM": [
+     "1",
+     "1",
+     "1"
+    ],
+    "PORARA": [
+     "5",
+     "5",
+     "5"
+    ]
+   },
+   "cifUsd": 7702463504,
+   "months": [
+    "2026-08"
+   ]
   }
  },
- "asOf": "2026-10-11T17:08:23+00:00",
- "lastMonth": "2026-07",
+ "asOf": "2026-10-26T11:40:41+00:00",
+ "lastMonth": "2026-08",
  "months": [
   "2022-01",
   "2022-02",
@@ -7376,142 +7496,143 @@
   "2026-04",
   "2026-05",
   "2026-06",
-  "2026-07"
+  "2026-07",
+  "2026-08"
  ],
- "rowsFlows": 2825861,
- "rowsRates": 1709145,
+ "rowsFlows": 2878034,
+ "rowsRates": 1740201,
  "cifUsdMillionsByYear": {
   "2022": 77413.0,
   "2023": 62797.0,
   "2024": 64105.0,
   "2025": 70502.0,
-  "2026": 46044.0
+  "2026": 53746.0
  },
  "topOriginsLast12mUsdMillions": {
-  "CN": 22019.5,
-  "US": 17001.5,
-  "BR": 3862.3,
-  "MX": 3848.9,
-  "DE": 2532.6,
-  "IN": 1877.9,
-  "JP": 1833.7,
-  "KR": 1680.9,
-  "VN": 1385.2,
-  "IT": 1312.3,
-  "ES": 1233.2,
-  "PE": 1228.7,
-  "AR": 1086.0,
-  "CA": 1064.3,
-  "FR": 955.7
+  "CN": 22476.8,
+  "US": 17571.2,
+  "BR": 3915.4,
+  "MX": 3889.6,
+  "DE": 2579.5,
+  "IN": 1919.9,
+  "JP": 1829.9,
+  "KR": 1708.2,
+  "VN": 1401.7,
+  "IT": 1380.9,
+  "ES": 1229.6,
+  "PE": 1224.7,
+  "AR": 1111.6,
+  "CA": 1083.0,
+  "FR": 972.2
  },
- "indirectShareLast12m": 0.155,
+ "indirectShareLast12m": 0.152,
  "topIndirectRoutesLast12m": [
   [
    "CN",
    "HK",
-   797.1
+   813.9
   ],
   [
    "CN",
    "US",
-   627.9
+   613.6
   ],
   [
    "CN",
    "PA",
-   552.9
+   557.9
   ],
   [
    "DE",
    "BE",
-   388.8
+   422.3
   ],
   [
    "MX",
    "US",
-   375.3
+   379.8
+  ],
+  [
+   "FR",
+   "BE",
+   226.5
   ],
   [
    "IE",
    "NL",
-   228.3
-  ],
-  [
-   "FR",
-   "BE",
-   213.9
+   220.6
   ],
   [
    "DE",
    "NL",
-   211.9
-  ],
-  [
-   "CA",
-   "US",
-   194.8
-  ],
-  [
-   "JP",
-   "US",
-   186.5
+   212.4
   ],
   [
    "BR",
    "DIAN:918",
-   182.2
+   193.3
+  ],
+  [
+   "JP",
+   "US",
+   191.1
+  ],
+  [
+   "CA",
+   "US",
+   188.6
   ],
   [
    "VN",
    "US",
-   162.5
+   164.3
   ],
   [
    "BO",
    "PE",
-   159.2
+   163.7
   ],
   [
    "CH",
    "BE",
-   134.8
-  ],
-  [
-   "FR",
-   "US",
-   133.1
+   137.6
   ],
   [
    "CN",
    "ES",
-   111.3
+   122.8
   ],
   [
-   "DE",
-   "CH",
-   110.3
+   "IT",
+   "US",
+   118.0
   ],
   [
-   "BO",
-   "UY",
-   108.7
+   "GB",
+   "DIAN:918",
+   111.4
   ],
   [
    "TW",
    "US",
-   108.7
+   109.5
+  ],
+  [
+   "BO",
+   "UY",
+   108.4
   ],
   [
    "VN",
    "PA",
-   107.7
+   106.3
   ]
  ],
  "agreementsLast12m": [
   {
    "acuerdo": "0",
-   "cifShare": 0.684,
-   "applied": 4.19,
+   "cifShare": 0.687,
+   "applied": 4.18,
    "topOrigins": [
     "CN",
     "US",
@@ -7523,7 +7644,7 @@
   },
   {
    "acuerdo": "96",
-   "cifShare": 0.089,
+   "cifShare": 0.088,
    "applied": 0.0,
    "topOrigins": [
     "US",
@@ -7534,14 +7655,14 @@
   {
    "acuerdo": "124",
    "cifShare": 0.058,
-   "applied": 0.3,
+   "applied": 0.64,
    "topOrigins": [
     "DE",
     "ES",
     "IT",
     "FR",
     "DK",
-    "NL"
+    "BE"
    ]
   },
   {
@@ -7560,7 +7681,7 @@
   {
    "acuerdo": "214",
    "cifShare": 0.026,
-   "applied": 4.87,
+   "applied": 4.5,
    "topOrigins": [
     "BR",
     "DIAN:939",
@@ -7569,7 +7690,7 @@
   },
   {
    "acuerdo": "21",
-   "cifShare": 0.025,
+   "cifShare": 0.024,
    "applied": 0.0,
    "topOrigins": [
     "MX"
@@ -7578,7 +7699,7 @@
   {
    "acuerdo": "156",
    "cifShare": 0.016,
-   "applied": 0.23,
+   "applied": 0.19,
    "topOrigins": [
     "KR"
    ]
@@ -7601,7 +7722,7 @@
   },
   {
    "acuerdo": "223",
-   "cifShare": 0.009,
+   "cifShare": 0.008,
    "applied": 0.0,
    "topOrigins": [
     "BR"
@@ -7610,7 +7731,7 @@
   {
    "acuerdo": "98",
    "cifShare": 0.007,
-   "applied": 0.23,
+   "applied": 5.75,
    "topOrigins": [
     "US"
    ]
@@ -7618,18 +7739,17 @@
   {
    "acuerdo": "211",
    "cifShare": 0.006,
-   "applied": 1.27,
+   "applied": 1.12,
    "topOrigins": [
     "AR"
    ]
   },
   {
    "acuerdo": "93",
-   "cifShare": 0.006,
+   "cifShare": 0.005,
    "applied": 0.01,
    "topOrigins": [
-    "CA",
-    "US"
+    "CA"
    ]
   },
   {
@@ -7678,9 +7798,17 @@
   {
    "acuerdo": "151",
    "cifShare": 0.001,
-   "applied": 0.44,
+   "applied": 0.43,
    "topOrigins": [
     "CL"
+   ]
+  },
+  {
+   "acuerdo": "220",
+   "cifShare": 0.001,
+   "applied": 0.99,
+   "topOrigins": [
+    "UY"
    ]
   },
   {
@@ -7690,26 +7818,10 @@
    "topOrigins": [
     "ES",
     "IE",
-    "FR",
     "DE",
+    "FR",
     "PT",
     "PL"
-   ]
-  },
-  {
-   "acuerdo": "220",
-   "cifShare": 0.001,
-   "applied": 0.88,
-   "topOrigins": [
-    "UY"
-   ]
-  },
-  {
-   "acuerdo": "86",
-   "cifShare": 0.001,
-   "applied": 0.51,
-   "topOrigins": [
-    "VE"
    ]
   },
   {
@@ -7721,19 +7833,27 @@
    ]
   },
   {
-   "acuerdo": "14",
+   "acuerdo": "86",
    "cifShare": 0.001,
-   "applied": 4.24,
+   "applied": 0.5,
    "topOrigins": [
-    "BR"
+    "VE"
    ]
   },
   {
    "acuerdo": "82",
    "cifShare": 0.001,
-   "applied": 0.33,
+   "applied": 0.25,
    "topOrigins": [
     "GT"
+   ]
+  },
+  {
+   "acuerdo": "14",
+   "cifShare": 0.001,
+   "applied": 4.04,
+   "topOrigins": [
+    "BR"
    ]
   }
  ],

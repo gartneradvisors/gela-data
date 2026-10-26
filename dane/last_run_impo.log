@@ -1,7 +1,25 @@
-2026-10-19T11:21:43+00:00
+2026-10-26T11:43:44+00:00
 Catálogo 473: 15 archivos
 Catálogo 856: 3 archivos
-  Impo_2026.zip: sin cambios
+  Impo_2026.zip: bajando…
+    contenido de Impo_2026.zip: [('01. Enero 2026.zip', 58847878), ('02. Febrero 2026.zip', 56823517), ('03. Marzo 2026.zip', 58990174), ('04. Abril 2026.zip', 60519886), ('05. Mayo 2026.zip', 59585969), ('06. Junio 2026.zip', 58764104), ('07. Julio 2026.zip', 68543028), ('08. Agosto 2026.zip', 63593588)]
+    contenido de 01. Enero 2026.zip: [('Enero.csv', 70639970), ('Enero.dta', 87715718), ('Enero.sav', 98588964)]
+    Enero.csv: 324848 filas, países con mapa "m49" {'mapped': 0.984, 'cnus': 0.52, 'score': 0.984}
+    contenido de 02. Febrero 2026.zip: [('Febrero.csv', 59089296), ('Febrero.dta', 76398794), ('Febrero.sav', 87674348)]
+    Febrero.csv: 303143 filas, países con mapa "m49" {'mapped': 0.971, 'cnus': 0.525, 'score': 0.971}
+    contenido de 03. Marzo 2026.zip: [('Marzo.csv', 66543035), ('Marzo.sav', 92975612), ('Marzo.dta', 81107008)]
+    Marzo.csv: 324401 filas, países con mapa "m49" {'mapped': 0.981, 'cnus': 0.509, 'score': 0.981}
+    contenido de 04. Abril 2026.zip: [('Abril.csv', 67895817), ('Abril.dta', 82639151), ('Abril.sav', 94768164)]
+    Abril.csv: 331857 filas, países con mapa "m49" {'mapped': 0.978, 'cnus': 0.487, 'score': 0.978}
+    contenido de 05. Mayo 2026.zip: [('Mayo.csv', 67884835), ('Mayo.dta', 83578826), ('Mayo.sav', 90552464)]
+    Mayo.csv: 313004 filas, países con mapa "m49" {'mapped': 0.986, 'cnus': 0.529, 'score': 0.986}
+    contenido de 06. Junio 2026.zip: [('Junio.csv', 65996491), ('Junio.dta', 82329800), ('Junio.sav', 89245192)]
+    Junio.csv: 308326 filas, países con mapa "m49" {'mapped': 0.985, 'cnus': 0.516, 'score': 0.985}
+    contenido de 07. Julio 2026.zip: [('Julio.csv', 81015961), ('Julio.dta', 94349873), ('Julio.sav', 102007968)]
+    Julio.csv: 353345 filas, países con mapa "m49" {'mapped': 0.975, 'cnus': 0.528, 'score': 0.975}
+    contenido de 08. Agosto 2026.zip: [('Agosto.csv', 75761266), ('Agosto.dta', 87615332), ('Agosto.sav', 93311160)]
+    Agosto.csv: 328122 filas, países con mapa "m49" {'mapped': 0.971, 'cnus': 0.508, 'score': 0.971}
+  Impo_2026.zip: 417117 filas, meses 2026-01 a 2026-08
   Impo_2025_1.zip: sin cambios
   Impo_2025_2.zip: sin cambios
   Impo_2024.zip: sin cambios
@@ -19,4 +37,4 @@ Catálogo 856: 3 archivos
   Impo_2012.zip: más viejo de lo necesario
   Impo_2022(1).zip: sin cambios
   Impo_2022(2).zip: sin cambios
-Nada nuevo.
+Listo: 2878034 filas de flujos, último mes 2026-08, 1315 archivos HS4.

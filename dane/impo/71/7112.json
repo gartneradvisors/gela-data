@@ -1,1 +1,1 @@
-{"asOf":"2026-10-11T17:08:23+00:00","lastMonth":"2026-07","window":["2025-08","2026-07"],"unit":"USD","fields":["fob","cif","cifIndirecta"],"source":"DANE, microdatos de importaciones","codes":{"711291":{"BR":{"2023-08":[5431,5801,0]},"MX":{"2024-10":[4565,4605,0]}}},"rates":{},"routes":{},"names":{}}
+{"asOf":"2026-10-26T11:40:41+00:00","lastMonth":"2026-08","window":["2025-09","2026-08"],"unit":"USD","fields":["fob","cif","cifIndirecta"],"source":"DANE, microdatos de importaciones","codes":{"711291":{"MX":{"2024-10":[4565,4605,0]}}},"rates":{},"routes":{},"names":{}}
