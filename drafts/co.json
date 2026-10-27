@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-26T21:49:22+00:00",
- "today": "2026-10-26",
+ "asOf": "2026-10-27T11:01:10+00:00",
+ "today": "2026-10-27",
  "sources": [
   {
    "id": "minambiente",
@@ -33,37 +33,33 @@
    "id": "mincit-dec",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
-   "ok": true,
-   "n": 38,
-   "dated": 38,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026\", waiting until \"domcontentloaded\"\n"
   },
   {
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": true,
-   "n": 8,
-   "dated": 8,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026\", waiting until \"domcontentloaded\"\n"
   },
   {
    "id": "mincit-cir",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
-   "ok": true,
-   "n": 9,
-   "dated": 9,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\", waiting until \"domcontentloaded\"\n"
   },
   {
    "id": "minenergia",
    "entity": "MinEnergía",
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/",
-   "ok": true,
-   "n": 10,
-   "dated": 10,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://minenergia.gov.co/es/servicio-al-ciudadano/foros/\", waiting until \"domcontentloaded\"\n"
   },
   {
    "id": "dian",
