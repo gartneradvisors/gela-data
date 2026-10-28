@@ -3,27 +3,15 @@
 == mininterior: https://www.mininterior.gov.co/proyectos-de-decreto/
    47 proyectos en la página, 13 con cierre de comentarios, 0 nuevos
 == minhacienda: https://www.minhacienda.gov.co/normativa/proyectos-de-decretos
-   8 proyectos en la página, 6 con cierre de comentarios, 1 nuevos
+   8 proyectos en la página, 6 con cierre de comentarios, 0 nuevos
 == mincit-dec: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026
-   ERROR Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026", waiting until "domcontentloaded"
-
+   38 proyectos en la página, 38 con cierre de comentarios, 0 nuevos
 == mincit-res: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026
-   ERROR Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026", waiting until "domcontentloaded"
-
+   8 proyectos en la página, 8 con cierre de comentarios, 0 nuevos
 == mincit-cir: https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026
-   ERROR Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026
-Call log:
-  - navigating to "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026", waiting until "domcontentloaded"
-
+   9 proyectos en la página, 9 con cierre de comentarios, 0 nuevos
 == minenergia: https://minenergia.gov.co/es/servicio-al-ciudadano/foros/
-   ERROR Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/", waiting until "domcontentloaded"
-
+   10 proyectos en la página, 10 con cierre de comentarios, 0 nuevos
 == dian: https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx
    grupos abiertos: 3
    31 proyectos en la página, 31 con cierre de comentarios, 0 nuevos
