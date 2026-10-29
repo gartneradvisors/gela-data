@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-29T11:43:45+00:00",
+ "asOf": "2026-10-29T22:00:28+00:00",
  "today": "2026-10-29",
  "sources": [
   {
@@ -52,8 +52,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
    "ok": true,
-   "n": 9,
-   "dated": 9,
+   "n": 10,
+   "dated": 10,
    "error": null
   },
   {
@@ -122,6 +122,18 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "439ed195b912",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Proyecto de Circular Externa para \"lineamientos para la presentación y el trámite de las solicitudes previstas en los artículos 9 a 18 del Decreto 3303 de 2006\", cuyo objeto es orientar a los interesados sobre los requisitos, soportes documentales y etapas del procedimiento aplicable a las solicitud",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/29-10-2026-pc-comite-triple-a.aspx",
+   "published": "2026-10-29",
+   "from": "2026-10-30",
+   "until": "2026-11-06",
+   "firstSeen": "2026-10-29"
   },
   {
    "id": "c03ef0f040a4",
