@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-30T11:34:24+00:00",
+ "asOf": "2026-10-30T21:42:33+00:00",
  "today": "2026-10-30",
  "sources": [
   {
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": true,
-   "n": 31,
-   "dated": 31,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
   },
   {
    "id": "dnp",
