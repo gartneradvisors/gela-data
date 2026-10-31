@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-31T11:06:06+00:00",
+ "asOf": "2026-10-31T20:38:38+00:00",
  "today": "2026-10-31",
  "sources": [
   {
@@ -42,10 +42,10 @@
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 8,
+   "dated": 8,
+   "error": null
   },
   {
    "id": "mincit-cir",
@@ -181,6 +181,17 @@
    "from": "2026-09-23",
    "until": "2026-11-02",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "d91a70ea84b3",
+   "src": "dian",
+   "entity": "DIAN",
+   "kind": "resolución",
+   "title": "Por la cual se amplían los términos para la finalización de la modalidad de importación de Entrega Urgente de mercancías que ingresaron como auxilio para damnificados de catástrofes o siniestros",
+   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 31-10-2026.pdf",
+   "from": "2026-10-31",
+   "until": "2026-11-02",
+   "firstSeen": "2026-10-31"
   },
   {
    "id": "4359fd656bce",
