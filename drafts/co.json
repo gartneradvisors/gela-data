@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-30T21:42:33+00:00",
- "today": "2026-10-30",
+ "asOf": "2026-10-31T11:06:06+00:00",
+ "today": "2026-10-31",
  "sources": [
   {
    "id": "minambiente",
@@ -42,10 +42,10 @@
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": true,
-   "n": 8,
-   "dated": 8,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
   },
   {
    "id": "mincit-cir",
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
