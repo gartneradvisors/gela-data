@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-31T20:38:38+00:00",
- "today": "2026-10-31",
+ "asOf": "2026-11-01T12:00:59+00:00",
+ "today": "2026-11-01",
  "sources": [
   {
    "id": "minambiente",
@@ -194,6 +194,17 @@
    "firstSeen": "2026-10-31"
   },
   {
+   "id": "152abe7c805e",
+   "src": "dian",
+   "entity": "DIAN",
+   "kind": "resolución",
+   "title": "Por la cual se establece un procedimiento abreviado y transitorio de donación de mercancías decomisadas y abandonadas a favor de la Nación para la atención de la emergencia declarada mediante el Decreto 1261 de 2026, y se dictan otras disposiciones",
+   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto-Resolucion-000000-de-31-10-20262.pdf",
+   "from": "2026-10-31",
+   "until": "2026-11-02",
+   "firstSeen": "2026-11-01"
+  },
+  {
    "id": "4359fd656bce",
    "src": "minhacienda",
    "entity": "MinHacienda",
@@ -204,6 +215,17 @@
    "from": "2026-10-16",
    "until": "2026-10-31",
    "firstSeen": "2026-10-17"
+  },
+  {
+   "id": "ed9d61a6e13f",
+   "src": "minenergia",
+   "entity": "MinEnergía",
+   "kind": "resolución",
+   "title": "proyecto de resolución \"Por la cual se declara el cese del Racionamiento Programado de Gas Natural declarado mediante la Resolución 40585 del 26 de octubre de 2026",
+   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/declarar-el-cese-del-racionamiento-programado-de-gas-natural/",
+   "from": "2026-10-31",
+   "until": "2026-10-31",
+   "firstSeen": "2026-11-01"
   },
   {
    "id": "2e441c71faf0",
