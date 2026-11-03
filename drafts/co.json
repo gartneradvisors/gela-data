@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-03T12:59:18+00:00",
+ "asOf": "2026-11-03T22:30:48+00:00",
  "today": "2026-11-03",
  "sources": [
   {
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
@@ -94,6 +94,16 @@
  ],
  "items": [
   {
+   "id": "5b0dc8ed634e",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD Por el cual se modifica el Decreto 2555 de 2010, en lo relacionado con el régimen de inversión en activos en el exterior de los fondos de pensiones obligatorias.",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/7.+PD+Por+el+cual+se+modifica+el+Decreto+2555+de+2010.pdf/7c69545c-e598-2eb2-38c3-0aafc95a44bf?t=1789043677600",
+   "published": "2026-09-10",
+   "firstSeen": "2026-11-03"
+  },
+  {
    "id": "fbe8f6e03c82",
    "src": "minhacienda",
    "entity": "MinHacienda",
@@ -112,6 +122,16 @@
    "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Aplazamiento_calendario_tributario_110826.pdf/b039f8f7-5827-ea27-86bd-3cfdbbf0c793?t=1786486203591",
    "published": "2026-08-11",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "7bc960639092",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "proyecto de decreto “ Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Meddas_aduaneras_terremoto_110826.pdf/8f2eaecf-9089-44d6-0943-ab125a099d5b?t=1786469011230",
+   "published": "2026-08-11",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "e6c03842c050",
@@ -146,6 +166,18 @@
    "from": "2026-10-27",
    "until": "2026-11-03",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "id": "523cfcb5b3c8",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD mecanismos de información del uso de Centros de servicios compartidos, esquemas de cooperación y coordinación, apoyo externo por parte de organizaciones de la economía solidaria que prestan servicios de ahorro y crédito, y la prestación de servicios financieros a través de corresponsales y uso de red por parte de las organizaciones de la economía solidaria que prestan servicios de ahorro y créd",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+mecanismos+de+informaci%C3%B3n+del+uso+de+Centros+de+servicios+compartidos.pdf/ff88e430-9174-dbb9-b667-7fa0747c2783?t=1793119241475",
+   "published": "2026-10-27",
+   "from": "2026-10-27",
+   "until": "2026-11-03",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "dcb3e54d1263",
@@ -217,6 +249,18 @@
    "firstSeen": "2026-10-17"
   },
   {
+   "id": "4265fbef1065",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD \"Por el cual se sustituye el Título 17 del libro 2 parte 2 “Mecanismo de cobertura de deslizamiento del salario mínimo” del Decreto 1833 de 2016, por medio del cual se compilan las normas del Sistema General de Pensiones.”",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+normas+del+Sistema+General+de+Pensiones.pdf/1aa5ca68-d9bc-9115-7fcf-d0867e973322?t=1792189785553",
+   "published": "2026-10-16",
+   "from": "2026-10-16",
+   "until": "2026-10-31",
+   "firstSeen": "2026-11-03"
+  },
+  {
    "id": "ed9d61a6e13f",
    "src": "minenergia",
    "entity": "MinEnergía",
@@ -250,6 +294,18 @@
    "from": "2026-10-16",
    "until": "2026-10-30",
    "firstSeen": "2026-10-16"
+  },
+  {
+   "id": "e55f06ab3691",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD \"Por el cual se reglamenta el artículo 4 del Decreto Legislativo 1416 de 2026 en lo relacionado con las condiciones estatutarias y de gobierno corporativo de las sociedades por acciones simplificadas que emitan valores representativos de deuda en el segundo mercado en el marco del Estado de Emergencia Económica, Social y Ecológica.\"",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD.+Deuda+SAS.pdf/b06d549b-aca8-044c-1a37-6c0eb25eafb5?t=1792059889170",
+   "published": "2026-10-15",
+   "from": "2026-10-15",
+   "until": "2026-10-30",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "de20e3c8bbc5",
@@ -329,6 +385,18 @@
    "from": "2026-10-08",
    "until": "2026-10-18",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "f6ca26be804b",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto “Por el cual se adiciona el parágrafo 2 al artículo 437 y se modifica el inciso segundo del artículo 479 del Decreto 1165 de 2019",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Transitos_aduaneros.pdf/a7ea8274-5f3a-807e-341e-7a27ad8430f3?t=1791480271979",
+   "published": "2026-10-08",
+   "from": "2026-10-08",
+   "until": "2026-10-18",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "86182877951c",
@@ -465,6 +533,18 @@
    "firstSeen": "2026-10-10"
   },
   {
+   "id": "07c71cccc51f",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto “Por el cual se modifica el artículo 4 del Decreto 368 de 2026 y el artículo 6 del Decreto 977 de 2026, en lo relacionado con la publicación de los estándares e indicadores y la puesta en funcionamiento del directorio de participación del Sistema de Finanzas Abiertas",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ%2BDT_210926.pdf/684901d2-f237-52b5-b42c-c01e8fe32b11?t=1790073660448",
+   "published": "2026-09-22",
+   "from": "2026-09-22",
+   "until": "2026-09-27",
+   "firstSeen": "2026-11-03"
+  },
+  {
    "id": "4aa408522f65",
    "src": "mincit-dec",
    "entity": "MinCIT",
@@ -588,6 +668,18 @@
    "from": "2026-09-01",
    "until": "2026-09-08",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "id": "47ff088407b5",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "proyecto de decreto “Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_II_Publicaci%C3%B3n_medidas_aduaneras_transitorias_010926.pdf/e4316d27-14b2-fc44-cb94-0f8d5accbc70?t=1788283751839",
+   "published": "2026-09-01",
+   "from": "2026-09-01",
+   "until": "2026-09-08",
+   "firstSeen": "2026-11-03"
   },
   {
    "id": "4f8a446bdc0d",
