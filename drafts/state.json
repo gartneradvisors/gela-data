@@ -2712,6 +2712,25 @@
 "lastSeen": "2026-11-04",
 "published": "2026-08-11",
 "kind": "decreto"
+},
+"11ebb4e36e05": {
+"id": "11ebb4e36e05",
+"src": "minambiente",
+"entity": "MinAmbiente",
+"url": "https://www.minambiente.gov.co/consulta/documento-de-analisis-de-impacto-normativo-para-el-acto-administrativo-de-reglamento-tecnico-con-definiciones-y-requisitos-para-anunciar-productos-que-generen-beneficios-ambientales/",
+"firstSeen": "2026-11-04",
+"baseline": false,
+"title": "Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales",
+"lastSeen": "2026-11-04",
+"published": "2026-11-04",
+"kind": "otro",
+"from": "2026-11-04",
+"until": "2026-11-20",
+"docs": [
+"https://www.minambiente.gov.co/wp-content/uploads/2026/11/PUBLICAR_AIN-Publicidad-Ambiental.zip"
+],
+"summary": "Saltar al contenido clave Nombre del proyecto: Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales Desde: 04-11-2026 Hasta: 20-11-2026 Contacto: cjramirez@minambiente.gov.co; jomoreno@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: C",
+"checked": "2026-11-04"
 }
 },
 "baseline": {

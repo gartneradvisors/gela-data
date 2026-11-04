@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-04T13:14:18+00:00",
+ "asOf": "2026-11-04T22:49:26+00:00",
  "today": "2026-11-04",
  "sources": [
   {
@@ -8,7 +8,7 @@
    "url": "https://www.minambiente.gov.co/consulta/feed/",
    "ok": true,
    "n": 11,
-   "dated": 1,
+   "dated": 2,
    "error": null
   },
   {
@@ -142,6 +142,22 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "11ebb4e36e05",
+   "src": "minambiente",
+   "entity": "MinAmbiente",
+   "kind": "otro",
+   "title": "Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales",
+   "url": "https://www.minambiente.gov.co/consulta/documento-de-analisis-de-impacto-normativo-para-el-acto-administrativo-de-reglamento-tecnico-con-definiciones-y-requisitos-para-anunciar-productos-que-generen-beneficios-ambientales/",
+   "docs": [
+    "https://www.minambiente.gov.co/wp-content/uploads/2026/11/PUBLICAR_AIN-Publicidad-Ambiental.zip"
+   ],
+   "published": "2026-11-04",
+   "from": "2026-11-04",
+   "until": "2026-11-20",
+   "firstSeen": "2026-11-04",
+   "summary": "Saltar al contenido clave Nombre del proyecto: Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales Desde: 04-11-2026 Hasta: 20-11-2026 Contacto: cjramirez@minambiente.gov.co; jomoreno@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: C"
   },
   {
    "id": "439ed195b912",
