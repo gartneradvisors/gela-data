@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-05T13:28:26+00:00",
+ "asOf": "2026-11-05T22:58:39+00:00",
  "today": "2026-11-05",
  "sources": [
   {
@@ -8,7 +8,7 @@
    "url": "https://www.minambiente.gov.co/consulta/feed/",
    "ok": true,
    "n": 11,
-   "dated": 2,
+   "dated": 4,
    "error": null
   },
   {
@@ -61,18 +61,18 @@
    "entity": "MinEnergía",
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/",
    "ok": true,
-   "n": 10,
-   "dated": 10,
+   "n": 9,
+   "dated": 9,
    "error": null
   },
   {
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": true,
-   "n": 31,
-   "dated": 31,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "dated": 0,
+   "error": "La página no trajo proyectos (¿cambió el formato?)"
   },
   {
    "id": "dnp",
@@ -142,6 +142,38 @@
    "url": "https://www.mininterior.gov.co/proyecto-de-agenda-regulatoria-2023/",
    "firstSeen": "2026-10-10",
    "summary": "Proyecto de Agenda Regulatoria 2023 «De conformidad con lo señalado en el artículo 2.1.2.1.20. del Decreto 1273 de 2020, este Ministerio pone en conocimiento de la ciudadanía y grupos de interés, el contenido del proyecto de Agenda Regulatoria 2023 del Sector del Interior, para que, si lo consideran, presenten sus observaciones y recomendaciones, las cuales pueden ser enviadas a los siguientes correos electrónicos camilo.perez@mininterior.gov.c o ó life.delgado@mininterior.gov .co, hasta el 31 de diciembre de 2022″. Proyecto Agenda Regulatoria 2023 Tipo de archivo: Acrobat PDF Enviar un coment"
+  },
+  {
+   "id": "3e5bf8c2d848",
+   "src": "minambiente",
+   "entity": "MinAmbiente",
+   "kind": "resolución",
+   "title": "Por medio de la cual se reglamenta la meliponicultura en Colombia y se toman otras determinaciones",
+   "url": "https://www.minambiente.gov.co/consulta/por-medio-de-la-cual-se-reglamenta-la-meliponicultura-en-colombia-y-se-toman-otras-determinaciones/",
+   "docs": [
+    "https://www.minambiente.gov.co/wp-content/uploads/2026/11/Proyecto-Resolucion-meliponicultura-VF_5.11.26.zip"
+   ],
+   "published": "2026-11-05",
+   "from": "2026-11-05",
+   "until": "2026-11-20",
+   "firstSeen": "2026-11-05",
+   "summary": "Saltar al contenido clave Nombre del proyecto: Por medio de la cual se reglamenta la meliponicultura en Colombia y se toman otras determinaciones Desde: 05-11-2026 Hasta: 20-11-2026 Contacto: paramirez@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Bosques, Biodiversidad y Servicios Ecosistémicos Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: Calle 37 Nº 8-40, Bogotá DC Horario de atención: Lunes a Viernes de 8:00 am a 4:00 pm. Dirección de Aten"
+  },
+  {
+   "id": "e1e4a2c87cc3",
+   "src": "minambiente",
+   "entity": "MinAmbiente",
+   "kind": "resolución",
+   "title": "Por la cual se adiciona el subnumeral 25 al numeral 3.1 del artículo 3 de la Resolución 859 de 2022",
+   "url": "https://www.minambiente.gov.co/consulta/por-la-cual-se-adiciona-el-subnumeral-25-al-numeral-3-1-del-articulo-3-de-la-resolucion-859-de-2022/",
+   "docs": [
+    "https://www.minambiente.gov.co/wp-content/uploads/2026/11/Proyecto-de-resolucion-Por-la-cual-se-adiciona-el-subnumeral-25-al-numeral-3.1-del-articulo-3-de-la-Resolucion-859-de-2022.zip"
+   ],
+   "published": "2026-11-05",
+   "from": "2026-11-05",
+   "until": "2026-11-20",
+   "firstSeen": "2026-11-05",
+   "summary": "Saltar al contenido clave Nombre del proyecto: Por la cual se adiciona el subnumeral 25 al numeral 3.1 del artículo 3 de la Resolución 859 de 2022 Desde: 05-11-2026 Hasta: 20-11-2026 Contacto: kromero@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: Calle 37 Nº 8-40, Bogotá DC Horario de atención: Lunes a Viernes de 8:00 am a 4:00 pm. Dirección de Atención Prese"
   },
   {
    "id": "11ebb4e36e05",
