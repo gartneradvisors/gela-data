@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-05T22:58:39+00:00",
- "today": "2026-11-05",
+ "asOf": "2026-11-06T13:11:47+00:00",
+ "today": "2026-11-06",
  "sources": [
   {
    "id": "minambiente",
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
@@ -728,17 +728,6 @@
    "from": "2026-09-01",
    "until": "2026-09-08",
    "firstSeen": "2026-11-03"
-  },
-  {
-   "id": "4f8a446bdc0d",
-   "src": "minenergia",
-   "entity": "MinEnergía",
-   "kind": "resolución",
-   "title": "proyecto de resolución \"Por la cual se crea el Comité Sectorial para la Seguridad Energética del País, se deroga la Resolución 40269 de 2026 y se dictan otras disposiciones",
-   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/crear-el-comite-sectorial-para-la-seguridad-energetica-del-pais-y-derogar-la-resolucion-40269-de-2026/",
-   "from": "2026-09-03",
-   "until": "2026-09-06",
-   "firstSeen": "2026-10-10"
   }
  ]
 }
