@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-07T21:04:11+00:00",
- "today": "2026-11-07",
+ "asOf": "2026-11-08T12:08:26+00:00",
+ "today": "2026-11-08",
  "sources": [
   {
    "id": "minambiente",
@@ -704,30 +704,6 @@
    "from": "2026-09-10",
    "until": "2026-09-10",
    "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "03a869cc930f",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "proyecto de decreto “Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_II_Publicaci%C3%B3n_medidas_aduaneras_transitorias_010926.pdf/e4316d27-14b2-fc44-cb94-0f8d5accbc70?t=1788301751839",
-   "published": "2026-09-01",
-   "from": "2026-09-01",
-   "until": "2026-09-08",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "47ff088407b5",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "proyecto de decreto “Por el cual se establecen medidas transitorias para mitigar el impacto del desastre natural ocurrido el 10 de agosto de 2026 en las operaciones aduaneras y de comercio exterior",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_II_Publicaci%C3%B3n_medidas_aduaneras_transitorias_010926.pdf/e4316d27-14b2-fc44-cb94-0f8d5accbc70?t=1788283751839",
-   "published": "2026-09-01",
-   "from": "2026-09-01",
-   "until": "2026-09-08",
-   "firstSeen": "2026-11-03"
   }
  ]
 }
