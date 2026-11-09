@@ -1,8 +1,21 @@
-2026-11-02T13:56:26+00:00
+2026-11-09T14:28:37+00:00
 Correlativa ALADI-M49: sin cambios (425 códigos)
 Catálogo 472: 14 archivos
 Catálogo 859: 2 archivos
-  Expo_2026.zip: sin cambios
+  Expo_2026.zip: bajando…
+    contenido de Expo_2026.zip: [('06. Junio 2026.zip', 3873457), ('07. Julio 2026.zip', 3993110), ('08. Agosto 2026.zip', 3794089), ('09. Septiembre 2026.zip', 4258233), ('01. Enero 2026.zip', 3649305), ('02. Febrero 2026.zip', 11577797), ('03. Marzo 2026.zip', 4430624), ('04. Abril 2026.zip', 4257098), ('05. Mayo 2026.zip', 4143788)]
+    contenido de 06. Junio 2026.zip: [('Junio.dta', 5419550), ('Junio.sav', 6361475), ('Junio.csv', 4922033)]
+    contenido de 07. Julio 2026.zip: [('Julio.dta', 5498408), ('Julio.sav', 6552867), ('Julio.csv', 5072070)]
+    contenido de 08. Agosto 2026.zip: [('Agosto.dta', 5892056), ('Agosto.sav', 7129163), ('Agosto.csv', 5161072)]
+    contenido de 09. Septiembre 2026.zip: [('Septiembre.csv', 5835010), ('Septiembre.dta', 7187502), ('Septiembre.sav', 7996803)]
+    contenido de 01. Enero 2026.zip: [('Enero.csv', 4812512), ('Enero.dta', 5316566), ('Enero.sav', 5769195)]
+    contenido de 02. Febrero 2026.zip: [('Febrero.csv', 4752824), ('Febrero.sav', 5359263), ('Febrero.dta', 4173930), ('08. Agosto 2026.zip', 3794089), ('09. Septiembre 2026.zip', 4258233)]
+    contenido de 08. Agosto 2026.zip: [('Agosto.dta', 5892056), ('Agosto.sav', 7129163), ('Agosto.csv', 5161072)]
+    contenido de 09. Septiembre 2026.zip: [('Septiembre.csv', 5835010), ('Septiembre.dta', 7187502), ('Septiembre.sav', 7996803)]
+    contenido de 03. Marzo 2026.zip: [('Marzo.csv', 5456474), ('Marzo.dta', 5905102), ('Marzo.sav', 6460555)]
+    contenido de 04. Abril 2026.zip: [('Abril.csv', 5241592), ('Abril.dta', 5667118), ('Abril.sav', 6205835)]
+    contenido de 05. Mayo 2026.zip: [('Mayo.csv', 5459138), ('Mayo.dta', 6119222), ('Mayo.sav', 6558627)]
+  Expo_2026.zip: 120081 filas, meses 2026-01 a 2026-09
   Expo_2025.zip: sin cambios
   Expo_2024.zip: sin cambios
   Expo_2023.zip: sin cambios
@@ -18,4 +31,4 @@ Catálogo 859: 2 archivos
   Expo_2013.zip: más viejo de lo necesario
   Expo_2012.zip: más viejo de lo necesario
   Expo_2011.zip: más viejo de lo necesario
-Nada nuevo.
+Listo: 605952 filas, último mes 2026-09.
