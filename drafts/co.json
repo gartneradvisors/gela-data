@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-10T13:49:29+00:00",
+ "asOf": "2026-11-10T22:31:53+00:00",
  "today": "2026-11-10",
  "sources": [
   {
@@ -33,42 +33,46 @@
    "id": "mincit-dec",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 38,
+   "dated": 38,
+   "error": null
   },
   {
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 8,
+   "dated": 8,
+   "error": null
   },
   {
    "id": "mincit-cir",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 11,
+   "dated": 11,
+   "error": null
   },
   {
    "id": "minenergia",
    "entity": "MinEnergía",
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://minenergia.gov.co/es/servicio-al-ciudadano/foros/\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 9,
+   "dated": 9,
+   "error": null
   },
   {
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
@@ -168,6 +172,18 @@
    "from": "2026-11-09",
    "until": "2026-11-14",
    "firstSeen": "2026-11-09"
+  },
+  {
+   "id": "8453f0d8f4f9",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Proyecto de Circular para \"administración y asignación del contingente transitorio de exportación de desperdicios y desechos de chatarra de fundición de hierro o acero y lingotes de chatarra de hierro o acero\", correspondiente al periodo 2026-2027. Se publica para recibir comentarios de la ciudadaní",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/09-11-2026-pc-contingente-chatarra-2026-2027.aspx",
+   "published": "2026-11-09",
+   "from": "2026-11-10",
+   "until": "2026-11-14",
+   "firstSeen": "2026-11-10"
   },
   {
    "id": "439ed195b912",
