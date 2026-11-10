@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-09T14:16:45+00:00",
+ "asOf": "2026-11-10T00:52:09+00:00",
  "today": "2026-11-09",
  "sources": [
   {
@@ -26,40 +26,44 @@
    "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-decretos",
    "ok": true,
    "n": 8,
-   "dated": 6,
+   "dated": 7,
    "error": null
   },
   {
    "id": "mincit-dec",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 38,
+   "dated": 38,
+   "error": null
   },
   {
    "id": "mincit-res",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-resolucion-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 8,
+   "dated": 8,
+   "error": null
   },
   {
    "id": "mincit-cir",
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\nCall log:\n  - navigating to \"https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 10,
+   "dated": 10,
+   "error": null
   },
   {
    "id": "minenergia",
    "entity": "MinEnergía",
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/",
-   "ok": false,
-   "n": 0,
-   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://minenergia.gov.co/es/servicio-al-ciudadano/foros/\", waiting until \"domcontentloaded\"\n"
+   "ok": true,
+   "n": 9,
+   "dated": 9,
+   "error": null
   },
   {
    "id": "dian",
@@ -186,6 +190,18 @@
    "until": "2026-11-20",
    "firstSeen": "2026-11-04",
    "summary": "Saltar al contenido clave Nombre del proyecto: Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales Desde: 04-11-2026 Hasta: 20-11-2026 Contacto: cjramirez@minambiente.gov.co; jomoreno@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: C"
+  },
+  {
+   "id": "ef9d228b25ef",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD Autorización tránsitos aduaneros Zona de Régimen Aduanero Especial de Urabá y Solicitud de Autorización de Embarque",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Tr%C3%A1nsitos_aduaneros.pdf/393636a6-b114-805c-5c1d-319c35eda0f4?t=1794238640197",
+   "published": "2026-11-09",
+   "from": "2026-11-09",
+   "until": "2026-11-14",
+   "firstSeen": "2026-11-09"
   },
   {
    "id": "439ed195b912",
