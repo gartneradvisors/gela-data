@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-11T12:56:30+00:00",
+ "asOf": "2026-11-11T23:40:21+00:00",
  "today": "2026-11-11",
  "sources": [
   {
@@ -160,6 +160,18 @@
    "until": "2026-11-20",
    "firstSeen": "2026-11-04",
    "summary": "Saltar al contenido clave Nombre del proyecto: Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales Desde: 04-11-2026 Hasta: 20-11-2026 Contacto: cjramirez@minambiente.gov.co; jomoreno@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: C"
+  },
+  {
+   "id": "2c2c78385197",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD Por el cual se sustituye el Título 17 del Libro 2 de la Parte 2 “Mecanismo de cobertura de deslizamiento del salario mínimo” del Decreto 1833 de 2016, por medio del cual se compilan las normas del Sistema General de Pensiones",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/Parte+2+Mecanismo+de+cobertura+de+deslizamiento.pdf/9edf48ca-cdb9-363a-aceb-9439d29aa2a7?t=1794432058131",
+   "published": "2026-11-11",
+   "from": "2026-11-11",
+   "until": "2026-11-18",
+   "firstSeen": "2026-11-11"
   },
   {
    "id": "ef9d228b25ef",

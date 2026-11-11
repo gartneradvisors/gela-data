@@ -2797,6 +2797,20 @@
 "from": "2026-11-10",
 "until": "2026-11-14",
 "kind": "circular"
+},
+"2c2c78385197": {
+"id": "2c2c78385197",
+"src": "minhacienda",
+"entity": "MinHacienda",
+"url": "https://www.minhacienda.gov.co/documents/20119/2873514/Parte+2+Mecanismo+de+cobertura+de+deslizamiento.pdf/9edf48ca-cdb9-363a-aceb-9439d29aa2a7?t=1794432058131",
+"firstSeen": "2026-11-11",
+"baseline": false,
+"title": "PD Por el cual se sustituye el Título 17 del Libro 2 de la Parte 2 “Mecanismo de cobertura de deslizamiento del salario mínimo” del Decreto 1833 de 2016, por medio del cual se compilan las normas del Sistema General de Pensiones",
+"lastSeen": "2026-11-11",
+"published": "2026-11-11",
+"from": "2026-11-11",
+"until": "2026-11-18",
+"kind": "decreto"
 }
 },
 "baseline": {
