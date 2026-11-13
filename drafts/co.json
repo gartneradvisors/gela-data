@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-13T13:23:27+00:00",
+ "asOf": "2026-11-13T22:48:44+00:00",
  "today": "2026-11-13",
  "sources": [
   {
@@ -26,7 +26,7 @@
    "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-decretos",
    "ok": true,
    "n": 8,
-   "dated": 7,
+   "dated": 8,
    "error": null
   },
   {
@@ -34,8 +34,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
    "ok": true,
-   "n": 38,
-   "dated": 38,
+   "n": 39,
+   "dated": 39,
    "error": null
   },
   {
@@ -112,6 +112,30 @@
    "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Meddas_aduaneras_terremoto_110826.pdf/8f2eaecf-9089-44d6-0943-ab125a099d5b?t=1786469011230",
    "published": "2026-08-11",
    "firstSeen": "2026-11-03"
+  },
+  {
+   "id": "daafdc788da7",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica temporalmente el gravamen arancelario aplicable a las subpartidas arancelarias 7604.21.00.00, 7604.29.10.00, 7604.29.20.00 y 7608.20.00.00 del Arancel de Aduanas, adoptado mediante el Decreto 1881 de 2021",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/13-11-2026-pd-incremento-arancelario-perfiles-barr.aspx",
+   "published": "2026-11-13",
+   "from": "2026-11-14",
+   "until": "2026-11-28",
+   "firstSeen": "2026-11-13"
+  },
+  {
+   "id": "aa73cf65ee7e",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "Por medio del cual se compilan las normas del Sistema General de Pensiones noviembre 13, 2026 El Ministerio de Hacienda y Crédito Público informa a la ciudadanía que se encuentra publicado en el home de la página web y en la Sección Normativa el Proyecto de Decreto Por el cual se adiciona un parágrafo al artículo 2.2.8.11.3 del Decreto 1833 de 2016 “Por medio del cual se compilan las normas del Si",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+%2B+Memoria+Justificativa+Omisos+13-11-2026.pdf/8e1b6ffc-416d-1e37-9323-15fbb865e89f?t=1794601083047",
+   "published": "2026-11-13",
+   "from": "2026-11-13",
+   "until": "2026-11-20",
+   "firstSeen": "2026-11-13"
   },
   {
    "id": "3e5bf8c2d848",

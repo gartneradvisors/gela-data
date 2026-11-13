@@ -2811,6 +2811,34 @@
 "from": "2026-11-11",
 "until": "2026-11-18",
 "kind": "decreto"
+},
+"aa73cf65ee7e": {
+"id": "aa73cf65ee7e",
+"src": "minhacienda",
+"entity": "MinHacienda",
+"url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD+%2B+Memoria+Justificativa+Omisos+13-11-2026.pdf/8e1b6ffc-416d-1e37-9323-15fbb865e89f?t=1794601083047",
+"firstSeen": "2026-11-13",
+"baseline": false,
+"title": "Por medio del cual se compilan las normas del Sistema General de Pensiones noviembre 13, 2026 El Ministerio de Hacienda y Crédito Público informa a la ciudadanía que se encuentra publicado en el home de la página web y en la Sección Normativa el Proyecto de Decreto Por el cual se adiciona un parágrafo al artículo 2.2.8.11.3 del Decreto 1833 de 2016 “Por medio del cual se compilan las normas del Si",
+"lastSeen": "2026-11-13",
+"published": "2026-11-13",
+"from": "2026-11-13",
+"until": "2026-11-20",
+"kind": "decreto"
+},
+"daafdc788da7": {
+"id": "daafdc788da7",
+"src": "mincit-dec",
+"entity": "MinCIT",
+"url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/13-11-2026-pd-incremento-arancelario-perfiles-barr.aspx",
+"firstSeen": "2026-11-13",
+"baseline": false,
+"title": "Proyecto de Decreto, \"por el cual se modifica temporalmente el gravamen arancelario aplicable a las subpartidas arancelarias 7604.21.00.00, 7604.29.10.00, 7604.29.20.00 y 7608.20.00.00 del Arancel de Aduanas, adoptado mediante el Decreto 1881 de 2021",
+"lastSeen": "2026-11-13",
+"published": "2026-11-13",
+"from": "2026-11-14",
+"until": "2026-11-28",
+"kind": "decreto"
 }
 },
 "baseline": {
