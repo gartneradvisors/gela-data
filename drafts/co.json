@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-13T22:48:44+00:00",
- "today": "2026-11-13",
+ "asOf": "2026-11-14T12:27:28+00:00",
+ "today": "2026-11-14",
  "sources": [
   {
    "id": "minambiente",
@@ -34,8 +34,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
    "ok": true,
-   "n": 39,
-   "dated": 39,
+   "n": 41,
+   "dated": 41,
    "error": null
   },
   {
@@ -52,8 +52,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026",
    "ok": true,
-   "n": 11,
-   "dated": 11,
+   "n": 12,
+   "dated": 12,
    "error": null
   },
   {
@@ -126,6 +126,30 @@
    "firstSeen": "2026-11-13"
   },
   {
+   "id": "9f032c52ec74",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica temporalmente el gravamen arancelario establecido en el Decreto 1881 de 2021 para las importaciones clasificadas en las subpartidas arancelarias 7213.91.10.10, 7213.91.90.10 y 7227.90.00.11",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/13-11-2026-pd-incremento-arancelario-alambron.aspx",
+   "published": "2026-11-13",
+   "from": "2026-11-14",
+   "until": "2026-11-28",
+   "firstSeen": "2026-11-14"
+  },
+  {
+   "id": "71c46a05d9e7",
+   "src": "mincit-cir",
+   "entity": "MinCIT",
+   "kind": "circular",
+   "title": "Soporte incremento Embajada de Estados Unidos",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/13-11-2026-pc-incremento-contingente-azucar-y-pane.aspx",
+   "published": "2026-11-13",
+   "from": "2026-11-17",
+   "until": "2026-11-21",
+   "firstSeen": "2026-11-14"
+  },
+  {
    "id": "aa73cf65ee7e",
    "src": "minhacienda",
    "entity": "MinHacienda",
@@ -184,6 +208,18 @@
    "until": "2026-11-20",
    "firstSeen": "2026-11-04",
    "summary": "Saltar al contenido clave Nombre del proyecto: Documento de Análisis de Impacto Normativo para el acto administrativo de Reglamento técnico con definiciones y requisitos para anunciar productos que generen beneficios ambientales Desde: 04-11-2026 Hasta: 20-11-2026 Contacto: cjramirez@minambiente.gov.co; jomoreno@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Asuntos Ambientales, Sectorial y Urbana Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: C"
+  },
+  {
+   "id": "0506d36ade2a",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica parcialmente el Arancel de Aduanas para la importación de insumos agropecuarios y se suspende la aplicación del Sistema Andino de Franjas de Precios a las importaciones de mercancías clasificadas en la subpartida arancelaria 2309.90.90.00",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/13-11-2026-pd-arancel-de-aduanas-importacion-de-in.aspx",
+   "published": "2026-11-13",
+   "from": "2026-11-14",
+   "until": "2026-11-18",
+   "firstSeen": "2026-11-14"
   },
   {
    "id": "2c2c78385197",
@@ -711,17 +747,6 @@
    "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/derogar-las-resoluciones-mediante-las-cuales-se-delimitaron-los-distritos-mineros-especiales-para-la-diversificacion-productiva/",
    "from": "2026-09-03",
    "until": "2026-09-18",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "a0910360518b",
-   "src": "dian",
-   "entity": "DIAN",
-   "kind": "resolución",
-   "title": "Por la cual se adoptan medidas temporales sobre términos, trámites y actuaciones administrativas para la Dirección Seccional de Impuestos y Aduanas de Buenaventura, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026 y el Estado de Emergencia Económica, Social y Ecológica declarado mediante Decreto 1261 del 19 de agosto de 2026",
-   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 14-09-2026.pdf",
-   "from": "2026-09-14",
-   "until": "2026-09-14",
    "firstSeen": "2026-10-10"
   }
  ]
