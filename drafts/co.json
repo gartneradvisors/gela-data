@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-17T14:49:23+00:00",
+ "asOf": "2026-11-17T23:58:45+00:00",
  "today": "2026-11-17",
  "sources": [
   {
@@ -26,7 +26,7 @@
    "url": "https://www.minhacienda.gov.co/normativa/proyectos-de-decretos",
    "ok": true,
    "n": 8,
-   "dated": 8,
+   "dated": 7,
    "error": null
   },
   {
@@ -69,10 +69,9 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": true,
-   "n": 31,
-   "dated": 31,
-   "error": null
+   "ok": false,
+   "n": 0,
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx\", waiting until \"domcontentloaded\"\n"
   },
   {
    "id": "dnp",
