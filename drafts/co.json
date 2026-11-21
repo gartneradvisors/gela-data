@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-20T23:18:46+00:00",
- "today": "2026-11-20",
+ "asOf": "2026-11-21T13:42:31+00:00",
+ "today": "2026-11-21",
  "sources": [
   {
    "id": "minambiente",
@@ -741,17 +741,6 @@
    "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 25-09-2026.pdf",
    "from": "2026-09-25",
    "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "21ef69cde249",
-   "src": "dian",
-   "entity": "DIAN",
-   "kind": "resolución",
-   "title": "Por medio de la cual se modifica la Resolución 46 de 2019",
-   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 11-09-2026.pdf",
-   "from": "2026-09-11",
-   "until": "2026-09-21",
    "firstSeen": "2026-10-10"
   }
  ]
