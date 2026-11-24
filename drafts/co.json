@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-24T03:29:29+00:00",
- "today": "2026-11-23",
+ "asOf": "2026-11-24T16:11:22+00:00",
+ "today": "2026-11-24",
  "sources": [
   {
    "id": "minambiente",
@@ -8,7 +8,7 @@
    "url": "https://www.minambiente.gov.co/consulta/feed/",
    "ok": true,
    "n": 11,
-   "dated": 5,
+   "dated": 6,
    "error": null
   },
   {
@@ -69,10 +69,10 @@
    "id": "dian",
    "entity": "DIAN",
    "url": "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
-   "ok": false,
-   "n": 0,
-   "dated": 0,
-   "error": "La página no trajo proyectos (¿cambió el formato?)"
+   "ok": true,
+   "n": 31,
+   "dated": 31,
+   "error": null
   },
   {
    "id": "dnp",
@@ -112,6 +112,22 @@
    "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ_Meddas_aduaneras_terremoto_110826.pdf/8f2eaecf-9089-44d6-0943-ab125a099d5b?t=1786469011230",
    "published": "2026-08-11",
    "firstSeen": "2026-11-03"
+  },
+  {
+   "id": "a8f747a76d5f",
+   "src": "minambiente",
+   "entity": "MinAmbiente",
+   "kind": "decreto",
+   "title": "“Por el cual se reglamenta el artículo 1 de la Ley 99 de 1993, en lo relativo a los criterios de aplicación de los principios de precaución y prevención en materia ambiental”",
+   "url": "https://www.minambiente.gov.co/consulta/por-el-cual-se-reglamenta-el-articulo-1-de-la-ley-99-de-1993-en-lo-relativo-a-los-criterios-de-aplicacion-de-los-principios-de-precaucion-y-prevencion-en-materia-ambiental/",
+   "docs": [
+    "https://www.minambiente.gov.co/wp-content/uploads/2026/11/PD-Ppios-de-prevencion-y-precuacion.zip"
+   ],
+   "published": "2026-11-24",
+   "from": "2026-11-24",
+   "until": "2026-12-09",
+   "firstSeen": "2026-11-24",
+   "summary": "Saltar al contenido clave Nombre del proyecto: “Por el cual se reglamenta el artículo 1 de la Ley 99 de 1993, en lo relativo a los criterios de aplicación de los principios de precaución y prevención en materia ambiental” Desde: 24-11-2026 Hasta: 09-12-2026 Contacto: jcjimenez@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Despacho Viceministro (a) de Políticas y Normalización Ambiental Contraste Reducir letra Aumentar letra Centro de relevo Ministerio de Ambiente y Desarrollo Sostenible Dirección ventanilla única de radicación: Calle 37 Nº 8-40, Bogotá "
   },
   {
    "id": "a53f1b305c77",
