@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-25T01:34:03+00:00",
- "today": "2026-11-24",
+ "asOf": "2026-11-25T15:58:20+00:00",
+ "today": "2026-11-25",
  "sources": [
   {
    "id": "minambiente",
@@ -711,64 +711,6 @@
    "from": "2026-09-22",
    "until": "2026-09-27",
    "firstSeen": "2026-11-03"
-  },
-  {
-   "id": "4aa408522f65",
-   "src": "mincit-dec",
-   "entity": "MinCIT",
-   "kind": "decreto",
-   "title": "Proyecto de Decreto, \"por el cual se modifica, actualiza, y compila el marco técnico de las Normas de Aseguramiento de la Información del Decreto 2420 de 2015, Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información, y se dictan otras disposiciones",
-   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/18-09-2026-pd-marco-tecnico-normas-de-aseguramient.aspx",
-   "published": "2026-09-18",
-   "from": "2026-09-19",
-   "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "89d26fd7c649",
-   "src": "mincit-dec",
-   "entity": "MinCIT",
-   "kind": "decreto",
-   "title": "Proyecto de Decreto, \"por el cual se modifica parcialmente el anexo técnico de las Normas de Información Financiera para el Grupo 1 del Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información, 2420 de 2015, y se dictan otras disposiciones",
-   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/18-09-2026-pd-niif-enmiendas.aspx",
-   "published": "2026-09-18",
-   "from": "2026-09-19",
-   "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "9466e8699790",
-   "src": "mincit-cir",
-   "entity": "MinCIT",
-   "kind": "circular",
-   "title": "Proyecto de Circular para \"distribución y administración del contingente de exportación de azúcar sin refinar y panela de la Organización Mundial de Comercio (OMC) a Estados Unidos 2026-2027\". Se publica para recibir comentarios de la ciudadanía y de los grupos de valor, los cuales podrán remitirse ",
-   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-circular-2026/18-09-2026-pc-exportacion-de-azucar-sin-refinar-y.aspx",
-   "published": "2026-09-18",
-   "from": "2026-09-21",
-   "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "b57d4a5b770b",
-   "src": "minenergia",
-   "entity": "MinEnergía",
-   "kind": "resolución",
-   "title": "proyecto de resolución \"Por la cual se declara el inicio de un Racionamiento Programado de Gas Natural",
-   "url": "https://minenergia.gov.co/es/servicio-al-ciudadano/foros/declarar-el-inicio-de-un-racionamiento-programado-de-gas-natural/",
-   "from": "2026-09-25",
-   "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "25698cd07888",
-   "src": "dian",
-   "entity": "DIAN",
-   "kind": "resolución",
-   "title": "Por la cual se suspenden los términos de almacenamiento para la Dirección Seccional de Aduanas de Medellín, ante la Situación de Desastre de Carácter Nacional declarada mediante Decreto 1171 del 11 de agosto de 2026, y conforme al Decreto 1384 del 9 de septiembre de 2026",
-   "url": "https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto Resolución 000000 de 25-09-2026.pdf",
-   "from": "2026-09-25",
-   "until": "2026-09-25",
-   "firstSeen": "2026-10-10"
   }
  ]
 }
