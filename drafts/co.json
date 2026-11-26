@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-25T15:58:20+00:00",
+ "asOf": "2026-11-26T01:08:18+00:00",
  "today": "2026-11-25",
  "sources": [
   {
@@ -34,8 +34,8 @@
    "entity": "MinCIT",
    "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026",
    "ok": true,
-   "n": 41,
-   "dated": 41,
+   "n": 42,
+   "dated": 42,
    "error": null
   },
   {
@@ -155,6 +155,18 @@
    "until": "2026-12-03",
    "firstSeen": "2026-11-18",
    "summary": "Saltar al contenido clave Nombre del proyecto: “Por el cual se sustituye el Capítulo 14 del Título 9 de la Parte 2 del Libro 2 del Decreto 1076 de 2015, Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible, que reglamenta el Programa Nacional de Cupos Transables de Emisión de Gases de Efecto Invernadero (PNCTE), y se dictan otras disposiciones” Desde: 18-11-2026 Hasta: 03-12-2026 Contacto: mgalvang@minambiente.gov.co Realice sus aportes Respuestas a comentarios Descargar Dependencia: Dirección de Cambio Climático y Gestión del Riesgo Contraste Reducir letra Aumentar letra Ce"
+  },
+  {
+   "id": "90acb21634ad",
+   "src": "mincit-dec",
+   "entity": "MinCIT",
+   "kind": "decreto",
+   "title": "Proyecto de Decreto, \"por el cual se modifica parcialmente el Decreto 2147 de 2016, en lo relacionado con la oportunidad para solicitar la suscripción del plan de internacionalización y anual de ventas de los usuarios industriales de zonas francas",
+   "url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/25-11-2026-pd-suscripcion-plan-internacionalizacio.aspx",
+   "published": "2026-11-25",
+   "from": "2026-11-26",
+   "until": "2026-11-30",
+   "firstSeen": "2026-11-25"
   },
   {
    "id": "daafdc788da7",

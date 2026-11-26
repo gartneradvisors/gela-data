@@ -2945,6 +2945,20 @@
 "kind": "resolución",
 "from": "2026-11-25",
 "until": "2026-12-04"
+},
+"90acb21634ad": {
+"id": "90acb21634ad",
+"src": "mincit-dec",
+"entity": "MinCIT",
+"url": "https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decreto-2026/25-11-2026-pd-suscripcion-plan-internacionalizacio.aspx",
+"firstSeen": "2026-11-25",
+"baseline": false,
+"title": "Proyecto de Decreto, \"por el cual se modifica parcialmente el Decreto 2147 de 2016, en lo relacionado con la oportunidad para solicitar la suscripción del plan de internacionalización y anual de ventas de los usuarios industriales de zonas francas",
+"lastSeen": "2026-11-25",
+"published": "2026-11-25",
+"from": "2026-11-26",
+"until": "2026-11-30",
+"kind": "decreto"
 }
 },
 "baseline": {
