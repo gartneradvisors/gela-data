@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-26T15:39:10+00:00",
- "today": "2026-11-26",
+ "asOf": "2026-11-27T07:27:02+00:00",
+ "today": "2026-11-27",
  "sources": [
   {
    "id": "minambiente",
@@ -93,6 +93,16 @@
   }
  ],
  "items": [
+  {
+   "id": "46b0c76b552e",
+   "src": "minhacienda",
+   "entity": "MinHacienda",
+   "kind": "decreto",
+   "title": "PD Por el cual se sustituye el Título 5 y se modifica el Título 7 de la Parte 11 del Libro 2 del Decreto 1068 de 2015, Decreto Único Reglamentario del Sector Hacienda y Crédito Público, en materia de clasificación por categorías de los fondos de empleados, normas prudenciales aplicables a los fondos de empleados de categoría plena e intermedia, y reglas para el fondo de liquidez aplicables a los f",
+   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/20261126_PD_MJ_DT_Actualizacion_Prudencial_FE.pdf/92d0391d-8f1c-ae8f-ed2c-1e192d2723bf?t=1795755554653",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-27"
+  },
   {
    "id": "5b0dc8ed634e",
    "src": "minhacienda",
@@ -699,30 +709,6 @@
    "from": "2026-09-23",
    "until": "2026-09-28",
    "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "958c00881f85",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "Proyecto de Decreto “Por el cual se modifica el artículo 4 del Decreto 368 de 2026 y el artículo 6 del Decreto 977 de 2026, en lo relacionado con la publicación de los estándares e indicadores y la puesta en funcionamiento del directorio de participación del Sistema de Finanzas Abiertas",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ%2BDT_210926.pdf/684901d2-f237-52b5-b42c-c01e8fe32b11?t=1790091660448",
-   "published": "2026-09-22",
-   "from": "2026-09-22",
-   "until": "2026-09-27",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "id": "07c71cccc51f",
-   "src": "minhacienda",
-   "entity": "MinHacienda",
-   "kind": "decreto",
-   "title": "Proyecto de Decreto “Por el cual se modifica el artículo 4 del Decreto 368 de 2026 y el artículo 6 del Decreto 977 de 2026, en lo relacionado con la publicación de los estándares e indicadores y la puesta en funcionamiento del directorio de participación del Sistema de Finanzas Abiertas",
-   "url": "https://www.minhacienda.gov.co/documents/20119/2873514/PD%2BMJ%2BDT_210926.pdf/684901d2-f237-52b5-b42c-c01e8fe32b11?t=1790073660448",
-   "published": "2026-09-22",
-   "from": "2026-09-22",
-   "until": "2026-09-27",
-   "firstSeen": "2026-11-03"
   }
  ]
 }
