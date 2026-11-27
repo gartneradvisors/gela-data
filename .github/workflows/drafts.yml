@@ -30,7 +30,12 @@ jobs:
       - name: Dependencias
         run: |
           pip install beautifulsoup4 lxml requests playwright
-          python -m playwright install --with-deps chromium
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.* /etc/apt/sources.list.d/*microsoft*
+          for i in 1 2 3; do
+            python -m playwright install --with-deps chromium && break
+            echo "Intento $i falló, reintento en 20 s"; sleep 20
+            [ "$i" = 3 ] && python -m playwright install chromium
+          done
       - name: Leer las páginas de proyectos
         run: python drafts/update.py ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
       - name: Guardar si cambió
